@@ -3,20 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Reich</title>
+<title>The Reich Family</title>
 
 <!--Prevent All Search Engines From Indexing-->
 <meta name="robots" content="">
 
+<link href="layout.css" rel="stylesheet" type="text/css">
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="video-js.css" rel="stylesheet">
+
 <!--Favicon-->
-<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="shortcut icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<link rel="manifest" href="/site.webmanifest" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 
 <!--Preload Top Images-->
-<link rel="preload" as="image" href="images/queenvictoria.png">
+<link rel="preload" as="image" href="images/vexedgirla.jpg">
+<link rel="preload" as="image" href="images/vexedgirlb.jpg">
+<link rel="preload" as="image" href="images/vexedgirlc.jpg">
+<link rel="preload" as="image" href="images/vexedgirld.jpg">
+<link rel="preload" as="image" href="images/vexedgirle.jpg">
+<link rel="preload" as="image" href="images/vexedgirlf.jpg">
+<link rel="preload" as="image" href="images/vexedgirlg.jpg">
+<link rel="preload" as="image" href="images/vexedgirlh.jpg">
 
 <!--Fonts-->
 <link rel="preload" href="fonts/OpenSans-Light.ttf" as="font" type="font/ttf" crossorigin>
@@ -29,9 +39,9 @@
 <link rel="preload" href="fonts/Cinzel-Regular.ttf" as="font" type="font/ttf" crossorigin>
 
 <meta name="google-site-verification" content="">
-<meta name="Author" content="Reich">
-<meta name="Keywords" content="Reich">
-<meta name="Description" content="Reich.cf has moved. The new address is available upon request by sending an e-mail to us.">
+<meta name="Author" content="Reich Family">
+<meta name="Keywords" content="Reich Family">
+<meta name="Description" content="The Reich Family - Nomadic Communal Living">
 
 <style>
  body {
@@ -97,24 +107,135 @@
   font-display: block;
 }
 
+.no-right-click {
+    pointer-events: none;
+}
+
+<!--Wrap with div and .container and place anything
+over div with the options below .container-->
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 </style>
+
+<script src="respond.min.js"></script>
+
+<script src="essential_audio.js"></script>
+
+<script>
+    function killCopy(e){
+        return false;
+    }
+    function reEnable(){
+        return true;
+    }
+    document.onselectstart=new Function ("return false");
+    if (window.sidebar){
+        document.onmousedown=killCopy;
+        document.onclick=reEnable;
+    }
+</script>
+
+</head>
+
+<body oncontextmenu="return false;">
+
+<script>
+document.addEventListener('keyup', (e) => {
+    if (e.key == 'PrintScreen') {
+        navigator.clipboard.writeText('');
+        alert('Screenshots disabled!');
+    }
+});
+</script>
+
+<noscript>
+
+<div style="padding:10px;margin:15px auto 15px;max-width:500px;">
+
+<p style="display:block;margin:0px auto 0px;color:white;font-weight:bold;font-size:1.5rem;text-align:center;font-size:1.3rem;">The Reich Family</p>
+
+<img style="display:block;margin:20px auto 20px;border:1px solid #555;border-radius:6px;" src="images/vexedgirl.jpg" alt="The Reich Family"/>
+
+<p style="display:block;margin:0px auto 0px;color:white;font-style:italic;font-size:1.1rem;text-align:justify;max-width:300px;">Javascript is disabled in your browser. This page relies on Javascript. Please enable Javascript in your web browser and refresh the page to view it.</p>
+
+</div>
+	<style type="text/css">
+		#content { display:none; }
+	</style>
+</noscript>
 
 </head>
 
 <body>
 
-<p style="position:relative;font-family:ITCEDSCR;font-size:3.6rem;text-align:center;margin:15px auto 0px;">Reich.cf</p>
+<div id="content" class="content" style="text-align:justify;">
 
-<img style="display:block;max-width:1000px;margin:0px auto 20px;width:100%;" src="images/queenvictoria.jpg" alt="">
-
-<div style="display:block;max-width:1000px;margin:0px auto 0px;text-align:justify;font-size:16px;font-style:italic;line-height:2;">
-<p style="padding:0px 10px 0px;">In this 1846 artwork, Queen Victoria and her first cousin husband, Prince Albert, are together with five of their children. The artwork is a colour engraving by Franz Xavier Winterhalter. Queen Victoria and Prince Albert would go on to have nine children: Victoria, Edward, Alice, Alfred, Helena, Louise, Arthur, Leopold and Beatrice. Reich.cf has moved. The new address is available upon request by e-mail.</p>
+<div style="text-align:center;margin:10px auto 15px">
+<div style="display:inline-block;max-width:900px;border:1px solid #555;border-width:1px 0px 1px 0px;padding:8px 0px 8px 0px;">
+<p class="reichcftitle" style="margin:0px auto 0px;">The Reich Family</p>
+<p class="reichcfsubtitle" style="text-align:center;margin:0px auto 0px;">Nomadic Communal Living</p>
+</div>
 </div>
 
-<div style="text-align:center;margin:30px auto 30px;">
-<p style="font-family:ITCEDSCR;font-size:2.6rem;margin:0px auto -5px;">Reich.cf</p>
-<p style="display:block;text-align:center;font-weight:bold;margin:0px auto 5px;"><a href="mailto:contact@reich.cf" style="text-decoration:none;">contact@reich.cf</a></p>
-<p style="margin:0px auto 0px;">Copyright 2024 All Rights Reserved</p>
+<div style="max-width:700px;margin:26px auto 0px;">
+
+<div class="photolayout">
+<img style="width:50%;" class="border-radius-top-left" src="images/vexedgirla.jpg" alt="Vexed Girl"/>
+<img style="width:50%;" class="border-radius-top-right" src="images/vexedgirlb.jpg" alt="Vexed Girl"/>
+<img style="width:50%;" src="images/vexedgirlc.jpg" alt="Vexed Girl"/>
+<img style="width:50%;" src="images/vexedgirld.jpg" alt="Vexed Girl"/>
+<img style="width:50%;" src="images/vexedgirle.jpg" alt="Vexed Girl"/>
+<img style="width:50%;" src="images/vexedgirlf.jpg" alt="Vexed Girl"/>
+<img style="width:50%;" class="border-radius-bottom-left" src="images/vexedgirlg.jpg" alt="Vexed Girl"/>
+<img style="width:50%;" class="border-radius-bottom-right" src="images/vexedgirlh.jpg" alt="Vexed Girl"/>
+</div>
+
+</div>
+
+<div style="clear:both;text-align:center;margin:40px auto 25px;">
+<div style="display:inline-block;border:1px solid #555;border-width:1px 0px 1px 0px;padding:8px 0px 8px 0px;">
+<p class="reichfootertxt">Reich Communal Family</p>
+<p style="margin:0px auto 0px;font-size:0.95rem;">Copyright 2024 All Rights Reserved</p>
+<p style="display:block;text-align:center;font-weight:bold;margin:0px auto 5px;"><a href="mailto:contact@reich.cf">contact@reich.cf</a></p>
+</div>
+</div>
+
 </div>
 
 <!-- Default Statcounter code for Reich CF http://reich.cf
