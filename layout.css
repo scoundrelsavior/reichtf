@@ -71,12 +71,16 @@ border:1px solid #555;
 border-width:0px 0px 1px 0px;
 }
 .summary {
+font-size:0.85rem;
 line-height:1.6;
-margin:0px auto 0px;
+margin:0px auto 25px;
 text-align:justify;
 display:block;
 border:none;
-margin:auto;
+padding:15px;
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -443,10 +447,12 @@ border:1px solid #555;
 border-width:0px 0px 1px 0px;
 }
 .summary {
-max-width:1000px;
-margin:0px auto 0px;
+font-size:1.0rem;
+max-width:960px;
+margin:0px auto 40px;
 text-align:justify;
 line-height:2.0;
+padding:15px;
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
@@ -652,10 +658,11 @@ border:1px solid #555;
 border-width:0px 0px 1px 0px;
 }
 .summary {
-max-width:1000px;
-margin:0px auto 0px;
+max-width:960px;
+margin:0px auto 40px;
 text-align:justify;
 line-height:2.0;
+padding:15px;
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
