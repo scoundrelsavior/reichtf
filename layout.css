@@ -42,7 +42,6 @@ max-width:60px;
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:34px;
-margin: 0px auto 0px;
 }
 .reichcfsubtitle {
 font-family:Montserrat-ThinItalic;
@@ -155,8 +154,7 @@ padding:8px;
 background-color: #000000;
 color: #FFFFFF;
 font-size:1.09rem;
-margin-left: auto;
-margin-right: auto;
+margin:auto auto auto;
 padding: 10px;
 border-width:0px 0px 0px 0px;
 }
@@ -328,9 +326,8 @@ padding:10px 10px 0px;
 color: #FFFFFF;
 background-color: #000000;
 font-size:1.09rem;
-margin-left: auto;
-margin-right: auto;
-padding:15px;
+margin:auto;
+padding:10px;
 border-width:0px 0px 0px 0px;
 }
 .tableofcontents {
@@ -394,7 +391,6 @@ max-width:150px;
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:36px;
-margin:-10px auto -5px;
 }
 .reichcfsubtitle {
 font-family:Montserrat-ThinItalic;
@@ -525,14 +521,11 @@ padding:10px 10px 0px;
 }
 .content {
 max-width: 1366px;
-margin:10px 10px 10px;
+margin:auto;
 color: #FFFFFF;
 font-size:1.09rem;
 background-color:#000000;
-padding: 15px;
-margin:10px 10px 10px;
-border:1px solid #555;
-border-width:1px 1px 1px 1px;
+padding: 10px;
 }
 .tableofcontents {
 padding: 15px;
@@ -592,7 +585,6 @@ max-width:200px;
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:40px;
-margin:-10px auto auto;
 }
 .2reichcfsubtitle {
 font-family:Montserrat-ThinItalic;
@@ -654,19 +646,5 @@ scroll-margin-top:26px;
 }
 # {
 scroll-margin-top:26px;
-}
-}
-
-/* Desktop Layout: 1366px and above. This is here to place the white outline around the content with 15px margin top and bottom for screens above 1366px. Inherits styles from: Mobile Layout and Tablet Layout. */
-@media only screen and (min-width: 1367px) {
-.content {
-max-width: 1366px;
-color: #FFFFFF;
-font-size:1.09rem;
-background-color:#000000;
-padding: 15px;
-margin:10px 10px 10px;
-border:1px solid #555;
-border-width:1px 1px 1px 1px;
 }
 }
