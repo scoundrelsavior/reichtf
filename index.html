@@ -51,7 +51,19 @@
         font-family:OpenSans-Light;
 	color:#FFFFFF;
 	text-decoration:none;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+	padding:15px;
+	margin:10px 10px 10px;
+	border:1px solid #555;
+	border-width:1px 1px 1px 1px;
     }
+
+footer {
+margin-top:auto;
+}
+
 @font-face {
   font-family:ITCEDSCR;
   src: url(fonts/ITCEDSCR.TTF);
@@ -146,7 +158,7 @@ document.addEventListener('keyup', (e) => {
 
 <noscript>
 
-<div style="padding:10px;margin:15px auto 15px;max-width:500px;">
+<div id="content" class="content" style="text-align:justify;">
 
 <p style="display:block;margin:0px auto 0px;color:white;font-weight:bold;font-size:1.5rem;text-align:center;font-size:1.3rem;">The Reich Family</p>
 
@@ -164,16 +176,14 @@ document.addEventListener('keyup', (e) => {
 
 <body>
 
-<div id="content" class="content" style="text-align:justify;">
-
-<div style="text-align:center;margin:10px auto 15px">
+<div style="text-align:center;margin:0px auto 0px;">
 <div style="display:inline-block;max-width:900px;border:1px solid #555;border-width:1px 0px 1px 0px;padding:8px 0px 8px 0px;">
 <p class="reichcftitle" style="margin:0px auto 0px;">The Reich Family</p>
 <p class="reichcfsubtitle" style="text-align:center;margin:0px auto 0px;">Building an Empire</p>
 </div>
 </div>
 
-<div style="max-width:960px;margin:26px auto 0px;">
+<figure style="max-width:960px;margin:15px auto 50px;">
 <div class="photolayout">
 <img style="width:50%;" class="border-radius-top-left" src="images/bdmlittlegirlsa.jpg" alt="BDM Little Girls"/>
 <img style="width:50%;" class="border-radius-top-right" src="images/bdmlittlegirlsb.jpg" alt="BDM Little Girls"/>
@@ -184,15 +194,14 @@ document.addEventListener('keyup', (e) => {
 <img style="width:50%;" class="border-radius-bottom-left" src="images/bdmlittlegirlsg.jpg" alt="BDM Little Girls"/>
 <img style="width:50%;" class="border-radius-bottom-right" src="images/bdmlittlegirlsh.jpg" alt="BDM Little Girls"/>
 </div>
-</div>
+<figcaption style="text-align:justify;">In this new age of 21<sup>st</sup> century fascism, the world population returns to national pride, elitism, and an appreciation for power. The new world seeks leaders that will enable a nationalist revolution. If you do not see this wave of change on the horizon, you are blinded by media propaganda that makes every effort to perpetuate a repellent social norm that is fueling a worldwide rebellion.</figcaption>
+</figure>
 
-<div style="text-align:center;margin:30px auto 15px;">
+<footer style="text-align:center;">
 <p class="reichfootertxt">The Reich Family</p>
 <p class="reichfootersubtxt" style="display:block;text-align:center;font-weight:bold;margin:0px auto 7px;"><a href="mailto:contact@reich.cf">contact@reich.cf</a></p>
 <p class="reichfootersubtxt" style="text-align:center;margin:auto">Copyright 2024 All Rights Reserved</p>
-</div>
-
-</div>
+</footer>
 	
 <!-- Default Statcounter code for Reich CF http://reich.cf
 -->
