@@ -61,6 +61,10 @@ margin:0px auto 0px;
 font-family:Montserrat-ThinItalic;
 font-size:0.8rem;
 }
+footer {
+margin-top:auto;
+margin-bottom:10px;
+}
 .bottomhr {
 margin:auto auto auto;
 border:1px solid #555;
@@ -429,6 +433,10 @@ margin:0px auto 0px;
 font-family:Montserrat-ThinItalic;
 font-size:0.9rem;
 }
+footer {
+margin-top:auto;
+margin-bottom:30px;
+}
 .bottomhr {
 margin:auto auto auto;
 border:1px solid #555;
@@ -632,6 +640,10 @@ margin:0px auto 0px;
 .reichfootersubtxt {
 font-family:Montserrat-ThinItalic;
 font-size:0.9rem;
+}
+footer {
+margin-top:auto;
+margin-bottom:30px;
 }
 .bottomhr {
 clear:both;
