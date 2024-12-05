@@ -73,7 +73,7 @@ border-width:0px 0px 1px 0px;
 .summary {
 font-size:0.85rem;
 line-height:1.6;
-margin:10px auto auto;
+margin:30px auto 40px;
 text-align:justify;
 display:block;
 border:none;
@@ -449,7 +449,7 @@ border-width:0px 0px 1px 0px;
 .summary {
 font-size:1.0rem;
 max-width:960px;
-margin:20px auto 40px;
+margin:30px auto 40px;
 text-align:justify;
 line-height:2.0;
 padding:15px 0px 15px;
@@ -659,7 +659,7 @@ border-width:0px 0px 1px 0px;
 }
 .summary {
 max-width:960px;
-margin:20px auto 40px;
+margin:30px auto 40px;
 text-align:justify;
 line-height:2.0;
 padding:15px 0px 15px;
