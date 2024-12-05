@@ -657,6 +657,7 @@ border:1px solid #555;
 border-width:0px 0px 1px 0px;
 }
 .summary {
+max-width:1050px;
 margin:30px auto 40px;
 text-align:justify;
 line-height:2.0;
