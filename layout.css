@@ -564,10 +564,11 @@ min-height: 100vh;
 display: flex;
 flex-direction: column;
 padding:10px;
-margin:10px 10px 10px;
+margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
-border-radius:0px;
+border-radius:12px;
+max-width:900px;
 }
 .tableofcontents {
 padding: 15px;
