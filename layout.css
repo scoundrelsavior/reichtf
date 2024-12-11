@@ -232,6 +232,7 @@ line-height:1.4;
 figcaption {
 font-family:Montserrat-ThinItalic;
 font-size:0.85rem;
+text-align:justify;
 padding-top:10px;
 padding-bottom:2px;
 color:white;
@@ -433,6 +434,7 @@ line-height:1.4;
 figcaption {
 font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
+text-align:justify;
 padding-top:10px;
 padding-bottom:2px;
 color:white;
@@ -664,6 +666,7 @@ line-height:1.4;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
+text-align:justify;
 font-size: 0.95rem;
 padding-top:10px;
 padding-bottom:2px;
