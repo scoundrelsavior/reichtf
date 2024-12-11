@@ -375,7 +375,7 @@ border-radius:12px;
 }
 .articlehr {
 display:block;
-margin:13px auto 15px;
+margin:0px auto 15px;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
 }
@@ -385,11 +385,11 @@ max-width:900px;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px 0px;
-margin:0px auto 0px;
+margin:0px auto 15px;
 }
 .titlecorners {
 max-width:75px;
-margin:0px 0px 0px;
+margin:-15px 0px 0px;
 opacity:0.8;
 }
 .tableofcontents {
@@ -607,7 +607,7 @@ max-width:960px;
 }
 .articlehr {
 display:block;
-margin:13px auto 15px;
+margin:0px auto 15px;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
 }
@@ -617,11 +617,11 @@ max-width:900px;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px 0px;
-margin:0px auto 0px;
+margin:0px auto 15px;
 }
 .titlecorners {
 max-width:85px;
-margin:0px 0px 0px;
+margin:-15px 0px 0px;
 opacity:0.8;
 }
 .tableofcontents {
