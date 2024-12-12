@@ -243,14 +243,36 @@ padding:8px;
 border-radius:12px;
 margin-top:12px;
 }
-.figcaption-overlay {
-position:relative;
-text-align:center;
-font-size:16px;
-border-width:0px;
-padding-top:0px;
-padding-bottom:10px;
-margin:0px auto 15px;
+.figcaptionoverlay {
+position: relative;
+text-align: center;
+color: white;
+}
+.figcaptionbottomleft {
+position: absolute;
+bottom: 3px;
+left: 8px;
+}
+.figcaptiontopleft {
+position: absolute;
+top: 8px;
+left: 16px;
+}
+.figcaptiontopright {
+position: absolute;
+top: 8px;
+right: 16px;
+}
+.figcaptionbottomright {
+position: absolute;
+bottom: 8px;
+right: 16px;
+}
+.figcaptioncentered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 .serafina {
 margin-left: auto;
@@ -444,13 +466,36 @@ border-width:0px;
 padding:0px;
 border-radius:0px;
 }
-.figcaption-overlay {
-position:relative;
-text-align:center;
-font-size:18px;
-border:1px solid #555;
-padding-bottom:10px;
-margin:26px auto 26px;
+.figcaptionoverlay {
+position: relative;
+text-align: center;
+color: white;
+}
+.figcaptionbottomleft {
+position: absolute;
+bottom: 3px;
+left: 8px;
+}
+.figcaptiontopleft {
+position: absolute;
+top: 8px;
+left: 16px;
+}
+.figcaptiontopright {
+position: absolute;
+top: 8px;
+right: 16px;
+}
+.figcaptionbottomright {
+position: absolute;
+bottom: 8px;
+right: 16px;
+}
+.figcaptioncentered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 .reichheader {
 max-width:150px;
@@ -458,11 +503,11 @@ max-width:150px;
 .reichcftitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:32px;
+font-size:38px;
 }
 .reichcfsubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:13px;
+font-size:15px;
 }
 .reichfooterimg {
 display:block;
@@ -506,9 +551,9 @@ max-width:800px;
 margin:0px auto 0px;
 }
 .alps {
-max-width: 450px;
-float:right;
-margin-left:15px;
+max-width: 400px;
+float:left;
+margin-right:15px;
 }
 .mySlides {
 max-width:100%;
@@ -677,13 +722,36 @@ border-width:0px;
 padding:0px;
 border-radius:0px;
 }
-.figcaption-overlay {
-position:relative;
-text-align:center;
-font-size:18px;
-border:1px solid #555;
-padding-bottom:10px;
-margin:26px auto 26px;
+.figcaptionoverlay {
+position: relative;
+text-align: center;
+color: white;
+}
+.figcaptionbottomleft {
+position: absolute;
+bottom: 3px;
+left: 8px;
+}
+.figcaptiontopleft {
+position: absolute;
+top: 8px;
+left: 16px;
+}
+.figcaptiontopright {
+position: absolute;
+top: 8px;
+right: 16px;
+}
+.figcaptionbottomright {
+position: absolute;
+bottom: 8px;
+right: 16px;
+}
+.figcaptioncentered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 .reichheader {
 max-width:200px;
@@ -739,9 +807,9 @@ max-width:800px;
 margin:0px auto 0px;
 }
 .alps {
-max-width: 700px;
-float:right;
-margin-left:15px;
+max-width:450px;
+float:left;
+margin-right:15px;
 }
 .mySlides {
 max-width: 100%;
