@@ -247,6 +247,7 @@ margin-top:12px;
 position: relative;
 text-align: center;
 color: white;
+font-size:0.95rem;
 }
 .figcaptionbottomleft {
 position: absolute;
@@ -470,6 +471,7 @@ border-radius:0px;
 position: relative;
 text-align: center;
 color: white;
+font-size:0.95rem;
 }
 .figcaptionbottomleft {
 position: absolute;
@@ -726,6 +728,7 @@ border-radius:0px;
 position: relative;
 text-align: center;
 color: white;
+font-size:0.95rem;
 }
 .figcaptionbottomleft {
 position: absolute;
