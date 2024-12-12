@@ -71,7 +71,7 @@ border:1px solid #555;
 border-width:0px 0px 1px 0px;
 }
 .summary {
-font-size:0.85rem;
+font-size:0.92rem;
 line-height:1.6;
 margin:30px auto 30px;
 text-align:justify;
@@ -238,7 +238,7 @@ line-height:1.4;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
-font-size:0.85rem;
+font-size:0.80rem;
 text-align:justify;
 padding-top:10px;
 padding-bottom:2px;
