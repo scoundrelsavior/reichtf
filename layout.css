@@ -63,7 +63,7 @@ font-family:Montserrat-ThinItalic;
 font-size:0.8rem;
 }
 footer {
-margin-top:15px;
+margin-top:auto;
 margin-bottom:15px;
 }
 .bottomhr {
@@ -164,8 +164,10 @@ display: block;
 font-size:1.09rem;
 padding: 10px;
 }
+
 <--footer element must be set
 to margin-stop:auto -->
+
 .footeralwaysbottom {
 min-height: 100vh;
 display:flex;
@@ -173,12 +175,18 @@ flex-direction:column;
 margin-bottom:10px;
 }
 .border {
+min-height: 100vh;
+display:flex;
+flex-direction:column;
 margin:10px 10px 10px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:10px;
 }
 .borderfacade {
+min-height: 100vh;
+display:flex;
+flex-direction:column;
 padding:10px;
 margin:10px 10px 10px;
 border:1px solid #555;
@@ -405,12 +413,18 @@ flex-direction:column;
 margin-bottom:15px;
 }
 .border {
+min-height: 100vh;
+display:flex;
+flex-direction:column;
 margin:15px 15px 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:10px;
 }
 .borderfacade {
+min-height: 100vh;
+display:flex;
+flex-direction:column;
 padding:15px;
 margin:15px 15px 15px;
 border:1px solid #555;
@@ -544,7 +558,7 @@ font-family:Montserrat-ThinItalic;
 font-size:0.9rem;
 }
 footer {
-margin-top:15px;
+margin-top:auto;
 margin-bottom:15px;
 }
 .bottomhr {
@@ -673,6 +687,9 @@ flex-direction:column;
 margin-bottom:15px;
 }
 .border {
+min-height: 100vh;
+display:flex;
+flex-direction:column;
 margin:15px 15px 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
@@ -680,6 +697,9 @@ border-radius:0px;
 max-width:1366px;
 }
 .borderfacade {
+min-height: 100vh;
+display:flex;
+flex-direction:column;
 padding:15px;
 margin:15px auto 15px;
 border:1px solid #555;
@@ -810,7 +830,7 @@ font-family:Montserrat-ThinItalic;
 font-size:0.9rem;
 }
 footer {
-margin-top:15px;
+margin-top:auto;
 margin-bottom:15px;
 }
 .bottomhr {
