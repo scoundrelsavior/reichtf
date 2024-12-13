@@ -63,7 +63,7 @@ font-family:Montserrat-ThinItalic;
 font-size:0.8rem;
 }
 footer {
-margin-top:auto;
+margin-top:15px;
 margin-bottom:15px;
 }
 .bottomhr {
@@ -164,6 +164,8 @@ display: block;
 font-size:1.09rem;
 padding: 10px;
 }
+<--footer element must be set
+to margin-stop:auto -->
 .footeralwaysbottom {
 min-height: 100vh;
 display:flex;
@@ -542,7 +544,7 @@ font-family:Montserrat-ThinItalic;
 font-size:0.9rem;
 }
 footer {
-margin-top:auto;
+margin-top:15px;
 margin-bottom:15px;
 }
 .bottomhr {
@@ -808,7 +810,7 @@ font-family:Montserrat-ThinItalic;
 font-size:0.9rem;
 }
 footer {
-margin-top:auto;
+margin-top:15px;
 margin-bottom:15px;
 }
 .bottomhr {
