@@ -36,18 +36,23 @@ margin:auto;
 padding:0px 0px 5px;
 }
 .reichheader {
-max-width:60px;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
 }
 .reichcftitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:28px;
 text-align:center;
+margin:0px auto 0px;
 }
 .reichcfsubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:11px;
 text-align:center;
+margin:0px auto 0px;
 }
 .reichfooterimg {
 display:block;
@@ -59,10 +64,12 @@ font-family:ITCEDSCR;
 font-size:1.7rem;
 text-align:center;
 margin-bottom:auto;
+text-align:center;
 }
 .reichfootersubtxt {
 font-family:Montserrat-ThinItalic;
 font-size:0.8rem;
+text-align:center;
 }
 footer {
 margin-top:auto;
@@ -533,18 +540,23 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 .reichheader {
-max-width:150px;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
 }
 .reichcftitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:38px;
 text-align:center;
+margin:0px auto 0px;
 }
 .reichcfsubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:1.0rem;
 text-align:center;
+margin:0px auto 0px;
 }
 .reichfooterimg {
 display:block;
@@ -556,10 +568,12 @@ font-family:ITCEDSCR;
 font-size:2rem;
 text-align:center;
 margin-bottom:auto;
+text-align:center;
 }
 .reichfootersubtxt {
 font-family:Montserrat-ThinItalic;
 font-size:0.9rem;
+text-align:center;
 }
 footer {
 margin-top:auto;
@@ -807,18 +821,23 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 .reichheader {
-max-width:200px;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
 }
 .reichcftitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:40px;
 text-align:center;
+margin:0px auto 0px;
 }
 .reichcfsubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:1.1rem;
 text-align:center;
+margin:0px auto 0px;
 }
 .reichfooterimg {
 display:block;
@@ -828,12 +847,13 @@ margin:35px auto 0px;
 .reichfootertxt {
 font-family:ITCEDSCR;
 font-size:2rem;
-text-align:center;
 margin-bottom:auto;
+text-align:center;
 }
 .reichfootersubtxt {
 font-family:Montserrat-ThinItalic;
 font-size:0.9rem;
+text-align:center;
 }
 footer {
 margin-top:auto;
@@ -884,6 +904,7 @@ scroll-margin-top:26px;
 }
 # {
 scroll-margin-top:26px;
+}
 }
 
 /* Desktop Layout: 1366px and above. This is here to place the white outline around the content with 15px margin top and bottom for screens above 1366px. Inherits styles from: Mobile Layout and Tablet Layout. */
