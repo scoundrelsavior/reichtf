@@ -59,21 +59,27 @@ display:block;
 max-width:170px;
 margin:35px auto 0px;
 }
-.reichfootertxt {
+.footertitle {
 font-family:ITCEDSCR;
-font-size:1.7rem;
+font-size:2.0rem;
 text-align:center;
-margin-bottom:auto;
-text-align:center;
+margin-bottom:-4px;
 }
-.reichfootersubtxt {
+.footeremail {
 font-family:Montserrat-ThinItalic;
-font-size:0.8rem;
+font-size:1.0rem;
 text-align:center;
+margin:4px auto auto;
+}
+.footercopyright {
+font-family:Montserrat-ThinItalic;
+font-size:0.85rem;
+text-align:center;
+margin:8px auto auto;
 }
 footer {
 margin-top:auto;
-margin-bottom:15px;
+margin-bottom:26px;
 }
 .bottomhr {
 margin:auto auto auto;
@@ -184,12 +190,12 @@ flex-direction:column;
 margin-bottom:10px;
 }
 .border {
-min-height: 100vh;
+min-height:100vh;
 display:flex;
 flex-direction:column;
-margin:10px 10px 10px;
+margin:0px 0px 0px;
 border:1px solid #555;
-border-width:1px 1px 1px 1px;
+border-width:0px 0px 0px 0px;
 border-radius:10px;
 }
 .borderfacade {
@@ -258,7 +264,7 @@ line-height:1.4;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
-font-size:0.80rem;
+font-size:0.85rem;
 text-align:justify;
 padding-top:10px;
 padding-bottom:2px;
@@ -422,12 +428,12 @@ flex-direction:column;
 margin-bottom:15px;
 }
 .border {
-min-height: 100vh;
+min-height:100vh;
 display:flex;
 flex-direction:column;
-margin:15px 15px 15px;
+margin:0px 0px 0px;
 border:1px solid #555;
-border-width:1px 1px 1px 1px;
+border-width:0px 0px 0px 0px;
 border-radius:10px;
 }
 .borderfacade {
@@ -563,21 +569,27 @@ display:block;
 max-width:180px;
 margin:35px auto 0px;
 }
-.reichfootertxt {
+.footertitle {
 font-family:ITCEDSCR;
-font-size:2rem;
+font-size:2.2rem;
 text-align:center;
-margin-bottom:auto;
-text-align:center;
+margin-bottom:-4px;
 }
-.reichfootersubtxt {
+.footeremail {
 font-family:Montserrat-ThinItalic;
-font-size:0.9rem;
+font-size:1.1rem;
 text-align:center;
+margin:4px auto auto;
+}
+.footercopyright {
+font-family:Montserrat-ThinItalic;
+font-size:0.95rem;
+text-align:center;
+margin:8px auto auto;
 }
 footer {
 margin-top:auto;
-margin-bottom:15px;
+margin-bottom:26px;
 }
 .bottomhr {
 margin:auto auto auto;
@@ -705,14 +717,13 @@ flex-direction:column;
 margin-bottom:15px;
 }
 .border {
-min-height: 100vh;
+min-height:100vh;
 display:flex;
 flex-direction:column;
 margin:15px 15px 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:0px;
-max-width:1366px;
 }
 .borderfacade {
 min-height: 100vh;
@@ -826,38 +837,32 @@ flex-direction:row;
 justify-content:space-between;
 align-items:center;
 }
-.reichcftitle {
-font-family:ITCEDSCR;
-color:#EFEFEF;
-font-size:2.8rem;
-text-align:center;
-margin:0px auto 0px;
-}
-.reichcfsubtitle {
-font-family:Montserrat-ThinItalic;
-font-size:1.0rem;
-text-align:center;
-margin:0px auto 0px;
-}
 .reichfooterimg {
 display:block;
 max-width:180px;
 margin:35px auto 0px;
 }
-.reichfootertxt {
+.footertitle {
 font-family:ITCEDSCR;
-font-size:2rem;
-margin-bottom:auto;
+font-size:2.2rem;
 text-align:center;
+margin-bottom:-4px;
 }
-.reichfootersubtxt {
+.footeremail {
 font-family:Montserrat-ThinItalic;
-font-size:0.9rem;
+font-size:1.1rem;
 text-align:center;
+margin:4px auto auto;
+}
+.footercopyright {
+font-family:Montserrat-ThinItalic;
+font-size:0.95rem;
+text-align:center;
+margin:8px auto auto;
 }
 footer {
 margin-top:auto;
-margin-bottom:15px;
+margin-bottom:26px;
 }
 .bottomhr {
 clear:both;
@@ -910,8 +915,15 @@ scroll-margin-top:26px;
 /* Desktop Layout: 1366px and above. This is here to place the white outline around the content with 15px margin top and bottom for screens above 1366px. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1367px) {
 .border {
+min-height:100vh;
 margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
+max-width:1367px;
+}
+.content {
+display:block;
+font-size:1.09rem;
+padding: 15px;
 }
 }
