@@ -44,13 +44,13 @@ align-items:center;
 .reichcftitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:28px;
+font-size:2.0rem;
 text-align:center;
 margin:0px auto 0px;
 }
 .reichcfsubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:11px;
+font-size:0.85rem;
 text-align:center;
 margin:0px auto 0px;
 }
@@ -837,6 +837,19 @@ flex-direction:row;
 justify-content:space-between;
 align-items:center;
 }
+.reichcftitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:2.5rem;
+text-align:center;
+margin:0px auto 0px;
+}
+.reichcfsubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:0.90rem;
+text-align:center;
+margin:0px auto 0px;
+}
 .reichfooterimg {
 display:block;
 max-width:180px;
@@ -889,7 +902,7 @@ max-width:800px;
 margin:0px auto 0px;
 }
 .alps {
-max-width:625px;
+max-width:575px;
 float:left;
 margin-right:15px;
 }
