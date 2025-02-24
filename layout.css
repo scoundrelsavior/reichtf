@@ -37,20 +37,20 @@ padding:0px 0px 5px;
 }
 .reichheader {
 display:flex;
-flex-direction:row;
+margin: -3px 0px 3px;
 justify-content:space-between;
 align-items:center;
 }
 .reichcftitle {
-font-family:ITCEDSCR;
+font-family:TrajanPro3-Regular;
 color:#EFEFEF;
-font-size:2.0rem;
+font-size:1.4rem;
 text-align:center;
 margin:0px auto 0px;
 }
 .reichcfsubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:0.85rem;
+font-size:0.8rem;
 text-align:center;
 margin:0px auto 0px;
 }
@@ -60,21 +60,21 @@ max-width:170px;
 margin:35px auto 0px;
 }
 .footertitle {
-font-family:ITCEDSCR;
-font-size:1.75rem;
+font-family:TrajanPro3-Regular;
+font-size:1.4rem;
 text-align:center;
 margin-bottom:-4px;
 }
 .footeremail {
 font-family:Montserrat-ThinItalic;
-font-size:0.9rem;
+font-size:0.95rem;
 font-weight:bold;
 text-align:center;
 margin:4px auto auto;
 }
 .footercopyright {
 font-family:Montserrat-ThinItalic;
-font-size:0.75rem;
+font-size:0.85rem;
 text-align:center;
 margin:8px auto auto;
 }
@@ -194,9 +194,9 @@ margin-bottom:10px;
 min-height:100vh;
 display:flex;
 flex-direction:column;
-margin:0px 0px 0px;
+margin:10px 10px 10px;
 border:1px solid #555;
-border-width:0px 0px 0px 0px;
+border-width:1px 1px 1px 1px;
 border-radius:10px;
 }
 .borderfacade {
@@ -311,6 +311,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 .serafina {
+display:block;
 margin-left: auto;
 margin-right: auto;
 }
@@ -433,10 +434,10 @@ margin-bottom:15px;
 min-height:100vh;
 display:flex;
 flex-direction:column;
-margin:0px 0px 0px;
+margin:15px 15px 15px;
 border:1px solid #555;
-border-width:0px 0px 0px 0px;
-border-radius:10px;
+border-width:1px 1px 1px 1px;
+border-radius:12px;
 }
 .borderfacade {
 min-height: 100vh;
@@ -450,10 +451,7 @@ border-radius:12px;
 max-width:800px;
 }
 .articlehr {
-display:block;
-margin:0px auto 15px;
-border:1px solid #555;
-border-width:0px 0px 1px 0px;
+display:none;
 }
 .titlelines {
 display:inline-block;
@@ -550,20 +548,20 @@ transform: translate(-50%, -50%);
 }
 .reichheader {
 display:flex;
-flex-direction:row;
+margin: -5px 0px 3px;
 justify-content:space-between;
 align-items:center;
 }
 .reichcftitle {
-font-family:ITCEDSCR;
+font-family:TrajanPro3-Regular;
 color:#EFEFEF;
-font-size:2.5rem;
+font-size:1.8rem;
 text-align:center;
 margin:0px auto 0px;
 }
 .reichcfsubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:0.90rem;
+font-size:1.0rem;
 text-align:center;
 margin:0px auto 0px;
 }
@@ -573,8 +571,8 @@ max-width:180px;
 margin:35px auto 0px;
 }
 .footertitle {
-font-family:ITCEDSCR;
-font-size:2.0rem;
+font-family:TrajanPro3-Regular;
+font-size:1.7rem;
 text-align:center;
 margin-bottom:-4px;
 }
@@ -611,9 +609,10 @@ border:1px solid #555;
 border-width:1px 0px 1px 0px;
 }
 .serafina {
-max-width: 450px;
-float:right;
-margin-left:15px;
+max-width: 800px;
+display:block;
+margin-right:auto;
+margin-left:auto;
 }
 .serafinafacade {
 max-width:800px;
@@ -644,8 +643,46 @@ scroll-margin-top:26px;
 }
 }
 
+/* 12.9 inch Ipad 1024x1366 Custom. This is just for 12-inch Ipad layouts holding
+rotated mobile phones up to 1000px long into account. Inherits styles from: 
+Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 1001px) {
+
+.border {
+min-height:100vh;
+display:flex;
+flex-direction:column;
+margin:15px 15px 15px;
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
+border-radius:12px;
+}
+.borderfacade {
+min-height: 100vh;
+display:flex;
+flex-direction:column;
+padding:15px;
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
+border-radius:12px;
+max-width:800px;
+}
+.articlehr {
+display:block;
+margin:0px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
+.serafina {
+max-width: 650px;
+float:right;
+margin-left:15px;
+}
+}
+
 /* Desktop Layout: 835px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
-@media only screen and (min-width: 835px) {
+@media only screen and (min-width: 1025px) {
 
 .title {
 display:block;
@@ -838,20 +875,20 @@ transform: translate(-50%, -50%);
 }
 .reichheader {
 display:flex;
-flex-direction:row;
+margin: -5px 0px 3px;
 justify-content:space-between;
 align-items:center;
 }
 .reichcftitle {
-font-family:ITCEDSCR;
+font-family:TrajanPro3-Regular;
 color:#EFEFEF;
-font-size:2.5rem;
+font-size:1.8rem;
 text-align:center;
 margin:0px auto 0px;
 }
 .reichcfsubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:0.90rem;
+font-size:1.0rem;
 text-align:center;
 margin:0px auto 0px;
 }
@@ -861,8 +898,8 @@ max-width:180px;
 margin:35px auto 0px;
 }
 .footertitle {
-font-family:ITCEDSCR;
-font-size:2.0rem;
+font-family:TrajanPro3-Regular;
+font-size:1.7rem;
 text-align:center;
 margin-bottom:-4px;
 }
@@ -908,7 +945,7 @@ max-width:800px;
 margin:0px auto 0px;
 }
 .alps {
-max-width:575px;
+max-width:400px;
 float:left;
 margin-right:15px;
 }
