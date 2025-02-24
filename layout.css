@@ -37,7 +37,7 @@ padding:0px 0px 5px;
 }
 .reichheader {
 display:flex;
-margin: -3px 0px 3px;
+margin: 3px 0px 9px;
 justify-content:space-between;
 align-items:center;
 }
@@ -548,7 +548,7 @@ transform: translate(-50%, -50%);
 }
 .reichheader {
 display:flex;
-margin: -5px 0px 3px;
+margin: 3px 0px 12px;
 justify-content:space-between;
 align-items:center;
 }
@@ -875,7 +875,7 @@ transform: translate(-50%, -50%);
 }
 .reichheader {
 display:flex;
-margin: -5px 0px 3px;
+margin: 3px 0px 12px;
 justify-content:space-between;
 align-items:center;
 }
