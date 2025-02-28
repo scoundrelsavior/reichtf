@@ -54,6 +54,25 @@ font-size:0.8rem;
 text-align:center;
 margin:-6px auto 0px;
 }
+.reichheaderfamily {
+display:flex;
+margin: 0px 0px 0px;
+justify-content:space-between;
+align-items:center;
+}
+.reichcftitlefamily {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:1.9rem;
+text-align:center;
+margin:0px auto 0px;
+}
+.reichcfsubtitlefamily {
+font-family:Montserrat-ThinItalic;
+font-size:0.8rem;
+text-align:center;
+margin:-3px auto 0px;
+}
 .reichfooterimg {
 display:block;
 max-width:170px;
@@ -62,6 +81,12 @@ margin:35px auto 0px;
 .footertitle {
 font-family:TrajanPro3-Regular;
 font-size:1.4rem;
+text-align:center;
+margin-bottom:-4px;
+}
+.footertitlefamily {
+font-family:ITCEDSCR;
+font-size:2.0rem;
 text-align:center;
 margin-bottom:-4px;
 }
@@ -239,7 +264,7 @@ font-size:25px;
 }
 .toptitle {
 font-family:Cinzel-Regular;
-font-size:18px;
+font-size:1.15rem;
 } 
 .headline {
 font-size:1rem;
@@ -269,7 +294,7 @@ font-size:0.85rem;
 text-align:justify;
 line-height:1.6;
 padding-top:10px;
-padding-bottom:2px;
+margin-bottom:20px;
 color:white;
 }
 .figcaptionborder {
@@ -286,23 +311,23 @@ font-size:0.95rem;
 }
 .figcaptionbottomleft {
 position: absolute;
-bottom: 3px;
+bottom: 4px;
 left: 8px;
 }
 .figcaptiontopleft {
 position: absolute;
-top: 8px;
-left: 16px;
+top: 4px;
+left: 8px;
 }
 .figcaptiontopright {
 position: absolute;
-top: 8px;
-right: 16px;
+top: 4px;
+right: 8px;
 }
 .figcaptionbottomright {
 position: absolute;
-bottom: 8px;
-right: 16px;
+bottom: 4px;
+right: 8px;
 }
 .figcaptioncentered {
 position: absolute;
@@ -477,7 +502,7 @@ display:none;
 }
 .toptitle {
 font-family:Cinzel-Regular;
-font-size:17.7px;
+font-size:1.3rem;
 } 
 .headline {
 font-size:1.09rem;
@@ -504,9 +529,9 @@ figcaption {
 font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
 text-align:justify;
-line-height:1.4;
+line-height:1.6;
 padding-top:10px;
-padding-bottom:2px;
+margin-bottom:5px;
 color:white;
 }
 .figcaptionborder {
@@ -522,23 +547,23 @@ font-size:0.95rem;
 }
 .figcaptionbottomleft {
 position: absolute;
-bottom: 3px;
+bottom: 4px;
 left: 8px;
 }
 .figcaptiontopleft {
 position: absolute;
-top: 8px;
-left: 16px;
+top: 4px;
+left: 8px;
 }
 .figcaptiontopright {
 position: absolute;
-top: 8px;
-right: 16px;
+top: 4px;
+right: 8px;
 }
 .figcaptionbottomright {
 position: absolute;
-bottom: 8px;
-right: 16px;
+bottom: 4px;
+right: 8px;
 }
 .figcaptioncentered {
 position: absolute;
@@ -565,6 +590,25 @@ font-size:1.0rem;
 text-align:center;
 margin:-6px auto 0px;
 }
+.reichheaderfamily {
+display:flex;
+margin: 0px 0px 0px;
+justify-content:space-between;
+align-items:center;
+}
+.reichcftitlefamily {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:2.5rem;
+text-align:center;
+margin:0px auto 0px;
+}
+.reichcfsubtitlefamily {
+font-family:Montserrat-ThinItalic;
+font-size:1.0rem;
+text-align:center;
+margin:-3px auto 0px;
+}
 .reichfooterimg {
 display:block;
 max-width:180px;
@@ -573,6 +617,12 @@ margin:35px auto 0px;
 .footertitle {
 font-family:TrajanPro3-Regular;
 font-size:1.7rem;
+text-align:center;
+margin-bottom:-4px;
+}
+.footertitlefamily {
+font-family:ITCEDSCR;
+font-size:2.2rem;
 text-align:center;
 margin-bottom:-4px;
 }
@@ -619,7 +669,7 @@ max-width:800px;
 margin:0px auto 0px;
 }
 .alps {
-max-width: 400px;
+max-width: 500px;
 float:left;
 margin-right:15px;
 }
@@ -679,9 +729,18 @@ max-width: 650px;
 float:right;
 margin-left:15px;
 }
+.alps {
+max-width:600px;
+float:left;
+margin-right:15px;
+}
+.toptitle {
+font-family:Cinzel-Regular;
+font-size:1.1rem;
+}
 }
 
-/* Desktop Layout: 835px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
+/* Desktop Layout: 1025px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1025px) {
 
 .title {
@@ -807,7 +866,7 @@ display:none;
 }
 .toptitle {
 font-family:Cinzel-Regular;
-font-size:20px;
+font-size:1.3rem;
 } 
 /*maxwidth changed for
 each photo inline*/
@@ -831,9 +890,9 @@ figcaption {
 font-family:Montserrat-ThinItalic;
 text-align:justify;
 font-size: 0.95rem;
-line-height:1.4;
+line-height:1.6;
 padding-top:10px;
-padding-bottom:2px;
+margin-bottom:5px;
 color:white;	
 }
 .figcaptionborder {
@@ -849,23 +908,23 @@ font-size:0.95rem;
 }
 .figcaptionbottomleft {
 position: absolute;
-bottom: 3px;
+bottom: 4px;
 left: 8px;
 }
 .figcaptiontopleft {
 position: absolute;
-top: 8px;
-left: 16px;
+top: 4px;
+left: 8px;
 }
 .figcaptiontopright {
 position: absolute;
-top: 8px;
-right: 16px;
+top: 4px;
+right: 8px;
 }
 .figcaptionbottomright {
 position: absolute;
-bottom: 8px;
-right: 16px;
+bottom: 4px;
+right: 8px;
 }
 .figcaptioncentered {
 position: absolute;
@@ -892,6 +951,25 @@ font-size:1.0rem;
 text-align:center;
 margin:-6px auto 0px;
 }
+.reichheaderfamily {
+display:flex;
+margin:0px 0px 0px;
+justify-content:space-between;
+align-items:center;
+}
+.reichcftitlefamily {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:2.6rem;
+text-align:center;
+margin:0px auto 0px;
+}
+.reichcfsubtitlefamily {
+font-family:Montserrat-ThinItalic;
+font-size:1.0rem;
+text-align:center;
+margin:-3px auto 0px;
+}
 .reichfooterimg {
 display:block;
 max-width:180px;
@@ -900,6 +978,12 @@ margin:35px auto 0px;
 .footertitle {
 font-family:TrajanPro3-Regular;
 font-size:1.7rem;
+text-align:center;
+margin-bottom:-4px;
+}
+.footertitlefamily {
+font-family:ITCEDSCR;
+font-size:2.2rem;
 text-align:center;
 margin-bottom:-4px;
 }
@@ -945,7 +1029,7 @@ max-width:800px;
 margin:0px auto 0px;
 }
 .alps {
-max-width:400px;
+max-width:600px;
 float:left;
 margin-right:15px;
 }
@@ -975,7 +1059,7 @@ min-height:100vh;
 margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
-max-width:1361px;
+max-width:1333px;
 }
 .content {
 display:block;
