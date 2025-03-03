@@ -63,13 +63,13 @@ align-items:center;
 .reichcftitlefamily {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:1.9rem;
+font-size:1.8rem;
 text-align:center;
 margin:-2px auto 0px;
 }
 .reichcfsubtitlefamily {
 font-family:Montserrat-ThinItalic;
-font-size:0.8rem;
+font-size:0.75rem;
 text-align:center;
 margin:-3px auto 10px;
 }
@@ -86,7 +86,7 @@ margin-bottom:-4px;
 }
 .footertitlefamily {
 font-family:ITCEDSCR;
-font-size:2.0rem;
+font-size:1.8rem;
 text-align:center;
 margin-bottom:-4px;
 }
@@ -265,6 +265,12 @@ font-size:25px;
 .toptitle {
 font-family:Cinzel-Regular;
 font-size:1.15rem;
+}
+.toptitlefacade {
+font-family:Cinzel-Regular;
+font-size:1.1rem;
+text-align:center;
+margin:0px auto 10px;
 } 
 .headline {
 font-size:1rem;
@@ -341,6 +347,15 @@ margin-left: auto;
 margin-right: auto;
 }
 .serafinafacade {
+margin-left: auto;
+margin-right: auto;
+}
+.motherdaughter {
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+.motherdaughterfacade {
 margin-left: auto;
 margin-right: auto;
 }
@@ -503,7 +518,13 @@ display:none;
 .toptitle {
 font-family:Cinzel-Regular;
 font-size:1.3rem;
-} 
+}
+.toptitlefacade {
+font-family:Cinzel-Regular;
+font-size:1.3rem;
+text-align:center;
+margin:20px auto 10px;
+}  
 .headline {
 font-size:1.09rem;
 text-align:center;
@@ -599,13 +620,13 @@ align-items:center;
 .reichcftitlefamily {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:2.5rem;
+font-size:2.4rem;
 text-align:center;
 margin:-2px auto 0px;
 }
 .reichcfsubtitlefamily {
 font-family:Montserrat-ThinItalic;
-font-size:1.0rem;
+font-size:0.95rem;
 text-align:center;
 margin:-3px auto 15px;
 }
@@ -659,12 +680,22 @@ border:1px solid #555;
 border-width:1px 0px 1px 0px;
 }
 .serafina {
-max-width: 800px;
+max-width: 850px;
 display:block;
 margin-right:auto;
 margin-left:auto;
 }
 .serafinafacade {
+max-width:800px;
+margin:0px auto 0px;
+}
+.motherdaughter {
+max-width: 850px;
+display:block;
+margin-right:auto;
+margin-left:auto;
+}
+.motherdaughterfacade {
 max-width:800px;
 margin:0px auto 0px;
 }
@@ -729,6 +760,11 @@ max-width: 650px;
 float:right;
 margin-left:15px;
 }
+.motherdaughter {
+max-width: 700px;
+float:left;
+margin-right:15px;
+}
 .alps {
 max-width:600px;
 float:left;
@@ -737,6 +773,12 @@ margin-right:15px;
 .toptitle {
 font-family:Cinzel-Regular;
 font-size:1.1rem;
+}
+.toptitlefacade {
+font-family:Cinzel-Regular;
+font-size:1.1rem;
+text-align:center;
+margin:20px auto 10px;
 }
 }
 
@@ -866,7 +908,14 @@ display:none;
 }
 .toptitle {
 font-family:Cinzel-Regular;
-font-size:1.3rem;
+font-size:1.2rem;
+text-align:center;
+margin:0px auto 0px;
+}
+.toptitlefacade {
+font-family:Cinzel-Regular;
+font-size:1.2rem;
+margin:20px auto 10px;
 } 
 /*maxwidth changed for
 each photo inline*/
@@ -960,13 +1009,13 @@ align-items:center;
 .reichcftitlefamily {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:2.6rem;
+font-size:2.5rem;
 text-align:center;
 margin:-2px auto 0px;
 }
 .reichcfsubtitlefamily {
 font-family:Montserrat-ThinItalic;
-font-size:1.0rem;
+font-size:0.95rem;
 text-align:center;
 margin:-3px auto 15px;
 }
@@ -1025,6 +1074,15 @@ float:right;
 margin-left:15px;
 }
 .serafinafacade {
+max-width:800px;
+margin:0px auto 0px;
+}
+.motherdaughter {
+max-width: 850px;
+float:left;
+margin-right:15px;
+}
+.motherdaughterfacade {
 max-width:800px;
 margin:0px auto 0px;
 }
