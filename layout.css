@@ -278,7 +278,7 @@ text-align:center;
 font-family:Cinzel-Regular;
 font-size:1.0rem;
 text-align:center;
-margin:20px auto 20px;
+margin:20px auto 0px;
 } 
 .headline {
 font-size:1rem;
@@ -531,7 +531,7 @@ text-align:center;
 font-family:Cinzel-Regular;
 font-size:1.2rem;
 text-align:center;
-margin:20px auto 20px;
+margin:20px auto 0px;
 }  
 .headline {
 font-size:1.09rem;
@@ -794,7 +794,7 @@ text-align:center;
 font-family:Cinzel-Regular;
 font-size:1.2rem;
 text-align:center;
-margin:20px auto 20px;
+margin:20px auto 0px;
 }
 }
 
@@ -930,7 +930,7 @@ margin:0px auto 0px;
 .toptitlefacade {
 font-family:Cinzel-Regular;
 font-size:1.2rem;
-margin:20px auto 20px;
+margin:20px auto 0px;
 } 
 /*maxwidth changed for
 each photo inline*/
