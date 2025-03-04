@@ -385,7 +385,7 @@ scroll-margin-top:10px;
 scroll-margin-top:10px;
 }
 
-/* Tablet Layout or Landscape Rotated Phones: 701px to 835px - Ipad Pro 11-inch
+/* Tablet Layout 701px to 835px - Ipad Pro 11-inch
 down to 600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
 wide but I take it to 701 to be on the safe side. Most of my images
 are 700px max so stop here.
@@ -738,6 +738,20 @@ scroll-margin-top:26px;
 # {
 scroll-margin-top:26px;
 }
+}
+
+/* For centering content while holding horizontally rotated mobile phones up to 1000px long into account.
+@media only screen and (min-width: 836px) {
+
+.borderfacade {
+min-height: 100vh;
+display:flex;
+flex-direction:column;
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
+border-radius:12px;
+max-width:800px;
 }
 
 /* 12.9 inch Ipad 1024x1366 Custom. This is just for 12-inch Ipad layouts holding
