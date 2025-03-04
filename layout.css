@@ -276,7 +276,7 @@ text-align:center;
 }
 .toptitlefacade {
 font-family:Cinzel-Regular;
-font-size:1.0rem;
+font-size:0.9rem;
 text-align:center;
 margin:20px auto 0px;
 } 
@@ -385,8 +385,8 @@ scroll-margin-top:10px;
 scroll-margin-top:10px;
 }
 
-/* Tablet Layout: 701px to 835px - Ipad Pro 11-inch down to
-600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
+/* Tablet Layout or Landscape Rotated Phones: 701px to 835px - Ipad Pro 11-inch
+down to 600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
 wide but I take it to 701 to be on the safe side. Most of my images
 are 700px max so stop here.
 Inherits styles from: Mobile Layout. */
@@ -491,7 +491,7 @@ border-radius:12px;
 min-height: 100vh;
 display:flex;
 flex-direction:column;
-margin:15px auto 15px;
+margin:15px 15px 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:12px;
