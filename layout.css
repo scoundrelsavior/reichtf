@@ -132,6 +132,11 @@ border:1px solid #555;
 border-width:1px 0px 1px 0px;
 margin:0px auto -10px;
 }
+.summaryfacadeborderless {
+font-size:0.94rem;
+line-height:1.8;
+margin:0px auto -10px;
+}
 .headings {
 font-family:Cinzel-Regular;
 font-size:22px;
@@ -245,8 +250,7 @@ border-radius:10px;
 display:none;
 }
 .titlelines {
-display:block;
-max-width:900px;
+display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px 0px;
@@ -271,12 +275,12 @@ font-size:25px;
 }
 .toptitle {
 font-family:Cinzel-Regular;
-font-size:1.15rem;
+font-size:1.0rem;
 text-align:center;
 }
 .toptitlefacade {
 font-family:Cinzel-Regular;
-font-size:0.9rem;
+font-size:1.0rem;
 text-align:center;
 margin:20px auto 0px;
 } 
@@ -495,14 +499,13 @@ margin:15px 15px 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:12px;
-max-width:800px;
+max-width:850px;
 }
 .articlehr {
 display:none;
 }
 .titlelines {
 display:inline-block;
-max-width:900px;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px 0px;
@@ -524,14 +527,15 @@ display:none;
 }
 .toptitle {
 font-family:Cinzel-Regular;
-font-size:1.3rem;
+font-size:1.1rem;
 text-align:center;
 }
 .toptitlefacade {
 font-family:Cinzel-Regular;
-font-size:1.2rem;
+font-size:1.1rem;
 text-align:center;
 margin:20px auto 0px;
+text-align:center;
 }  
 .headline {
 font-size:1.09rem;
@@ -695,6 +699,11 @@ border:1px solid #555;
 border-width:1px 0px 1px 0px;
 margin:0px auto -20px;
 }
+.summaryfacadeborderless {
+font-size:1.08rem;
+line-height:1.8;
+margin:0px auto -20px;
+}
 .serafina {
 max-width: 850px;
 display:block;
@@ -712,13 +721,13 @@ margin-right:auto;
 margin-left:auto;
 }
 .motherdaughterfacade {
-max-width:800px;
+max-width:850px;
 margin:0px auto 0px;
 }
 .alps {
 max-width: 500px;
-float:left;
-margin-right:15px;
+float:right;
+margin-left:15px;
 }
 .mySlides {
 max-width:100%;
@@ -740,7 +749,7 @@ scroll-margin-top:26px;
 }
 }
 
-/* For centering content while holding horizontally rotated mobile phones up to 1000px long into account.
+/* For centering content while holding horizontally rotated mobile phones up to 1000px long into account.*/
 @media only screen and (min-width: 836px) {
 
 .borderfacade {
@@ -751,7 +760,8 @@ margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:12px;
-max-width:800px;
+max-width:850px;
+}
 }
 
 /* 12.9 inch Ipad 1024x1366 Custom. This is just for 12-inch Ipad layouts holding
@@ -776,7 +786,7 @@ margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:12px;
-max-width:800px;
+max-width:850px;
 }
 .articlehr {
 display:block;
@@ -790,14 +800,14 @@ float:right;
 margin-left:15px;
 }
 .motherdaughter {
-max-width: 700px;
+max-width:675px;
 float:left;
 margin-right:15px;
 }
 .alps {
 max-width:600px;
-float:left;
-margin-right:15px;
+float:right;
+margin-left:15px;
 }
 .toptitle {
 font-family:Cinzel-Regular;
@@ -806,7 +816,7 @@ text-align:center;
 }
 .toptitlefacade {
 font-family:Cinzel-Regular;
-font-size:1.2rem;
+font-size:1.1rem;
 text-align:center;
 margin:20px auto 0px;
 }
@@ -905,7 +915,7 @@ margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:12px;
-max-width:800px;
+max-width:850px;
 }
 .articlehr {
 display:block;
@@ -915,7 +925,6 @@ border-width:0px 0px 1px 0px;
 }
 .titlelines {
 display:inline-block;
-max-width:900px;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px 0px;
@@ -937,14 +946,15 @@ display:none;
 }
 .toptitle {
 font-family:Cinzel-Regular;
-font-size:1.2rem;
+font-size:1.1rem;
 text-align:center;
 margin:0px auto 0px;
 }
 .toptitlefacade {
 font-family:Cinzel-Regular;
-font-size:1.2rem;
+font-size:1.1rem;
 margin:20px auto 0px;
+text-align:center;
 } 
 /*maxwidth changed for
 each photo inline*/
@@ -1106,6 +1116,11 @@ border:1px solid #555;
 border-width:1px 0px 1px 0px;
 margin:0px auto -20px;
 }
+.summaryfacadeborderless {
+font-size:1.08rem;
+line-height:1.6;
+margin:0px auto -20px;
+}
 .serafina {
 max-width: 700px;
 float:right;
@@ -1121,13 +1136,13 @@ float:left;
 margin-right:15px;
 }
 .motherdaughterfacade {
-max-width:800px;
+max-width:850px;
 margin:0px auto 0px;
 }
 .alps {
-max-width:600px;
-float:left;
-margin-right:15px;
+max-width:700px;
+float:right;
+margin-left:15px;
 }
 .mySlides {
 max-width: 100%;
@@ -1156,6 +1171,16 @@ margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 max-width:1333px;
+}
+.borderfacade {
+min-height: 100vh;
+display:flex;
+flex-direction:column;
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:1px 1px 1px 1px;
+border-radius:12px;
+max-width:850px;
 }
 .content {
 display:block;
