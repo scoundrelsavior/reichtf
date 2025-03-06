@@ -367,6 +367,11 @@ display:block;
 margin-left: auto;
 margin-right: auto;
 }
+.teensleavehome {
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
 .motherdaughterfacade {
 margin-left: auto;
 margin-right: auto;
@@ -720,12 +725,17 @@ display:block;
 margin-right:auto;
 margin-left:auto;
 }
+.teensleavehome {
+max-width:500px;
+float:left;
+margin-right:15px;
+}
 .motherdaughterfacade {
 max-width:850px;
 margin:0px auto 0px;
 }
 .alps {
-max-width: 500px;
+max-width:500px;
 float:right;
 margin-left:15px;
 }
@@ -801,6 +811,11 @@ margin-left:15px;
 }
 .motherdaughter {
 max-width:675px;
+float:left;
+margin-right:15px;
+}
+.teensleavehome {
+max-width:600px;
 float:left;
 margin-right:15px;
 }
@@ -1135,12 +1150,17 @@ max-width: 850px;
 float:left;
 margin-right:15px;
 }
+.teensleavehome {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
 .motherdaughterfacade {
 max-width:850px;
 margin:0px auto 0px;
 }
 .alps {
-max-width:700px;
+max-width:600px;
 float:right;
 margin-left:15px;
 }
