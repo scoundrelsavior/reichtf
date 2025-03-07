@@ -63,7 +63,7 @@ align-items:center;
 .reichcftitlefamily {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:1.8rem;
+font-size:1.7rem;
 text-align:center;
 margin:-4px auto 0px;
 }
@@ -86,20 +86,20 @@ margin-bottom:-4px;
 }
 .footertitlefamily {
 font-family:ITCEDSCR;
-font-size:1.8rem;
+font-size:1.7rem;
 text-align:center;
 margin-bottom:-4px;
 }
 .footeremail {
 font-family:Montserrat-ThinItalic;
-font-size:0.90rem;
+font-size:0.80rem;
 font-weight:bold;
 text-align:center;
 margin:4px auto auto;
 }
 .footercopyright {
 font-family:Montserrat-ThinItalic;
-font-size:0.80rem;
+font-size:0.70rem;
 text-align:center;
 margin:8px auto auto;
 }
