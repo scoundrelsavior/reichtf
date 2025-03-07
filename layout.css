@@ -312,7 +312,7 @@ font-family:Montserrat-ThinItalic;
 font-size:0.85rem;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
-margin:16px auto auto;
+margin:16px auto 14px;
 padding:6px 0px 6px;
 line-height:1.6;
 }
@@ -579,7 +579,7 @@ font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
-margin:15px auto 0px;
+margin:15px auto 4px;
 padding:5px 0px 5px;
 line-height:1.6;
 }
@@ -1015,7 +1015,7 @@ font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
-margin:15px auto 0px;
+margin:15px auto 4px;
 padding:5px 0px 5px;
 line-height:1.6;
 }
