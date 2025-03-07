@@ -780,7 +780,7 @@ scroll-margin-top:26px;
 }
 
 /* For centering content while holding horizontally rotated mobile phones up to 1000px long into account.*/
-@media only screen and (min-width: 836px) {
+@media only screen and (min-width: 900px) {
 
 .borderfacade {
 min-height: 100vh;
