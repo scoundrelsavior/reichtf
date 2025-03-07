@@ -229,7 +229,7 @@ flex-direction:column;
 margin-bottom:10px;
 }
 .border {
-min-height:100vh;
+min-height: 97.3vh;
 display:flex;
 flex-direction:column;
 margin:10px 10px 10px;
@@ -238,7 +238,7 @@ border-width:1px 1px 1px 1px;
 border-radius:10px;
 }
 .borderfacade {
-min-height: 100vh;
+min-height: 97.3vh;
 display:flex;
 flex-direction:column;
 margin:10px 10px 10px;
