@@ -377,16 +377,15 @@ display:block;
 margin-left: auto;
 margin-right: auto;
 }
-.teensleavehome {
-display:block;
-margin-left: auto;
-margin-right: auto;
-}
 .motherdaughterfacade {
 margin-left: auto;
 margin-right: auto;
 }
 .alps {
+margin-left: auto;
+margin-right: auto;
+}
+.teensleavehome {
 margin-left: auto;
 margin-right: auto;
 }
@@ -745,11 +744,6 @@ display:block;
 margin-right:auto;
 margin-left:auto;
 }
-.teensleavehome {
-max-width:500px;
-float:left;
-margin-right:15px;
-}
 .motherdaughterfacade {
 max-width:850px;
 margin:0px auto 0px;
@@ -758,6 +752,11 @@ margin:0px auto 0px;
 max-width:500px;
 float:right;
 margin-left:15px;
+}
+.teensleavehome {
+max-width:500px;
+float:left;
+margin-right:15px;
 }
 .mySlides {
 max-width:100%;
@@ -834,15 +833,15 @@ max-width:675px;
 float:left;
 margin-right:15px;
 }
-.teensleavehome {
-max-width:600px;
-float:left;
-margin-right:15px;
-}
 .alps {
-max-width:600px;
+max-width:650px;
 float:right;
 margin-left:15px;
+}
+.teensleavehome {
+max-width:650px;
+float:left;
+margin-right:15px;
 }
 .toptitle {
 font-family:Cinzel-Regular;
@@ -1180,11 +1179,6 @@ max-width: 850px;
 float:left;
 margin-right:15px;
 }
-.teensleavehome {
-max-width:700px;
-float:left;
-margin-right:15px;
-}
 .motherdaughterfacade {
 max-width:850px;
 margin:0px auto 0px;
@@ -1193,6 +1187,12 @@ margin:0px auto 0px;
 max-width:600px;
 float:right;
 margin-left:15px;
+}
+.teensleavehome {
+max-width:650px;
+float:left;
+margin-right:15px;
+margin-bottom:0px;
 }
 .mySlides {
 max-width: 100%;
