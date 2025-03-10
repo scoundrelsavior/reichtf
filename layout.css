@@ -65,6 +65,7 @@ display:flex;
 margin: 0px 0px 0px;
 justify-content:space-between;
 align-items:center;
+line-height:1;
 }
 .reichcftitlefamily {
 font-family:ITCEDSCR;
@@ -78,7 +79,7 @@ font-family:Montserrat-ThinItalic;
 color:#FFFFFF;
 font-size:0.80rem;
 text-align:center;
-margin:-3px auto 10px;
+margin:0px auto 10px;
 }
 .reichfooterimg {
 display:block;
@@ -673,6 +674,7 @@ display:flex;
 margin: 0px 0px 0px;
 justify-content:space-between;
 align-items:center;
+line-height:1;
 }
 .reichcftitlefamily {
 font-family:ITCEDSCR;
@@ -685,7 +687,7 @@ margin:-4px auto 0px;
 font-family:Montserrat-ThinItalic;
 font-size:0.95rem;
 text-align:center;
-margin:-3px auto 15px;
+margin:0px auto 15px;
 }
 .reichfooterimg {
 display:block;
@@ -1114,6 +1116,7 @@ display:flex;
 margin:0px 0px 0px;
 justify-content:space-between;
 align-items:center;
+line-height:1;
 }
 .reichcftitlefamily {
 font-family:ITCEDSCR;
@@ -1126,7 +1129,7 @@ margin:-4px auto 0px;
 font-family:Montserrat-ThinItalic;
 font-size:0.95rem;
 text-align:center;
-margin:-3px auto 15px;
+margin:0px auto 15px;
 }
 .reichfooterimg {
 display:block;
