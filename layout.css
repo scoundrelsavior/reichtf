@@ -18,6 +18,12 @@ width: 0px;
 background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 }
 
+body {
+background-color:#000000;
+color:#FFFFFF;
+text-decoration:none;
+}
+
 /* Mobile Layout: 609px and below. */
 
 /* Responsive flex one column-layout instead of two-column layout */
@@ -62,13 +68,14 @@ align-items:center;
 }
 .reichcftitlefamily {
 font-family:ITCEDSCR;
-color:#EFEFEF;
+color:#FFFFFF;
 font-size:1.8rem;
 text-align:center;
 margin:-4px auto 0px;
 }
 .reichcfsubtitlefamily {
 font-family:Montserrat-ThinItalic;
+color:#FFFFFF;
 font-size:0.80rem;
 text-align:center;
 margin:-3px auto 10px;
@@ -80,18 +87,21 @@ margin:35px auto 0px;
 }
 .footertitle {
 font-family:TrajanPro3-Regular;
+color:#FFFFFF;
 font-size:1.4rem;
 text-align:center;
 margin-bottom:-4px;
 }
 .footertitlefamily {
 font-family:ITCEDSCR;
+color:#FFFFFF;
 font-size:1.7rem;
 text-align:center;
 margin-bottom:-4px;
 }
 .footeremail {
 font-family:Montserrat-ThinItalic;
+color:#FFFFFF;
 font-size:0.80rem;
 font-weight:bold;
 text-align:center;
@@ -99,6 +109,7 @@ margin:4px auto auto;
 }
 .footercopyright {
 font-family:Montserrat-ThinItalic;
+color:#FFFFFF;
 font-size:0.75rem;
 text-align:center;
 margin:8px auto auto;
@@ -215,8 +226,13 @@ padding:8px;
 }
 .content {
 display: block;
-font-size:1.09rem;
 padding: 10px;
+}
+.bodytypography {
+font-family:OpenSans-Light;
+font-size:1.0rem;
+color:#FFFFFF;
+line-height:1.9;
 }
 
 <--footer element must be set
@@ -487,8 +503,13 @@ padding:10px 10px 0px;
 }
 .content {
 display: block;
-font-size:1.09rem;
 padding: 15px;
+}
+.bodytypography {
+font-family:OpenSans-Light;
+font-size:1.09rem;
+color:#FFFFFF;
+line-height:1.6;
 }
 .footeralwaysbottom {
 min-height: 100vh;
@@ -923,8 +944,13 @@ padding:10px 10px 0px;
 }
 .content {
 display:block;
-font-size:1.09rem;
 padding: 15px;
+}
+.bodytypography {
+font-family:OpenSans-Light;
+font-size:1.09rem;
+color:#FFFFFF;
+line-height:1.6;
 }
 .footeralwaysbottom {
 min-height: 100vh;
@@ -1184,7 +1210,7 @@ max-width:850px;
 margin:0px auto 0px;
 }
 .alps {
-max-width:600px;
+max-width:650px;
 float:right;
 margin-left:15px;
 }
@@ -1192,7 +1218,6 @@ margin-left:15px;
 max-width:650px;
 float:left;
 margin-right:15px;
-margin-bottom:0px;
 }
 .mySlides {
 max-width: 100%;
@@ -1234,7 +1259,12 @@ max-width:850px;
 }
 .content {
 display:block;
-font-size:1.09rem;
 padding: 15px;
+}
+.bodytypography {
+font-family:OpenSans-Light;
+font-size:1.09rem;
+color:#FFFFFF;
+line-height:1.6;
 }
 }
