@@ -294,6 +294,7 @@ font-size:25px;
 font-family:Cinzel-Regular;
 font-size:1.0rem;
 text-align:center;
+margin:20px auto 0px;
 }
 .toptitlefacade {
 font-family:Cinzel-Regular;
@@ -339,7 +340,7 @@ font-size:0.85rem;
 text-align:justify;
 line-height:1.6;
 padding-top:10px;
-margin-bottom:20px;
+margin-bottom:0px;
 color:white;
 }
 .figcaptionborder {
@@ -565,6 +566,7 @@ display:none;
 font-family:Cinzel-Regular;
 font-size:1.1rem;
 text-align:center;
+margin:20px auto 0px;
 }
 .toptitlefacade {
 font-family:Cinzel-Regular;
@@ -873,6 +875,7 @@ margin-right:15px;
 font-family:Cinzel-Regular;
 font-size:1.1rem;
 text-align:center;
+margin:0px auto 0px;
 }
 .toptitlefacade {
 font-family:Cinzel-Regular;
