@@ -892,6 +892,18 @@ font-size:1.1rem;
 text-align:center;
 margin:20px auto 0px;
 }
+.teensleavehometabletdisplay {
+display:block;
+max-width:650px;
+float:left;
+margin-right:15px;
+}
+.teensleavehomelargedisplay {
+display:none;
+}
+.teensleavehomemobiledisplay {
+display:none;
+}
 }
 
 /* Desktop Layout: 1025px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
