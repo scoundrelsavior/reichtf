@@ -26,6 +26,16 @@ text-decoration:none;
 
 /* Mobile Layout: 609px and below. */
 
+.desktopdisplay {
+display:none;
+}
+.tabletdisplay {
+display:none;
+}
+.mobiledisplay {
+display:block;
+}
+
 /* Responsive flex one column-layout instead of two-column layout */
 .flex-container {
 flex-direction: column;
@@ -208,11 +218,6 @@ font-family:Montserrat-ExtraLightItalic;
 font-size: 17px;
 line-height:1.5;
 }
-.Montserrat-ExtraLightItalicJonBenetBday {
-font-family:Montserrat-ExtraLightItalic;
-font-size: 17px;
-line-height:1.5;
-}
 .cinzeloutlined {
 font-family:Cinzel-Regular;
 font-size:15px;
@@ -280,12 +285,6 @@ opacity:0.8;
 }
 .tableofcontents {
 padding:0px;
-}
-.comptabvisible {
-display:none;
-}
-.phonevisible {
-display:block;
 }
 .heading {
 font-size:25px;
@@ -403,16 +402,9 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 }
-.teensleavehomemobiledisplay {
-display:block;
+.teensleavehome {
 margin-left: auto;
 margin-right: auto;
-}
-.teensleavehomelargedisplay {
-display:none;
-}
-.teensleavehometabletdisplay {
-display:none;
 }
 .zeroMargin_mobile {
 margin-left: 0;
@@ -435,6 +427,15 @@ are 700px max so stop here.
 Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 701px) {
 
+.desktopdisplay {
+display:none;
+}
+.tabletdisplay {
+display:block;
+}
+.mobiledisplay {
+display:none;
+}
 .title {
 display:block;
 padding:0px 0px 5px;
@@ -491,11 +492,6 @@ line-height:1.5;
 .Montserrat-ExtraLightItalic {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 20px;
-line-height:1.5;
-}
-.Montserrat-ExtraLightItalicJonBenetBday {
-font-family:Montserrat-ExtraLightItalic;
-font-size: 14px;
 line-height:1.5;
 }
 .cinzeloutlined {
@@ -562,12 +558,6 @@ opacity:0.8;
 }
 .tableofcontents {
 padding:6px;
-}
-.comptabvisible {
-display:block;
-}
-.phonevisible {
-display:none;
 }
 .toptitle {
 font-family:Cinzel-Regular;
@@ -788,17 +778,10 @@ max-width:500px;
 float:right;
 margin-left:15px;
 }
-.teensleavehometabletdisplay {
-display:block;
+.teensleavehome {
 max-width:500px;
 float:left;
 margin-right:15px;
-}
-.teensleavehomelargedisplay {
-display:none;
-}
-.teensleavehomemobiledisplay {
-display:none;
 }
 .mySlides {
 max-width:100%;
@@ -892,23 +875,25 @@ font-size:1.1rem;
 text-align:center;
 margin:20px auto 0px;
 }
-.teensleavehometabletdisplay {
-display:block;
+.teensleavehome {
 max-width:650px;
 float:left;
 margin-right:15px;
-}
-.teensleavehomelargedisplay {
-display:none;
-}
-.teensleavehomemobiledisplay {
-display:none;
 }
 }
 
 /* Desktop Layout: 1025px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1025px) {
 
+.desktopdisplay {
+display:block;
+}
+.tabletdisplay {
+display:none;
+}
+.mobiledisplay {
+display:none;
+}
 .title {
 display:block;
 padding:0px 0px 5px;
@@ -1026,12 +1011,6 @@ opacity:0.8;
 }
 .tableofcontents {
 padding: 15px;
-}
-.comptabvisible {
-display:block;
-}
-.phonevisible {
-display:none;
 }
 .toptitle {
 font-family:Cinzel-Regular;
@@ -1247,18 +1226,10 @@ max-width:700px;
 float:right;
 margin-left:15px;
 }
-.teensleavehomelargedisplay {
-display:block;
+.teensleavehome {
 max-width:700px;
 float:left;
 margin-right:15px;
-}
-.teensleavehometabletdisplay {
-display:none;
-}
-.teensleavehomemobiledisplay {
-display:none;
-}
 .mySlides {
 max-width: 100%;
 max-height: 100%;
