@@ -157,10 +157,10 @@ border-width:0px 0px 0px 0px;
 }
 .reichresearchheader {
 display:flex;
-flex-direction:row;
-justify-content:space-between;
+margin: 0px 0px 0px;
+justify-content:center;
 align-items:center;
-text-align:center;
+margin:5px auto 15px;
 }
 .reichresearchtitle {
 font-family:ITCEDSCR;
@@ -825,10 +825,10 @@ border-width:0px 0px 1px 0px;
 }
 .reichresearchheader {
 display:flex;
-flex-direction:row;
-justify-content:space-between;
+margin: 0px 0px 0px;
+justify-content:center;
 align-items:center;
-text-align:center;
+margin:-5px auto 15px;
 }
 .reichresearchtitle {
 font-family:ITCEDSCR;
@@ -1332,9 +1332,10 @@ border-width:0px 0px 1px 0px;
 }
 .reichresearchheader {
 display:flex;
-flex-direction:row;
-justify-content:space-between;
+margin: 0px 0px 0px;
+justify-content:center;
 align-items:center;
+margin:-5px auto 15px;
 }
 .reichresearchtitle {
 font-family:ITCEDSCR;
