@@ -29,6 +29,9 @@ text-decoration:none;
 .desktopdisplay {
 display:none;
 }
+.twelveninetabletdisplay {
+display:none;
+}
 .tabletdisplay {
 display:none;
 }
@@ -439,6 +442,9 @@ Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 701px) {
 
 .desktopdisplay {
+display:none;
+}
+.twelveninetabletdisplay {
 display:none;
 }
 .tabletdisplay {
@@ -870,6 +876,18 @@ margin:0px auto 15px;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
 }
+.desktopdisplay {
+display:none;
+}
+.twelveninetabletdisplay {
+display:block;
+}
+.tabletdisplay {
+display:none;
+}
+.mobiledisplay {
+display:none;
+}
 .serafina {
 max-width: 650px;
 float:right;
@@ -929,6 +947,9 @@ margin-left:15px;
 
 .desktopdisplay {
 display:block;
+}
+.twelveninetabletdisplay {
+display:none;
 }
 .tabletdisplay {
 display:none;
