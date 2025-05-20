@@ -413,6 +413,10 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 }
+.reichfamilyteenboy {
+margin-left: auto;
+margin-right: auto;
+}
 .zeroMargin_mobile {
 margin-left: 0;
 }
@@ -797,6 +801,10 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 }
+.reichfamilyteenboy {
+margin-left: auto;
+margin-right: auto;
+}
 .mySlides {
 max-width:100%;
 max-height:100%;
@@ -874,8 +882,8 @@ margin-right:15px;
 }
 .motherdaughterfield {
 max-width:700px;
-float:right;
-margin-left:15px;
+float:left;
+margin-right:15px;
 }
 .alps {
 max-width:650px;
@@ -908,6 +916,11 @@ margin:20px auto 0px;
 max-width:650px;
 float:left;
 margin-right:15px;
+}
+.reichfamilyteenboy {
+max-width:650px;
+float:right;
+margin-left:15px;
 }
 }
 
@@ -1248,8 +1261,8 @@ margin-right:15px;
 }
 .motherdaughterfield {
 max-width: 850px;
-float:right;
-margin-left:15px;
+float:left;
+margin-right:15px;
 }
 .motherdaughterfacade {
 max-width:850px;
@@ -1269,6 +1282,11 @@ margin-left:15px;
 max-width:850px;
 float:left;
 margin-right:15px;
+}
+.reichfamilyteenboy {
+max-width:850px;
+float:right;
+margin-left:15px;
 }
 .mySlides {
 max-width: 100%;
