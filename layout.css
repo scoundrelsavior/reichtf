@@ -396,6 +396,10 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 }
+.motherson {
+margin-left: auto;
+margin-right: auto;
+}
 .motherdaughterfield {
 margin-left: auto;
 margin-right: auto;
@@ -785,6 +789,10 @@ max-width: 850px;
 margin-right:auto;
 margin-left:auto;
 }
+.motherson {
+margin-right:auto;
+margin-left:auto;
+}
 .motherdaughterfield {
 max-width: 850px;
 margin-right:auto;
@@ -898,6 +906,11 @@ max-width:675px;
 float:left;
 margin-right:15px;
 }
+.motherson {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
 .motherdaughterfield {
 max-width:700px;
 float:left;
@@ -931,12 +944,12 @@ text-align:center;
 margin:20px auto 0px;
 }
 .reichfamilyteengirl {
-max-width:650px;
+max-width:700px;
 float:left;
 margin-right:15px;
 }
 .reichfamilyteenboy {
-max-width:650px;
+max-width:700px;
 float:right;
 margin-left:15px;
 }
@@ -1280,6 +1293,11 @@ max-width: 850px;
 float:left;
 margin-right:15px;
 }
+.motherson {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
 .motherdaughterfield {
 max-width: 850px;
 float:left;
@@ -1295,17 +1313,17 @@ float:right;
 margin-left:15px;
 }
 .lauterbrunnen {
-max-width:850px;
+max-width:700px;
 float:right;
 margin-left:15px;
 }
 .reichfamilyteengirl {
-max-width:850px;
+max-width:700px;
 float:left;
 margin-right:15px;
 }
 .reichfamilyteenboy {
-max-width:850px;
+max-width:700px;
 float:right;
 margin-left:15px;
 }
