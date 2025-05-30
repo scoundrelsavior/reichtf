@@ -193,6 +193,8 @@ font-size:0.85rem;
 margin-bottom:6px;
 }
 .reichemailfootertxt {
+font-family:Montserrat-ThinItalic;
+font-weight:bold;
 text-align:center;
 font-size:0.86rem;
 margin-bottom:6px;
@@ -861,6 +863,8 @@ font-size:0.95rem;
 margin-bottom:6px;
 }
 .reichemailfootertxt {
+font-family:Montserrat-ThinItalic;
+font-weight:bold;
 text-align:center;
 font-size:0.96rem;
 margin-bottom:6px;
@@ -1363,6 +1367,8 @@ font-family:ITCEDSCR;
 font-size:2.1rem;
 }
 .reichsubtitlefootertxt {
+font-family:Montserrat-ThinItalic;
+font-weight:bold;
 text-align:center;
 font-size:0.95rem;
 margin-bottom:6px;
