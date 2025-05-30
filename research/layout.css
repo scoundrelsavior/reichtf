@@ -21,7 +21,7 @@ background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
   display: flow-root;
 }
 body {
-background-color:#111;
+background-color:#000000;
 font-family:OpenSans-Light;
 color: #FFFFFF;
 font-size:1.09rem;
