@@ -176,7 +176,7 @@ margin:0px auto 0px;
 }
 footer {
 margin-top:auto;
-margin-bottom:40px;
+margin-bottom:30px;
 }
 .reichfooterimg {
 max-width:130px;
@@ -294,12 +294,12 @@ font-size:1.09rem;
 padding: 10px;
 }
 .border {
-min-height:100vh;
+min-height: 100vh;
 display:flex;
 flex-direction:column;
-margin:0px 0px 0px;
+margin:10px 10px 10px;
 border:1px solid #555;
-border-width:0px 0px 0px 0px;
+border-width:1px 1px 1px 1px;
 border-radius:10px;
 }
 .tableofcontents {
@@ -650,12 +650,12 @@ font-size:1.09rem;
 padding: 15px;
 }
 .border {
-min-height:100vh;
+min-height: 100vh;
 display:flex;
 flex-direction:column;
-margin:0px 0px 0px;
+margin:15px 15px 15px;
 border:1px solid #555;
-border-width:0px 0px 0px 0px;
+border-width:1px 1px 1px 1px;
 border-radius:10px;
 }
 .tableofcontents {
@@ -846,7 +846,7 @@ margin:0px auto 0px;
 }
 footer {
 margin-top:auto;
-margin-bottom:35px;
+margin-bottom:30px;
 }
 .reichfooterimg {
 max-width:130px;
@@ -1355,7 +1355,7 @@ margin:0px auto 0px;
 }
 footer {
 margin-top:auto;
-margin-bottom:35px;
+margin-bottom:30px;
 }
 .reichfooterimg {
 max-width:130px;
