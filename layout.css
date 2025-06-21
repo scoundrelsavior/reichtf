@@ -400,6 +400,10 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 }
+.motherdaughtergarden {
+margin-right:auto;
+margin-left:auto;
+}
 .motherson {
 margin-left: auto;
 margin-right: auto;
@@ -429,6 +433,10 @@ margin-left: auto;
 margin-right: auto;
 }
 .reichfamilyteenboy {
+margin-left: auto;
+margin-right: auto;
+}
+.teengirlschool {
 margin-left: auto;
 margin-right: auto;
 }
@@ -797,6 +805,10 @@ margin-left:auto;
 margin-right:auto;
 margin-left:auto;
 }
+.motherdaughtergarden {
+margin-right:auto;
+margin-left:auto;
+}
 .motherson {
 margin-right:auto;
 margin-left:auto;
@@ -828,6 +840,10 @@ margin-left: auto;
 margin-right: auto;
 }
 .reichfamilyteenboy {
+margin-left: auto;
+margin-right: auto;
+}
+.teengirlschool {
 margin-left: auto;
 margin-right: auto;
 }
@@ -915,20 +931,30 @@ max-width:700px;
 float:left;
 margin-right:15px;
 }
+.motherdaughtergarden {
+max-width:700px;
+float:right;
+margin-left:15px;
+}
 .motherdaughterfall {
 max-width:700px;
 float:left;
 margin-right:15px;
 }
+.motherdaughtergarden {
+max-width:750px;
+float:right;
+margin-left:15px;
+}
 .motherson {
 max-width:700px;
-float:left;
-margin-right:15px;
+float:right;
+margin-left:15px;
 }
 .littlegirlspastelpink {
 max-width:700px;
-float:left;
-margin-right:15px;
+float:right;
+margin-left:15px;
 }
 .motherdaughterfield {
 max-width:700px;
@@ -947,8 +973,8 @@ margin-left:15px;
 }
 .lauterbrunnen {
 max-width:700px;
-float:right;
-margin-left:15px;
+float:left;
+margin-right:15px;
 }
 .toptitle {
 font-family:Cinzel-Regular;
@@ -964,13 +990,18 @@ margin:20px auto 0px;
 }
 .reichfamilyteengirl {
 max-width:700px;
-float:left;
-margin-right:15px;
+float:right;
+margin-left:15px;
 }
 .reichfamilyteenboy {
 max-width:700px;
-float:right;
-margin-left:15px;
+float:left;
+margin-right:15px;
+}
+.teengirlschool {
+max-width:700px;
+float:left;
+margin-right:15px;
 }
 }
 
@@ -1317,15 +1348,20 @@ max-width:750px;
 float:left;
 margin-right:15px;
 }
+.motherdaughtergarden {
+max-width:750px;
+float:right;
+margin-left:15px;
+}
 .motherson {
 max-width:750px;
-float:left;
-margin-right:15px;
+float:right;
+margin-left:15px;
 }
 .littlegirlspastelpink {
 max-width:800px;
-float:left;
-margin-right:15px;
+float:right;
+margin-left:15px;
 }
 .motherdaughterfield {
 max-width: 850px;
@@ -1343,18 +1379,23 @@ margin-left:15px;
 }
 .lauterbrunnen {
 max-width:700px;
+float:left;
+margin-right:15px;
+}
+.reichfamilyteengirl {
+max-width:700px;
 float:right;
 margin-left:15px;
 }
-.reichfamilyteengirl {
+.reichfamilyteenboy {
 max-width:700px;
 float:left;
 margin-right:15px;
 }
-.reichfamilyteenboy {
+.teengirlschool {
 max-width:700px;
-float:right;
-margin-left:15px;
+float:left;
+margin-right:15px;
 }
 .mySlides {
 max-width: 100%;
