@@ -75,7 +75,7 @@ margin:-6px auto 0px;
 }
 .reichheaderfamily {
 display:flex;
-margin: 0px 0px 0px;
+margin: 5px 0px 5px;
 justify-content:space-between;
 align-items:center;
 line-height:1;
@@ -262,9 +262,9 @@ margin-bottom:10px;
 min-height: 97.3vh;
 display:flex;
 flex-direction:column;
-margin:10px 10px 10px;
+margin:0px 0px 0px;
 border:1px solid #555;
-border-width:1px 1px 1px 1px;
+border-width:0px 0px 0px 0px;
 border-radius:10px;
 }
 .borderfacade {
@@ -564,9 +564,9 @@ margin-bottom:15px;
 min-height:100vh;
 display:flex;
 flex-direction:column;
-margin:15px 15px 15px;
+margin:0px 0px 0px;
 border:1px solid #555;
-border-width:1px 1px 1px 1px;
+border-width:0px 0px 0px 0px;
 border-radius:12px;
 }
 .borderfacade {
@@ -703,7 +703,7 @@ margin:-6px auto 0px;
 }
 .reichheaderfamily {
 display:flex;
-margin: 0px 0px 0px;
+margin: 5px 0px 5px;
 justify-content:space-between;
 align-items:center;
 line-height:1;
