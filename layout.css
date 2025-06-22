@@ -412,6 +412,10 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 }
+.girlfirstcommunion {
+margin-left: auto;
+margin-right: auto;
+}
 .motherdaughterfield {
 margin-left: auto;
 margin-right: auto;
@@ -817,6 +821,10 @@ margin-left:auto;
 margin-left: auto;
 margin-right: auto;
 }
+.girlfirstcommunion {
+margin-left: auto;
+margin-right: auto;
+}
 .motherdaughterfield {
 max-width: 850px;
 margin-right:auto;
@@ -952,6 +960,11 @@ float:right;
 margin-left:15px;
 }
 .littlegirlspastelpink {
+max-width:700px;
+float:right;
+margin-left:15px;
+}
+.girlsfirstcommunion {
 max-width:700px;
 float:right;
 margin-left:15px;
@@ -1359,6 +1372,11 @@ float:right;
 margin-left:15px;
 }
 .littlegirlspastelpink {
+max-width:750px;
+float:right;
+margin-left:15px;
+}
+.girlsfirstcommunion {
 max-width:750px;
 float:right;
 margin-left:15px;
