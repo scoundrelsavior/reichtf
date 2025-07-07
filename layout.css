@@ -271,10 +271,10 @@ border-radius:10px;
 min-height: 97.4vh;
 display:flex;
 flex-direction:column;
-margin:10px 10px 10px;
+margin:0px 0px 0px;
 border:1px solid #555;
-border-width:1px 1px 1px 1px;
-border-radius:10px;
+border-width:0px 0px 0px 0px;
+border-radius:0px;
 }
 .articlehr {
 display:none;
@@ -451,10 +451,42 @@ margin-left: 0;
 display: none;
 }
 /*Anchors*/
-#disciples {
+#prayer {
 scroll-margin-top:10px;
 }
-
+#tithe {
+scroll-margin-top:10px;
+}
+#government {
+scroll-margin-top:10px;
+}
+#political {
+scroll-margin-top:10px;
+}
+#raisingchildren {
+scroll-margin-top:10px;
+}
+#comingofage {
+scroll-margin-top:10px;
+}
+#vowofpurity {
+scroll-margin-top:10px;
+}
+#humansexuality {
+scroll-margin-top:10px;
+}
+#teensleavehome {
+scroll-margin-top:10px;
+}
+#temple {
+scroll-margin-top:10px;
+}
+#psychiatry {
+scroll-margin-top:10px;
+}
+#genealogy {
+scroll-margin-top:10px;
+}
 /* Tablet Layout 701px to 835px - Ipad Pro 11-inch
 down to 600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
 wide but I take it to 701 to be on the safe side. Most of my images
@@ -573,10 +605,10 @@ border-radius:12px;
 min-height: 100vh;
 display:flex;
 flex-direction:column;
-margin:15px 15px 15px;
+margin:0px 0px 0px;
 border:1px solid #555;
-border-width:1px 1px 1px 1px;
-border-radius:12px;
+border-width:0px 0px 0px 0px;
+border-radius:0px;
 max-width:850px;
 }
 .articlehr {
@@ -867,7 +899,40 @@ display: none;
 margin-left: 0;
 }
 /*Anchors*/
-#disciples {
+#prayer {
+scroll-margin-top:15px;
+}
+#tithe {
+scroll-margin-top:15px;
+}
+#government {
+scroll-margin-top:15px;
+}
+#political {
+scroll-margin-top:15px;
+}
+#raisingchildren {
+scroll-margin-top:15px;
+}
+#comingofage {
+scroll-margin-top:15px;
+}
+#vowofpurity {
+scroll-margin-top:15px;
+}
+#humansexuality {
+scroll-margin-top:15px;
+}
+#teensleavehome {
+scroll-margin-top:15px;
+}
+#temple {
+scroll-margin-top:15px;
+}
+#psychiatry {
+scroll-margin-top:15px;
+}
+#genealogy {
 scroll-margin-top:15px;
 }
 }
@@ -1426,7 +1491,40 @@ margin-left: 0;
 display: none;
 }
 /*Anchors*/
-#disciples {
+#prayer {
+scroll-margin-top:15px;
+}
+#tithe {
+scroll-margin-top:15px;
+}
+#government {
+scroll-margin-top:15px;
+}
+#political {
+scroll-margin-top:15px;
+}
+#raisingchildren {
+scroll-margin-top:15px;
+}
+#comingofage {
+scroll-margin-top:15px;
+}
+#vowofpurity {
+scroll-margin-top:15px;
+}
+#humansexuality {
+scroll-margin-top:15px;
+}
+#teensleavehome {
+scroll-margin-top:15px;
+}
+#temple {
+scroll-margin-top:15px;
+}
+#psychiatry {
+scroll-margin-top:15px;
+}
+#genealogy {
 scroll-margin-top:15px;
 }
 }
