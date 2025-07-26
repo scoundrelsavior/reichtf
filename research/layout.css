@@ -134,12 +134,50 @@ font-size:32px;
 font-family:Montserrat-ThinItalic;
 font-size:10.5px;
 }
+.whatsoeverborder {
+border:1px solid #555;
+border-radius:0px;
+margin:0px auto 0px;
+padding:0px 0px 0px;
+border-width:0px 0px 1px 0px;
+}
+.articlecopyright {
+text-align:center;
+font-family:Montserrat-ThinItalic;
+font-size:0.95rem;
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:20px auto 20px;
+}
 .titlelines {
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
 margin:26px auto 26px;
+}
+.photolinktitle {
+font-family:ITCEDSCR;
+font-size: 1.95rem;
+text-align:center;
+margin:0px auto 0px;
+line-height:1.0;
+}
+.photolinksubtitle {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 0.80rem;
+text-align:center;
+margin:3px auto 0px;
+line-height:1.0;
+}
+.whatsoevercaption {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 0.9rem;
+margin:10px auto 10px;
+line-height:1.8;
+text-align:justify;
 }
 .header {
 text-align:center;
@@ -367,12 +405,6 @@ padding:10px;
 border-radius:12px;
 line-height:1.4;
 }
-.whatsoeverborder {
-border:1px solid #555;
-border-radius:6px;
-margin:26px auto 26px;
-padding:26px 8px 0px;
-}
 .whatsoeverheading {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 17px;
@@ -380,13 +412,10 @@ line-height:1.4;
 }
 .whatsoevercaption {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 16px;
+font-size: 0.9rem;
 margin:10px auto 10px;
-border:1px solid #555;
-background:rgba(0,0,0,0.80);
-padding:10px;
-border-radius:6px;
-line-height:1.4;
+line-height:1.8;
+text-align:justify;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
@@ -722,16 +751,6 @@ padding:10px;
 border-radius:12px;
 line-height:1.4;
 }
-/*maxwidth changed for
-each photo inline*/
-.whatsoeverborder {
-border:1px double #555;
-outline:1px solid #555;
-outline-offset:5px;
-border-radius:0px;
-margin:50px auto 50px;
-padding:20px 20px 20px;
-}
 .whatsoeverheading {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 17px;
@@ -739,13 +758,10 @@ line-height:1.4;
 }
 .whatsoevercaption {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 16px;
-margin:20px auto 0px;
-border:1px solid #555;
-background:rgba(0,0,0,0.80);
-padding:10px;
-border-radius:12px;
-line-height:1.4;
+font-size: 1.0rem;
+margin:10px auto 10px;
+line-height:1.8;
+text-align:justify;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
@@ -795,12 +811,44 @@ padding-left:15px;
 max-width:50px;
 padding-right:15px;
 }
+/*maxwidth changed for
+each photo inline*/
+.whatsoeverborder {
+border:1px solid #555;
+border-radius:12px;
+margin:26px auto 80px;
+padding:0px 15px 0px;
+}
+.articlecopyright {
+text-align:center;
+font-family:Montserrat-ThinItalic;
+font-size:0.95rem;
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:20px auto 20px;
+}
 .titlelines {
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
 margin:15px auto 13px;
+}
+.photolinktitle {
+font-family:ITCEDSCR;
+font-size: 2.1rem;
+text-align:center;
+margin:0px auto 0px;
+line-height:1.0;
+}
+.photolinksubtitle {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1.0rem;
+text-align:center;
+margin:3px auto 0px;
+line-height:1.0;
 }
 .reichtitle {
 font-family:ITCEDSCR;
@@ -1226,16 +1274,6 @@ padding:10px;
 border-radius:12px;
 line-height:1.4;
 }
-/*maxwidth changed for
-each photo inline*/
-.whatsoeverborder {
-border:1px solid #555;
-outline:1px solid #555;
-outline-offset:5px;
-border-radius:0px;
-margin:50px auto 50px;
-padding:20px 20px 20px;
-}
 .whatsoeverheading {
 font-family:Montserrat-ExtraLightItalic;
 font-size: 17px;
@@ -1243,13 +1281,10 @@ line-height:1.4;
 }
 .whatsoevercaption {
 font-family:Montserrat-ExtraLightItalic;
-font-size: 16px;
-margin:20px auto 0px;
-border:1px solid #555;
-background:rgba(0,0,0,0.80);
-padding:10px;
-border-radius:12px;
-line-height:1.4;
+font-size: 1.0rem;
+margin:10px auto 10px;
+line-height:1.8;
+text-align:justify;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
@@ -1313,12 +1348,44 @@ font-size:50px;
 font-family:Montserrat-ThinItalic;
 font-size:15px;
 }
+/*maxwidth changed for
+each photo inline*/
+.whatsoeverborder {
+border:1px solid #555;
+border-radius:12px;
+margin:26px auto 80px;
+padding:0px 15px 0px;
+}
+.articlecopyright {
+text-align:center;
+font-family:Montserrat-ThinItalic;
+font-size:0.95rem;
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:20px auto 20px;
+}
 .titlelines {
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
 margin:15px auto 13px;
+}
+.photolinktitle {
+font-family:ITCEDSCR;
+font-size: 2.4rem;
+text-align:center;
+margin:0px auto 0px;
+line-height:1.0;
+}
+.photolinksubtitle {
+font-family:Montserrat-ExtraLightItalic;
+font-size: 1.0rem;
+text-align:center;
+margin:3px auto 0px;
+line-height:1.0;
 }
 .header {
 text-align:center;
