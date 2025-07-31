@@ -400,6 +400,10 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 }
+.motherdaughterbedtime {
+margin-right:auto;
+margin-left:auto;
+}
 .motherdaughtergarden {
 margin-right:auto;
 margin-left:auto;
@@ -841,6 +845,10 @@ margin-left:auto;
 margin-right:auto;
 margin-left:auto;
 }
+.motherdaughterbedtime {
+margin-right:auto;
+margin-left:auto;
+}
 .motherdaughtergarden {
 margin-right:auto;
 margin-left:auto;
@@ -1010,6 +1018,11 @@ float:right;
 margin-left:15px;
 }
 .motherdaughterfall {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.motherdaughterbedtime {
 max-width:700px;
 float:left;
 margin-right:15px;
@@ -1422,6 +1435,11 @@ float:left;
 margin-right:15px;
 }
 .motherdaughterfall {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.motherdaughterbedtime {
 max-width:700px;
 float:left;
 margin-right:15px;
