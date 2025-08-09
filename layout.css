@@ -88,7 +88,7 @@ opacity:1.0;
 .reichcftitlefamily {
 font-family:ITCEDSCR;
 color:#FFFFFF;
-font-size:1.9rem;
+font-size:2.2rem;
 text-align:center;
 margin:-2px auto 0px;
 }
@@ -756,15 +756,15 @@ opacity:1.0;
 .reichcftitlefamily {
 font-family:ITCEDSCR;
 color:#FFFFFF;
-font-size:2.5rem;
+font-size:2.7rem;
 text-align:center;
-margin:-6px auto 0px;
+margin:-10px auto 0px;
 }
 .reichcfsubtitlefamily {
 font-family:Montserrat-ThinItalic;
 font-size:0.95rem;
 text-align:center;
-margin:2px auto 10px;
+margin:2px auto 8px;
 }
 .reichfooterimg {
 display:block;
@@ -1357,7 +1357,7 @@ opacity:1.0;
 .reichcftitlefamily {
 font-family:ITCEDSCR;
 color:#FFFFFF;
-font-size:2.5rem;
+font-size:2.7rem;
 text-align:center;
 margin:-6px auto 0px;
 }
