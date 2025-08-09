@@ -758,7 +758,7 @@ font-family:ITCEDSCR;
 color:#FFFFFF;
 font-size:2.7rem;
 text-align:center;
-margin:-10px auto 0px;
+margin:-6px auto 0px;
 }
 .reichcfsubtitlefamily {
 font-family:Montserrat-ThinItalic;
@@ -977,9 +977,9 @@ Mobile Layout and Tablet Layout. */
 min-height:100vh;
 display:flex;
 flex-direction:column;
-margin:15px 15px 15px;
+margin:0px 0px 0px;
 border:1px solid #555;
-border-width:1px 1px 1px 1px;
+border-width:0px 0px 0px 0px;
 border-radius:12px;
 }
 .borderfacade {
