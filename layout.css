@@ -459,6 +459,9 @@ margin-left: 0;
 display: none;
 }
 /*Anchors*/
+#religion {
+scroll-margin-top:10px;
+}
 #prayer {
 scroll-margin-top:10px;
 }
@@ -915,6 +918,9 @@ display: none;
 margin-left: 0;
 }
 /*Anchors*/
+#religion {
+scroll-margin-top:15px;
+}
 #prayer {
 scroll-margin-top:15px;
 }
@@ -1527,6 +1533,9 @@ margin-left: 0;
 display: none;
 }
 /*Anchors*/
+#religion {
+scroll-margin-top:15px;
+}
 #prayer {
 scroll-margin-top:15px;
 }
