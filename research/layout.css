@@ -181,7 +181,7 @@ text-align:justify;
 }
 .header {
 text-align:center;
-margin:0px auto 0px;
+margin:5px auto 0px;
 line-height:1;
 }
 .headerhr {
@@ -874,7 +874,7 @@ font-size:14px;
 }
 .header {
 text-align:center;
-margin:-2px auto -2px;
+margin:-4px auto -2px;
 line-height:1;
 }
 .headerhr {
@@ -1409,7 +1409,7 @@ line-height:1.0;
 }
 .header {
 text-align:center;
-margin:-8px auto -8px;
+margin:-4px auto -2px;
 line-height:1;
 }
 .headerhr {
