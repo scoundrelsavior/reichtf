@@ -2,21 +2,69 @@
 <html class=""><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Footer</title> 
+<title>The Reich Family Genealogical Research Project</title>
 
 <!--CSS Referrals-->
+<link rel="canonical" href="https://reich.tf/research" />
 <link href="layout.css" rel="stylesheet" type="text/css">
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="favicon.ico">
+<link href="video-js.css" rel="stylesheet" />
 
-<!--Prevent All Search Engines From Indexing-->
-<meta name="robots" content="noindex, noimageindex, nofollow, noarchive">
+<!--Favicon-->
+<link rel="shortcut icon" href="favicon.ico">
 
 <!--Fonts-->
 <link rel="preload" href="fonts/OpenSans-Light.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="preload" href="fonts/Montserrat-ThinItalic.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/Montserrat-ExtraLight" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="fonts/ITCEDSCR.TTF" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/VIVALDII.TTF" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/TrajanPro3-Regular.otf" as="font" type="font/otf" crossorigin>
+<link rel="preload" href="fonts/Montserrat-Thin.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/Montserrat-ThinItalic.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="fonts/Montserrat-ExtraLightItalic.ttf" as="font" type="font/ttf" crossorigin>
+
+<!--Preload Top Images-->
+<link rel="preload" as="image" href="images/victorianfamilyportraita.jpg">
+<link rel="preload" as="image" href="images/victorianfamilyportraitb.jpg">
+<link rel="preload" as="image" href="images/victorianfamilyportraitc.jpg">
+<link rel="preload" as="image" href="images/victorianfamilyportraitd.jpg">
+<link rel="preload" as="image" href="images/victorianfamilyportraite.jpg">
+<link rel="preload" as="image" href="images/victorianfamilyportraitf.jpg">
+<link rel="preload" as="image" href="images/victorianfamilyportraitg.jpg">
+<link rel="preload" as="image" href="images/victorianfamilyportraith.jpg">
+
+<link rel="preload" as="image" href="images/belgiumgirls1910a.jpg">
+<link rel="preload" as="image" href="images/belgiumgirls1910b.jpg">
+<link rel="preload" as="image" href="images/belgiumgirls1910c.jpg">
+<link rel="preload" as="image" href="images/belgiumgirls1910d.jpg">
+<link rel="preload" as="image" href="images/belgiumgirls1910e.jpg">
+<link rel="preload" as="image" href="images/belgiumgirls1910f.jpg">
+<link rel="preload" as="image" href="images/belgiumgirls1910g.jpg">
+<link rel="preload" as="image" href="images/belgiumgirls1910h.jpg">
+
+<!--Twitter Preview-->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="https://reich.tf/research">
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="Genealogical Research Project">
+<meta name="twitter:image" content="https://reich.tf/research/images/reichresearchpreview.png">
+
+<!--Site Facebook Preview-->
+<meta property="og:title" content="The Reich Family">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://reich.tf">
+<meta property="og:description" content="Genealogical Research Project">
+<meta property="og:image" content="https://reich.tf/research/images/reichresearchpreview.png">
+<meta property="og:image:alt" content="The Reich Family">
+<meta property="fb:admins" content="">
+<meta property="fb:app_id" content="">
+	
+<meta name="google-site-verification" content="">
+<meta name="Author" content="The Reich Family">
+<meta name="Keywords" content="genealogical, research, genealogy, heritage, Jewish, Polly Klaas, Eugene Reed, Maria Katsaris, Steven Katsaris">
+<meta name="Description" content="Genealogical Research Project">
+
 <style>
 
 @media print {
@@ -26,26 +74,38 @@
 }
 
 @font-face {
-  font-family:OpenSans-Light;
-  src: url(fonts/OpenSans-Light.ttf);
+  font-family:ITCEDSCR;
+  src: url(fonts/ITCEDSCR.TTF);
   font-display: block;
 }
-
+@font-face {
+  font-family:VIVALDII;
+  src: url(fonts/VIVALDII.TTF);
+  font-display: block;
+}
 @font-face {
   font-family:TrajanPro3-Regular;
   src: url(fonts/TrajanPro3-Regular.otf);
   font-display: block;
 }
-
 @font-face {
-  font-family:ITCEDSCR;
-  src: url(fonts/ITCEDSCR.TTF);
+  font-family:Cinzel-Regular;
+  src: url(fonts/Cinzel-Regular.ttf);
   font-display: block;
 }
-
 @font-face {
-  font-family:Montserrat-ExtraLightItalic;
-  src: url(fonts/Montserrat-ExtraLightItalic.ttf);
+  font-family:OpenSans-Light;
+  src: url(fonts/OpenSans-Light.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:Montserrat-Light;
+  src: url(fonts/Montserrat-Light.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:Montserrat-Thin;
+  src: url(fonts/Montserrat-Thin.ttf);
   font-display: block;
 }
 @font-face {
@@ -53,10 +113,31 @@
   src: url(fonts/Montserrat-ThinItalic.ttf);
   font-display: block;
 }
+@font-face {
+  font-family:Montserrat-ExtraLight;
+  src: url(fonts/Montserrat-ExtraLight.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:Montserrat-ExtraLightItalic;
+  src: url(fonts/Montserrat-ExtraLightItalic.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:PinyonScript-Regular;
+  src: url(fonts/PinyonScript-Regular.ttf);
+  font-display: block;
+}
+
+.no-right-click {
+    pointer-events: none;
+}
 
 </style>
 
 <script src="respond.min.js"></script>
+
+<script src="essential_audio.js"></script>
 
 <script>
     function killCopy(e){
@@ -85,18 +166,120 @@ document.addEventListener('keyup', (e) => {
 });
 </script>
 
+<noscript>
+
+<style type="text/css"> #border { display:none; } </style>
+
+<div class="content" style="text-align:justify;min-height:100vh;max-width:1000px;margin:auto;">
+
+<div class="bodytypography">
+
+<div class="header">
+<p class="reichresearchtitle">Reich Family</p>
+<p class="reichresearchsubtitle">Genealogical Research Project</p>
+</div>
+
+<figure class="comptabvisible" style="max-width:1000px;margin:15px auto 0px;text-align:center;">
+<div class="photolayout">
+<img style="width:50%;" class="border-radius-top-left" src="images/victorianfamilyportraita.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" class="border-radius-top-right" src="images/victorianfamilyportraitb.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" src="images/victorianfamilyportraitc.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" src="images/victorianfamilyportraitd.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" src="images/victorianfamilyportraite.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" src="images/victorianfamilyportraitf.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" class="border-radius-bottom-left" src="images/victorianfamilyportraitg.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" class="border-radius-bottom-right" src="images/victorianfamilyportraith.jpg" alt="Victorian Family Portrait"/>
+</div>
+<figcaption>Young Samuel Fox sits in his father's lap, circa 1820. Samuel, born 7th June 1815, was the youngest son of William and Mary Fox. The Fox family lived in Bradwell England. (St Ann's Catholic Primary School, Sheffield England / Photography Designed by Reich)</figcaption>
+</figure>
+
+<figure class="phonevisible" style="max-width:600px;margin:10px auto 0px;">
+<div class="photolayout">
+<img style="width:50%;" class="border-radius-top-left" src="images/belgiumgirls1910a.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" class="border-radius-top-right" src="images/belgiumgirls1910b.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" src="images/belgiumgirls1910c.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" src="images/belgiumgirls1910d.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" src="images/belgiumgirls1910e.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" src="images/belgiumgirls1910f.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" class="border-radius-bottom-left" src="images/belgiumgirls1910g.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" class="border-radius-bottom-right" src="images/belgiumgirls1910h.jpg" alt="Belgium Girls 1910"/>
+</div>
+<figcaption>Mother with her four daughters in Belgium circa 1910. (Photography Designed by Reich)</figcaption>
+</figure>
+
+<p>Javascript is disabled in your browser. This page relies on Javascript. Please enable Javascript in your web browser and refresh the page to view it. For instructions on how to enable Javascript in Google Chrome, Apple Safari, Microsoft Edge, Mozilla Firefox, and Opera, visit <a href="https://www.enablejavascript.io/en" target="_blank">https://www.enablejavascript.io/en</a>.</p>
+
+</div>
+
+</div>
+
 <footer>
-<div class="reichtitlefootertxt"><a href="https://reich.tf" target="_blank">Reich Family</a></div>
+<div class="reichtitlefootertxt"><a href="https://reich.tf">Reich Family</a></div>
 <div class="reichemailfootertxt">Genealogical Research Project</div>
 <div class="reichemailfootertxt"><a href="mailto:research@reich.tf">research@reich.tf</a></div>
 <div class="reichcopyrightfootertxt"><i>Copyright 2025 All Rights Reserved</i></div>
 </footer>
 
+</noscript>
+
+<div id="border" class="border">
+
+<div class="content" style="text-align:justify;">
+
+<div class="bodytypography">
+
+<div class="header">
+<p class="reichresearchtitle">Reich Family</p>
+<p class="reichresearchsubtitle">Genealogical Research Project</p>
 </div>
 
-<script src="iframe-resizer.child.js"></script>
+<figure class="comptabvisible" style="max-width:1000px;margin:15px auto 0px;text-align:center;">
+<div class="photolayout">
+<img style="width:50%;" class="border-radius-top-left" src="images/victorianfamilyportraita.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" class="border-radius-top-right" src="images/victorianfamilyportraitb.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" src="images/victorianfamilyportraitc.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" src="images/victorianfamilyportraitd.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" src="images/victorianfamilyportraite.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" src="images/victorianfamilyportraitf.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" class="border-radius-bottom-left" src="images/victorianfamilyportraitg.jpg" alt="Victorian Family Portrait"/>
+<img style="width:50%;" class="border-radius-bottom-right" src="images/victorianfamilyportraith.jpg" alt="Victorian Family Portrait"/>
+</div>
+<figcaption>Young Samuel Fox sits in his father's lap, circa 1820. Samuel, born 7th June 1815, was the youngest son of William and Mary Fox. The Fox family lived in Bradwell England. (St Ann's Catholic Primary School, Sheffield England / Photography Designed by Reich)</figcaption>
+</figure>
+
+<figure class="phonevisible" style="max-width:600px;margin:10px auto 0px;">
+<div class="photolayout">
+<img style="width:50%;" class="border-radius-top-left" src="images/belgiumgirls1910a.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" class="border-radius-top-right" src="images/belgiumgirls1910b.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" src="images/belgiumgirls1910c.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" src="images/belgiumgirls1910d.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" src="images/belgiumgirls1910e.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" src="images/belgiumgirls1910f.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" class="border-radius-bottom-left" src="images/belgiumgirls1910g.jpg" alt="Belgium Girls 1910"/>
+<img style="width:50%;" class="border-radius-bottom-right" src="images/belgiumgirls1910h.jpg" alt="Belgium Girls 1910"/>
+</div>
+<figcaption>Mother with her four daughters in Belgium circa 1910. (Photography Designed by Reich)</figcaption>
+</figure>
+
+<div style="text-align:center;">
+<div class="summary">
+<p>The Reich Family Genealogical Research Project serves as a depository for genealogical records, historical accounts, and memories of those who have passed. Genealogical research is conducted thoroughly using such resources as FamilySearch.org, JewishGEN, and more. The Reich Family writes articles and memorials based on research documents that include but are not limited to: census records, marriage records, death certificates, military records, naturalization papers, ship manifests, and more. All memorials and articles are private and are intended only for family members and fellow researchers unless otherwise decided to be of great importance to the public historical record, which would currently include the articles for <a href="/research/pollyklaas" target="_blank">Polly Hannah Klaas</a> and her grandfather, <a href="/research/eugenereed" target="_blank">Dr Eugene Reed</a>; and <a href="/research/mariakatsaris" target="_blank">Maria Katsaris</a> and her father, <a href="/research/stevenkatsaris" target="_blank">Steven Katsaris</a>.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div style="transform: translateZ(0px);">
+<iframe id="myIframe" src="footer.html" width="100%" height="100vh" frameborder="no"></iframe>
+
+<script src="iframe-resizer.parent.js"></script>
 
 <script>iframeResize({ license: "GPLv3" });</script>
+</div>
+
+</div>
 
 </body>
 </html>
