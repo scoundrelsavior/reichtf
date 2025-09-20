@@ -804,14 +804,11 @@ margin-left:auto;
 margin-right:auto;
 }
 .stevenkatsaris {
-max-width: 500px;
-float:left;
-margin-right:15px;
-margin-top:5px;
-margin-bottom:5px;
+max-width: 850px;
+margin-left:auto;
+margin-right:auto;
 border:0px solid #555;
 border-radius:0px;
-display:block;
 }
 .reichheader {
 max-width:150px;
