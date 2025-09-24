@@ -1136,7 +1136,7 @@ float:right;
 margin-left:15px;
 }
 .johnvictorstoen {
-max-width:500px;
+max-width:600px;
 float:left;
 margin-right:15px;
 }
@@ -1586,7 +1586,7 @@ float:right;
 margin-left:15px;
 }
 .johnvictorstoen {
-max-width:500px;
+max-width:600px;
 float:left;
 margin-right:15px;
 }
@@ -1671,7 +1671,7 @@ scroll-margin-top:26px;
 
 /* Desktop Layout: 1367px and above. This is here to place the white outline around the content with 15px margin top and bottom for screens above 1366px. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1367px) {
-
+f
 .border {
 min-height:100vh;
 margin:15px auto 15px;
