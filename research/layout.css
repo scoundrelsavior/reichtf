@@ -531,6 +531,10 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
+.johnvictorstoen {
+margin-left:auto;
+margin-right:auto;
+}
 .eugenereed {
 margin-left: auto;
 margin-right: auto;
@@ -1027,6 +1031,11 @@ max-width:500px;
 float:right;
 margin-left:15px;
 }
+.johnvictorstoen {
+max-width:500px;
+float:left;
+margin-right:15px;
+}
 .eugenereed {
 max-width: 450px;
 float:left;
@@ -1125,6 +1134,11 @@ margin-right:15px;
 max-width:600px;
 float:right;
 margin-left:15px;
+}
+.johnvictorstoen {
+max-width:600px;
+float:left;
+margin-right:15px;
 }
 .pollyklaas {
 max-width:700px;
@@ -1570,6 +1584,11 @@ max-width:440px;
 max-width:600px;
 float:right;
 margin-left:15px;
+}
+.johnvictorstoen {
+max-width:500px;
+float:left;
+margin-right:15px;
 }
 .eugenereed {
 max-width: 650px;
