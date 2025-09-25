@@ -6,7 +6,7 @@
   const path = "index.html"
 
   // Path to the iframe-resizer parent script
-  const parentScript = "node_modules/@iframe-resizer/parent/index.umd.min.js"
+  const parentScript = "/iframe-resizer.parent.js"
 
   // Options for iframe-resizer
   const options = {
