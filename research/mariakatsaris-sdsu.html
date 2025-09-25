@@ -56,6 +56,17 @@
 <meta name="Keywords" content="Jim Jones, Jonestown, Maria Katsaris, Steven Katsaris">
 <meta name="Description" content="Memorial site for Maria Katsaris">
 
+    <script>
+        // Function to send the height of the content to the parent window
+        function sendHeight() {
+            const height = document.body.scrollHeight; // Get the height of the content
+            window.parent.postMessage(height, '*'); // Send height to parent
+        }
+
+        // Call the function when the content is loaded
+        window.onload = sendHeight;
+    </script>
+
 <style>
 
 @media print {
