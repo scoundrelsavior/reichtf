@@ -193,6 +193,11 @@ text-align:center;
 margin:5px auto 0px;
 line-height:1;
 }
+.header2 {
+text-align:center;
+margin:12px auto 0px;
+line-height:1;
+}
 .headerhr {
 margin:10px auto 0px;
 border:1px solid #555;
@@ -905,6 +910,11 @@ text-align:center;
 margin:-4px auto -2px;
 line-height:1;
 }
+.header2 {
+text-align:center;
+margin:12px auto 0px;
+line-height:1;
+}
 .headerhr {
 margin:15px auto 15px;
 border:1px solid #555;
@@ -1457,6 +1467,11 @@ line-height:1.0;
 .header {
 text-align:center;
 margin:-4px auto -2px;
+line-height:1;
+}
+.header2 {
+text-align:center;
+margin:12px auto -2px;
 line-height:1;
 }
 .headerhr {
