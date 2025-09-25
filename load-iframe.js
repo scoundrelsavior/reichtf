@@ -3,7 +3,7 @@
   const site = "https://reich.tf"
 
   // Path to the iframe content
-  const path = "iframe-content.html"
+  const path = "iframe-index.html"
 
   // Path to the iframe-resizer parent script
   const parentScript = "node_modules/@iframe-resizer/parent/index.umd.min.js"
