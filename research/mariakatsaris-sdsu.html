@@ -601,15 +601,5 @@ video.addEventListener('ended', function() {
 	
 </div>
 
-<script>
-const observer = new ResizeObserver(entries => {
-    for (let entry of entries) {
-        window.parent.postMessage(entry.contentRect.height, '*');
-    }
-});
-
-observer.observe(document.body);
-</script>
-	
 </body>
 </html>
