@@ -69,15 +69,32 @@ window.onload = sendHeight;
 </script>
 
 <script>
-        // This script will prevent the default scrolling behavior of arrow keys
+    <script>
         document.addEventListener('keydown', function(event) {
+            // Check if the iframe is focused and handle arrow keys
             if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
-                event.preventDefault(); // Prevent default scrolling behavior
-                // Optionally, send a message to the parent if needed
+                // Prevent default scrolling behavior
+                event.preventDefault();
+
+                // Handle the arrow key actions as needed
+                // For example, you can log the key or send a message to the parent
+                console.log('Arrow key pressed:', event.key);
                 window.parent.postMessage({ key: event.key }, '*');
             }
         });
     </script>
+	
+<script>
+if (event.key === 'ArrowUp') {
+    // Perform action for Arrow Up
+} else if (event.key === 'ArrowDown') {
+    // Perform action for Arrow Down
+} else if (event.key === 'ArrowLeft') {
+    // Perform action for Arrow Left
+} else if (event.key === 'ArrowRight') {
+    // Perform action for Arrow Right
+}
+</script>
 	
 <style>
 
