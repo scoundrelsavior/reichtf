@@ -68,34 +68,6 @@ window.parent.postMessage(height, '*'); // Send height to parent
 window.onload = sendHeight;
 </script>
 
-<script>
-    <script>
-        document.addEventListener('keydown', function(event) {
-            // Check if the iframe is focused and handle arrow keys
-            if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
-                // Prevent default scrolling behavior
-                event.preventDefault();
-
-                // Handle the arrow key actions as needed
-                // For example, you can log the key or send a message to the parent
-                console.log('Arrow key pressed:', event.key);
-                window.parent.postMessage({ key: event.key }, '*');
-            }
-        });
-    </script>
-	
-<script>
-if (event.key === 'ArrowUp') {
-    // Perform action for Arrow Up
-} else if (event.key === 'ArrowDown') {
-    // Perform action for Arrow Down
-} else if (event.key === 'ArrowLeft') {
-    // Perform action for Arrow Left
-} else if (event.key === 'ArrowRight') {
-    // Perform action for Arrow Right
-}
-</script>
-	
 <style>
 
 body {
@@ -162,6 +134,10 @@ background-color:#342811;
   font-family:PinyonScript-Regular;
   src: url(fonts/PinyonScript-Regular.ttf);
   font-display: block;
+}
+
+.no-right-click {
+    pointer-events: none;
 }
 
 </style>
@@ -243,9 +219,10 @@ document.addEventListener('keyup', (e) => {
 
 <div class="bodytypography">
 
-<p style="font-size:20px;margin-top:0px;font-weight:bold;">Maria Katsaris: Her Life and Death</p>
-
-<p style="font-size:16px;margin:-20px auto 26px;">by Reich Family Genealogical Research Project</p>
+<div class="header-sdsu">
+<p class="reichresearchtitle">Maria Katsaris</span></p>
+<p class="reichresearchsubtitle">Reich Family Genealogical Research Project</p>
+</div>
 
 <div class="headerhralways"></div>
 
