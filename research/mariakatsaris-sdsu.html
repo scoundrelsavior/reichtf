@@ -68,6 +68,17 @@ window.parent.postMessage(height, '*'); // Send height to parent
 window.onload = sendHeight;
 </script>
 
+<script>
+        // This script will prevent the default scrolling behavior of arrow keys
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+                event.preventDefault(); // Prevent default scrolling behavior
+                // Optionally, send a message to the parent if needed
+                window.parent.postMessage({ key: event.key }, '*');
+            }
+        });
+    </script>
+	
 <style>
 
 body {
