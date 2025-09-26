@@ -483,6 +483,10 @@ margin-right:auto;
 margin-left:auto;
 margin-right:auto;
 }
+.stevenkatsaris-sdsu {
+margin-left:auto;
+margin-right:auto;
+}
 .slidermobilepage {
 font-weight: bold;
 font-size: 9pt;
@@ -852,6 +856,13 @@ margin-right:15px;
 max-width: 850px;
 margin-left:auto;
 margin-right:auto;
+border:0px solid #555;
+border-radius:0px;
+}
+.stevenkatsaris-sdsu {
+max-width: 500px;
+float:left;
+margin-right:15px;
 border:0px solid #555;
 border-radius:0px;
 }
@@ -1410,6 +1421,16 @@ float:left;
 margin-right:15px;
 }
 .stevenkatsaris {
+max-width: 700px;
+float:left;
+margin-right:15px;
+margin-top:5px;
+margin-bottom:0px;
+border:0px solid #555;
+border-radius:0px;
+display:block;
+}
+.stevenkatsaris-sdsu {
 max-width: 700px;
 float:left;
 margin-right:15px;
