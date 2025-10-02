@@ -58,6 +58,8 @@ padding:0px 0px 5px;
 font-family:TrajanPro3-Regular;
 font-size:0.9rem;
 text-align:center;
+line-height:1;
+margin:-15px auto -15px;
 }
 .articlesubheadings {
 font-size:0.95rem;
@@ -294,7 +296,6 @@ display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px 0px;
-margin:0px auto 10px;
 }
 .tableofcontents {
 padding:0px;
@@ -352,7 +353,7 @@ font-size:0.85rem;
 text-align:justify;
 line-height:1.6;
 padding-top:10px;
-margin-bottom:0px;
+margin-bottom:10px;
 color:white;
 }
 .figcaptionborder {
@@ -470,43 +471,43 @@ display: none;
 }
 /*Anchors*/
 #religion {
-scroll-margin-top:10px;
+scroll-margin-top:15px;
 }
 #prayer {
-scroll-margin-top:10px;
+scroll-margin-top:15px;
 }
 #tithe {
-scroll-margin-top:10px;
+scroll-margin-top:15px;
 }
 #government {
-scroll-margin-top:10px;
+scroll-margin-top:15px;
 }
 #political {
-scroll-margin-top:10px;
+scroll-margin-top:15px;
 }
 #raisingchildren {
-scroll-margin-top:10px;
+scroll-margin-top:15px;
 }
 #comingofage {
-scroll-margin-top:10px;
+scroll-margin-top:15px;
 }
 #vowofpurity {
-scroll-margin-top:10px;
+scroll-margin-top:15px;
 }
 #humansexuality {
-scroll-margin-top:10px;
+scroll-margin-top:15px;
 }
 #teensleavehome {
-scroll-margin-top:10px;
+scroll-margin-top:15px;
 }
 #temple {
-scroll-margin-top:10px;
+scroll-margin-top:15px;
 }
 #psychiatry {
-scroll-margin-top:10px;
+scroll-margin-top:15px;
 }
 #genealogy {
-scroll-margin-top:10px;
+scroll-margin-top:15px;
 }
 /* Tablet Layout 701px to 835px - Ipad Pro 11-inch
 down to 600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
@@ -535,6 +536,8 @@ padding:0px 0px 5px;
 font-family:TrajanPro3-Regular;
 font-size:0.9rem;
 text-align:center;
+line-height:1;
+margin:-15px auto -15px;
 }
 .articlesubheadings {
 font-size:0.95rem;
@@ -650,7 +653,6 @@ display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px 0px;
-margin:0px auto 15px;
 }
 .tableofcontents {
 padding:6px;
@@ -705,7 +707,7 @@ font-size: 0.95rem;
 text-align:justify;
 line-height:1.6;
 padding-top:10px;
-margin-bottom:2px;
+margin-bottom:10px;
 color:white;
 }
 .figcaptionborder {
@@ -1158,6 +1160,8 @@ padding:0px 0px 5px;
 font-family:TrajanPro3-Regular;
 font-size:0.9rem;
 text-align:center;
+line-height:1;
+margin:-15px auto -15px;
 }
 .articlesubheadings {
 font-size:0.95rem;
@@ -1267,8 +1271,7 @@ border-width:0px 0px 1px 0px;
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
-padding:8px 0px 8px 0px;
-margin:0px auto 15px;
+padding:8px 0px 5px 0px;
 }
 .tableofcontents {
 padding: 15px;
@@ -1319,7 +1322,7 @@ text-align:justify;
 font-size: 0.95rem;
 line-height:1.6;
 padding-top:10px;
-margin-bottom:2px;
+margin-bottom:10px;
 color:white;	
 }
 .figcaptionborder {
