@@ -54,6 +54,16 @@ margin:auto;
 .title {
 padding:0px 0px 5px;
 }
+.articleheadings {
+font-family:TrajanPro3-Regular;
+font-size:0.9rem;
+text-align:center;
+}
+.articlesubheadings {
+font-size:0.95rem;
+text-align:center;
+margin:-15px auto -5px;
+}
 .reichheader {
 display:flex;
 margin: 3px 0px 9px;
@@ -520,6 +530,16 @@ display:none;
 .title {
 display:block;
 padding:0px 0px 5px;
+}
+.articleheadings {
+font-family:TrajanPro3-Regular;
+font-size:0.9rem;
+text-align:center;
+}
+.articlesubheadings {
+font-size:0.95rem;
+text-align:center;
+margin:-15px auto -5px;
 }
 .photolayout {
 display:flex;
@@ -1133,6 +1153,16 @@ display:none;
 .title {
 display:block;
 padding:0px 0px 5px;
+}
+.articleheadings {
+font-family:TrajanPro3-Regular;
+font-size:0.9rem;
+text-align:center;
+}
+.articlesubheadings {
+font-size:0.95rem;
+text-align:center;
+margin:-15px auto -5px;
 }
 .photolayout {
 display:flex;
