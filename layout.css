@@ -295,7 +295,7 @@ display:none;
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
-padding:8px 0px 8px 0px;
+padding:8px 0px 5px 0px;
 }
 .tableofcontents {
 padding:0px;
@@ -658,7 +658,7 @@ display:none;
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
-padding:8px 0px 8px 0px;
+padding:8px 0px 5px 0px;
 }
 .tableofcontents {
 padding:6px;
