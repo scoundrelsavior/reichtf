@@ -19,8 +19,8 @@ background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 }
 
 body {
-background-color:#000000;
-color:#FFFFFF;
+background-color:#ffe5b4 ;
+color:#000000;
 text-decoration:none;
 }
 
@@ -77,14 +77,12 @@ opacity:1.0;
 }
 .title {
 font-family:ITCEDSCR;
-color:#FFFFFF;
 font-size:2.2rem;
 text-align:center;
 margin:-2px auto 0px;
 }
 .subtitle {
 font-family:Montserrat-ThinItalic;
-color:#FFFFFF;
 font-size:0.80rem;
 text-align:center;
 margin:2px auto 8px;
@@ -96,22 +94,19 @@ margin:35px auto 0px;
 }
 .footertitle {
 font-family:ITCEDSCR;
-color:#FFFFFF;
 font-size:1.95rem;
 text-align:center;
 margin-bottom:-4px;
 }
 .footeremail {
 font-family:Montserrat-ThinItalic;
-color:#FFFFFF;
 font-size:0.86rem;
 font-weight:bold;
 text-align:center;
 margin:4px auto auto;
 }
 .footercopyright {
-font-family:Montserrat-ThinItalic;
-color:#FFFFFF;
+font-family:Montserrat-Italic;
 font-size:0.80rem;
 text-align:center;
 margin:8px auto auto;
@@ -228,7 +223,7 @@ padding: 10px;
 .bodytypography {
 font-family:OpenSans-Light;
 font-size:1.0rem;
-color:#FFFFFF;
+font-weight:bold;
 line-height:1.9;
 }
 
@@ -324,7 +319,6 @@ font-size:0.85rem;
 text-align:justify;
 line-height:1.6;
 padding-top:10px;
-color:white;
 margin-bottom:15px;
 }
 .figcaptionborder {
@@ -590,7 +584,7 @@ padding: 15px;
 .bodytypography {
 font-family:OpenSans-Light;
 font-size:1.09rem;
-color:#FFFFFF;
+font-weight:bold;
 line-height:1.6;
 }
 .footeralwaysbottom {
@@ -680,7 +674,6 @@ font-size: 0.95rem;
 text-align:justify;
 line-height:1.6;
 padding-top:10px;
-color:white;
 margin-bottom:15px;
 }
 .figcaptionborder {
@@ -734,7 +727,6 @@ opacity:1.0;
 }
 .title {
 font-family:ITCEDSCR;
-color:#FFFFFF;
 font-size:2.7rem;
 text-align:center;
 margin:-6px auto 0px;
@@ -752,22 +744,19 @@ margin:35px auto 0px;
 }
 .footertitle {
 font-family:ITCEDSCR;
-color:#FFFFFF;
 font-size:2.3rem;
 text-align:center;
 margin-bottom:-4px;
 }
 .footeremail {
 font-family:Montserrat-ThinItalic;
-color:#FFFFFF;
 font-size:1.0rem;
 font-weight:bold;
 text-align:center;
 margin:4px auto auto;
 }
 .footercopyright {
-font-family:Montserrat-ThinItalic;
-color:#FFFFFF;
+font-family:Montserrat-Italic;
 font-size:0.95rem;
 text-align:center;
 margin:8px auto auto;
@@ -1183,7 +1172,7 @@ padding: 15px;
 .bodytypography {
 font-family:OpenSans-Light;
 font-size:1.09rem;
-color:#FFFFFF;
+font-weight:bold;
 line-height:1.6;
 }
 .footeralwaysbottom {
@@ -1272,7 +1261,6 @@ text-align:justify;
 font-size: 0.95rem;
 line-height:1.6;
 padding-top:10px;
-color:white;
 margin-bottom:10px;	
 }
 .figcaptionborder {
@@ -1326,7 +1314,6 @@ opacity:1.0;
 }
 .title {
 font-family:ITCEDSCR;
-color:#FFFFFF;
 font-size:2.7rem;
 text-align:center;
 margin:-6px auto 0px;
@@ -1344,22 +1331,19 @@ margin:35px auto 0px;
 }
 .footertitle {
 font-family:ITCEDSCR;
-color:#FFFFFF;
 font-size:2.3rem;
 text-align:center;
 margin-bottom:-4px;
 }
 .footeremail {
 font-family:Montserrat-ThinItalic;
-color:#FFFFFF;
 font-size:1.0rem;
 font-weight:bold;
 text-align:center;
 margin:4px auto auto;
 }
 .footercopyright {
-font-family:Montserrat-ThinItalic;
-color:#FFFFFF;
+font-family:Montserrat-Italic;
 font-size:0.95rem;
 text-align:center;
 margin:8px auto auto;
@@ -1564,7 +1548,6 @@ padding: 15px;
 .bodytypography {
 font-family:OpenSans-Light;
 font-size:1.09rem;
-color:#FFFFFF;
 line-height:1.6;
 }
 }
