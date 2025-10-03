@@ -82,7 +82,7 @@ text-align:center;
 margin:-2px auto 0px;
 }
 .subtitle {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size:0.80rem;
 text-align:center;
 margin:2px auto 8px;
@@ -99,14 +99,14 @@ text-align:center;
 margin-bottom:-4px;
 }
 .footeremail {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size:0.86rem;
 font-weight:bold;
 text-align:center;
 margin:4px auto auto;
 }
 .footercopyright {
-font-family:Montserrat-Italic;
+font-family:Montserrat-LightItalic;
 font-size:0.80rem;
 text-align:center;
 margin:8px auto auto;
@@ -195,12 +195,12 @@ font-family:ITCEDSCR;
 font-size:36px;
 }
 .Montserrat-ThinItalic {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size: 16px;
 line-height:1.5;
 }
 .Montserrat-ExtraLightItalic {
-font-family:Montserrat-ExtraLightItalic;
+font-family:Montserrat-LightItalic;
 font-size: 17px;
 line-height:1.5;
 }
@@ -221,9 +221,8 @@ display: block;
 padding: 10px;
 }
 .bodytypography {
-font-family:OpenSans-Light;
+font-family:OpenSans-Regular;
 font-size:1.0rem;
-font-weight:bold;
 line-height:1.9;
 }
 
@@ -294,7 +293,7 @@ margin:40px auto 40px;
 padding:10px 10px 5px;
 }
 .minimalistcaption {
-font-family:Montserrat-ExtraLightItalic;
+font-family:Montserrat-LightItalic;
 font-size: 16px;
 margin:12px auto 9px;
 border:1px solid #555;
@@ -305,7 +304,7 @@ line-height:1.4;
 }
 .photocaptiontop {
 display:inline-block;
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size:0.85rem;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
@@ -314,7 +313,7 @@ padding:6px 0px 6px;
 line-height:1.6;
 }
 figcaption {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size:0.85rem;
 text-align:justify;
 line-height:1.6;
@@ -556,12 +555,12 @@ font-family:ITCEDSCR;
 font-size:42px;
 }
 .Montserrat-ThinItalic {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size: 17px;
 line-height:1.5;
 }
 .Montserrat-ExtraLightItalic {
-font-family:Montserrat-ExtraLightItalic;
+font-family:Montserrat-LightItalic;
 font-size: 20px;
 line-height:1.5;
 }
@@ -582,9 +581,8 @@ display: block;
 padding: 15px;
 }
 .bodytypography {
-font-family:OpenSans-Light;
+font-family:OpenSans-Regular;
 font-size:1.09rem;
-font-weight:bold;
 line-height:1.6;
 }
 .footeralwaysbottom {
@@ -649,7 +647,7 @@ margin:40px auto 40px;
 padding:12px 12px 12px;
 }
 .minimalistcaption {
-font-family:Montserrat-ExtraLightItalic;
+font-family:Montserrat-LightItalic;
 font-size: 16px;
 margin:12px auto 0px;
 border:1px solid #555;
@@ -660,7 +658,7 @@ line-height:1.4;
 }
 .photocaptiontop {
 display:inline-block;
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size: 0.95rem;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
@@ -669,7 +667,7 @@ padding:5px 0px 5px;
 line-height:1.6;
 }
 figcaption {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size: 0.95rem;
 text-align:justify;
 line-height:1.6;
@@ -732,7 +730,7 @@ text-align:center;
 margin:-6px auto 0px;
 }
 .subtitle {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size:0.95rem;
 text-align:center;
 margin:2px auto 8px;
@@ -749,14 +747,14 @@ text-align:center;
 margin-bottom:-4px;
 }
 .footeremail {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size:1.0rem;
 font-weight:bold;
 text-align:center;
 margin:4px auto auto;
 }
 .footercopyright {
-font-family:Montserrat-Italic;
+font-family:Montserrat-LightItalic;
 font-size:0.95rem;
 text-align:center;
 margin:8px auto auto;
@@ -1150,12 +1148,12 @@ font-family:ITCEDSCR;
 font-size:42px;
 }
 .Montserrat-ThinItalic {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size: 17px;
 line-height:1.5;
 }
 .Montserrat-ExtraLightItalic {
-font-family:Montserrat-ExtraLightItalic;
+font-family:Montserrat-LightItalic;
 font-size: 20px;
 line-height:1.5;
 }
@@ -1170,9 +1168,8 @@ display:block;
 padding: 15px;
 }
 .bodytypography {
-font-family:OpenSans-Light;
+font-family:OpenSans-Regular;
 font-size:1.09rem;
-font-weight:bold;
 line-height:1.6;
 }
 .footeralwaysbottom {
@@ -1236,7 +1233,7 @@ margin:40px auto 40px;
 padding:15px 15px 15px;
 }
 .minimalistcaption {
-font-family:Montserrat-ExtraLightItalic;
+font-family:Montserrat-LightItalic;
 font-size: 16px;
 margin:15px auto 0px;
 border:1px solid #555;
@@ -1247,7 +1244,7 @@ line-height:1.4;
 }
 .photocaptiontop {
 display:inline-block;
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size: 0.95rem;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
@@ -1256,7 +1253,7 @@ padding:5px 0px 5px;
 line-height:1.6;
 }
 figcaption {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 text-align:justify;
 font-size: 0.95rem;
 line-height:1.6;
@@ -1319,7 +1316,7 @@ text-align:center;
 margin:-6px auto 0px;
 }
 .subtitle {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size:0.95rem;
 text-align:center;
 margin:2px auto 10px;
@@ -1336,14 +1333,14 @@ text-align:center;
 margin-bottom:-4px;
 }
 .footeremail {
-font-family:Montserrat-ThinItalic;
+font-family:Montserrat-LightItalic;
 font-size:1.0rem;
 font-weight:bold;
 text-align:center;
 margin:4px auto auto;
 }
 .footercopyright {
-font-family:Montserrat-Italic;
+font-family:Montserrat-LightItalic;
 font-size:0.95rem;
 text-align:center;
 margin:8px auto auto;
@@ -1546,7 +1543,7 @@ display:block;
 padding: 15px;
 }
 .bodytypography {
-font-family:OpenSans-Light;
+font-family:OpenSans-Regular;
 font-size:1.09rem;
 line-height:1.6;
 }
