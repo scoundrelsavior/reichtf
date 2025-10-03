@@ -318,9 +318,6 @@ margin:16px auto 14px;
 padding:6px 0px 6px;
 line-height:1.6;
 }
-figure {
-margin-bottom:10px;
-}
 figcaption {
 font-family:Montserrat-ThinItalic;
 font-size:0.85rem;
@@ -328,6 +325,7 @@ text-align:justify;
 line-height:1.6;
 padding-top:10px;
 color:white;
+margin-bottom:15px;
 }
 .figcaptionborder {
 border: 1px solid #555;
@@ -676,9 +674,6 @@ margin:15px auto 4px;
 padding:5px 0px 5px;
 line-height:1.6;
 }
-figure {
-margin-bottom:10px;
-}
 figcaption {
 font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
@@ -686,6 +681,7 @@ text-align:justify;
 line-height:1.6;
 padding-top:10px;
 color:white;
+margin-bottom:15px;
 }
 .figcaptionborder {
 border-width:0px;
@@ -1270,16 +1266,14 @@ margin:15px auto 4px;
 padding:5px 0px 5px;
 line-height:1.6;
 }
-figure {
-margin-bottom:10px;
-}
 figcaption {
 font-family:Montserrat-ThinItalic;
 text-align:justify;
 font-size: 0.95rem;
 line-height:1.6;
 padding-top:10px;
-color:white;	
+color:white;
+margin-bottom:10px;	
 }
 .figcaptionborder {
 border-width:0px;
