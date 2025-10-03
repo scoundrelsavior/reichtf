@@ -19,23 +19,23 @@ button, input, select, textarea {
 }
 
 a {
-	color: #88f;
+	color: #0000FF;
 	text-decoration: none;
 }
 a:visited {
-	color: #88f;
+	color: #0000FF;
 }
 a:hover {
-	color: #88f;
+	color: #0000FF;
 
 }
 a:focus {
-	color: #88f;
+	color: #0000FF;
 }
 
 a:hover, a:active {
 	outline: 0;
-	color: #88f;
+	color: #0000FF;
 }
 
 
