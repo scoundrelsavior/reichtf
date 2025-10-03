@@ -63,6 +63,29 @@ font-size:0.95rem;
 text-align:center;
 margin:-15px auto -5px;
 }
+.whatsoeverborder {
+border:1px solid #555;
+border-radius:0px;
+margin:0px auto 0px;
+padding:0px 0px 0px;
+border-width:0px 0px 1px 0px;
+}
+.whatsoevercaption {
+font-family:Montserrat-LightItalic;
+font-size: 0.9rem;
+margin:10px auto 10px;
+line-height:1.8;
+text-align:justify;
+}
+.sources {
+display:flex;
+flex-direction:column;
+font-size: 0.9rem;
+margin:26px auto 20px;
+max-width:600px;
+text-align:center;
+justify-content:space-around;
+}
 .header {
 display:flex;
 margin: 5px 0px 5px;
@@ -87,10 +110,13 @@ font-size:0.80rem;
 text-align:center;
 margin:2px auto 8px;
 }
-.reichfooterimg {
+.summary {
+line-height:1.6;
+margin:0px auto 0px;
+text-align:justify;
 display:block;
-max-width:170px;
-margin:35px auto 0px;
+border:none;
+margin:auto;
 }
 .footertitle {
 font-family:ITCEDSCR;
@@ -119,17 +145,6 @@ margin-bottom:30px;
 margin:auto auto auto;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
-}
-.summary {
-font-size:0.92rem;
-line-height:2.0;
-display:block;
-border:none;
-padding:15px 0px 15px;
-display:inline-block;
-border:1px solid #555;
-border-width:1px 0px 1px 0px;
-margin:0px auto 30px;
 }
 .summaryfacade {
 font-size:0.92rem;
@@ -256,14 +271,56 @@ border-radius:0px;
 .articlehr {
 display:none;
 }
-.titlelines {
+.articlehralways {
+margin:10px auto 0px;
+border:1px solid #555;
+border-width:0px 0px 0px 0px;
+}
+.articlecopyright {
+text-align:center;
+font-family:Montserrat-LightItalic;
+font-size:0.90rem;
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:20px auto 20px;
+}
+.titlelinesheadings {
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 5px 0px;
 }
+.titlelines {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:26px auto 26px;
+}
+.photolinktitle {
+font-family:ITCEDSCR;
+font-size: 1.95rem;
+text-align:center;
+margin:0px auto 0px;
+line-height:1.0;
+}
+.photolinksubtitle {
+font-family:Montserrat-LightItalic;
+font-size: 0.80rem;
+text-align:center;
+margin:3px auto 0px;
+line-height:1.0;
+}
 .tableofcontents {
 padding:0px;
+}
+.comptabvisible {
+display:none;
+}
+.phonevisible {
+display:block;
 }
 .heading {
 font-size:25px;
@@ -357,6 +414,67 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+}
+.mariaanthonykatsaris {
+margin-left:auto;
+margin-right:auto;
+}
+.stevenkatsaris {
+margin-left:auto;
+margin-right:auto;
+}
+.mariakatsaristeen {
+margin-left:auto;
+margin-right:auto;
+}
+.johnvictorstoen {
+margin-left:auto;
+margin-right:auto;
+}
+.eugenereed {
+margin-left: auto;
+margin-right: auto;
+}
+.eugenereedright {
+margin-left: auto;
+margin-right: auto;
+}
+.sylviaralyareinsch {
+margin-left: auto;
+margin-right: auto;
+}
+.newspaperquote {
+font-family:Montserrat-LightItalic;
+font-size:1.0rem;
+line-height:1.6;
+}
+.pollyklaasreed {
+margin-left: auto;
+margin-right: auto;
+}
+.pollyklaas {
+margin-left: auto;
+margin-right: auto;
+}
+.pkxmas {
+margin-left: auto;
+margin-right: auto;
+}
+.holocaustreed {
+margin-left: auto;
+margin-right: auto;
+}
+.georgiamosesyounger {
+margin-left: auto;
+margin-right: auto;
+}
+.georgiamoses {
+margin-left: auto;
+margin-right: auto;
+}
+.georgiamosesyounger {
+margin-left: auto;
+margin-right: auto;
 }
 .serafina {
 display:block;
@@ -613,14 +731,56 @@ max-width:850px;
 .articlehr {
 display:none;
 }
-.titlelines {
+.articlehralways {
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
+.articlecopyright {
+text-align:center;
+font-family:Montserrat-LightItalic;
+font-size:0.95rem;
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:20px auto 20px;
+}
+.titlelinesheadings {
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 5px 0px;
 }
+.titlelines {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:15px auto 13px;
+}
+.photolinktitle {
+font-family:ITCEDSCR;
+font-size: 2.1rem;
+text-align:center;
+margin:0px auto 0px;
+line-height:1.0;
+}
+.photolinksubtitle {
+font-family:Montserrat-LightItalic;
+font-size: 1.0rem;
+text-align:center;
+margin:3px auto 0px;
+line-height:1.0;
+}
 .tableofcontents {
 padding:6px;
+}
+.comptabvisible {
+display:block;
+}
+.phonevisible {
+display:none;
 }
 .toptitle {
 font-family:Cinzel-Regular;
@@ -711,6 +871,138 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
+.summary {
+max-width:1000px;
+margin:26px auto 15px;
+text-align:justify;
+line-height:2.0;
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+}
+.slidermobilepage {
+font-weight: bold;
+font-size: 9pt;
+margin: auto;
+text-align: center;
+color: rgba(255,255,255,1.00);
+font-style: italic;
+padding-bottom: 6px;
+padding-top: 6px;
+text-shadow: 1px 1px 2px #000000;
+}
+.slidercomputerpage {
+font-weight: bold;
+font-size: 10pt;
+margin: auto;
+text-align: center;
+color: rgba(255,255,255,1.00);
+display: none;
+font-style: italic;
+padding-top: 6px;
+padding-bottom: 6px;
+text-shadow: 1px 1px 2px #000000;
+}
+.mariaanthonykatsaris {
+max-width:850px;
+margin-left:auto;
+margin-right:auto;
+}
+.mariakatsaristeen {
+max-width:500px;
+float:right;
+margin-left:15px;
+}
+.johnvictorstoen {
+max-width:500px;
+float:left;
+margin-right:15px;
+}
+.stevenkatsaris {
+max-width: 850px;
+margin-left:auto;
+margin-right:auto;
+border:0px solid #555;
+border-radius:0px;
+}
+.eugenereed {
+max-width: 450px;
+float:left;
+margin-right:15px;
+}
+.eugenereedright {
+max-width: 450px;
+float:right;
+margin-left:15px;
+}
+.sylviaralyareinsch {
+max-width: 450px;
+float:left;
+margin-right:15px;
+}
+.newspaperquote {
+font-family:Montserrat-LightItalic;
+font-size:1.0rem;
+line-height:1.6;
+}
+.pollyklaasreed {
+max-width: 450px;
+float:right;
+margin-left:15px;
+}
+.pollyklaas {
+max-width: 850px;
+margin-left:auto;
+margin-right:auto;
+}
+.pkxmas {
+float:left;
+max-width:500px;
+margin-right:15px;
+}
+.holocaustreed {
+max-width: 450px;
+float:left;
+margin-right:15px;
+}
+.georgiamoses {
+max-width: 450px;
+float:left;
+margin-right:15px;
+}
+.georgiamosesyounger {
+max-width: 450px;
+float:right;
+margin-left:15px;
+}
+.deathtapeaudio {
+float:left;
+margin-right:15px;
+}
+/*maxwidth changed for
+each photo inline*/
+.whatsoeverborder {
+border:1px solid #555;
+border-radius:12px;
+margin:26px auto 80px;
+padding:0px 15px 0px;
+}
+.whatsoevercaption {
+font-family:Montserrat-LightItalic;
+font-size: 0.9rem;
+margin:10px auto 10px;
+line-height:1.8;
+text-align:justify;
+}
+.sources {
+display:flex;
+flex-direction:column;
+font-size: 1.0rem;
+margin:0px auto 26px;
+max-width:600px;
+text-align:center;
+justify-content:space-around;
+}
 .header {
 display:flex;
 margin: 0px 0px 3px;
@@ -734,11 +1026,6 @@ font-family:Montserrat-Light;
 font-size:0.95rem;
 text-align:center;
 margin:2px auto 8px;
-}
-.reichfooterimg {
-display:block;
-max-width:180px;
-margin:35px auto 0px;
 }
 .footertitle {
 font-family:ITCEDSCR;
@@ -767,39 +1054,6 @@ margin-bottom:30px;
 margin:auto auto auto;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
-}
-.summary {
-font-size:1.0rem;
-line-height:2.0;
-padding:15px 0px 15px;
-display:inline-block;
-border:1px solid #555;
-border-width:1px 0px 1px 0px;
-margin:15px auto 30px;
-}
-.summaryfacade {
-font-size:1.0rem;
-line-height:2.0;
-padding:15px 0px 15px;
-display:inline-block;
-border:1px solid #555;
-border-width:1px 0px 1px 0px;
-margin:0px auto -20px;
-}
-.summaryfacadeborderless {
-font-size:1.08rem;
-line-height:1.8;
-margin:0px auto -20px;
-}
-.serafina {
-max-width: 850px;
-display:block;
-margin-right:auto;
-margin-left:auto;
-}
-.serafinafacade {
-max-width:800px;
-margin:0px auto 0px;
 }
 .motherdaughter {
 margin-right:auto;
@@ -967,6 +1221,9 @@ margin:0px auto 15px;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
 }
+.articlehralways {
+display:block;
+}
 .desktopdisplay {
 display:none;
 }
@@ -1049,6 +1306,12 @@ max-width:700px;
 float:left;
 margin-right:15px;
 }
+.comptabvisible {
+display:block;
+}
+.phonevisible {
+display:none;
+}
 .toptitle {
 font-family:Cinzel-Regular;
 font-size:1.1rem;
@@ -1075,6 +1338,27 @@ margin-right:15px;
 max-width:700px;
 float:left;
 margin-right:15px;
+}
+.mariaanthonykatsaris {
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.whatsoevercaption {
+font-family:Montserrat-LightItalic;
+font-size: 1.0rem;
+margin:10px auto 10px;
+line-height:1.8;
+text-align:justify;
+}
+.sources {
+display:flex;
+flex-direction:column;
+font-size: 1.0rem;
+margin:0px auto 26px;
+max-width:600px;
+text-align:center;
+justify-content:space-around;
 }
 }
 
@@ -1203,11 +1487,48 @@ margin:0px auto 15px;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
 }
-.titlelines {
+.articlehralways {
+display:block;
+margin:0px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
+.articlecopyright {
+text-align:center;
+font-family:Montserrat-LightItalic;
+font-size:0.95rem;
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:20px auto 20px;
+}
+.titlelinesheadings {
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 4px 0px;
+}
+.titlelines {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:15px auto 13px;
+}
+.photolinktitle {
+font-family:ITCEDSCR;
+font-size: 2.4rem;
+text-align:center;
+margin:0px auto 0px;
+line-height:1.0;
+}
+.photolinksubtitle {
+font-family:Montserrat-LightItalic;
+font-size: 1.0rem;
+text-align:center;
+margin:3px auto 0px;
+line-height:1.0;
 }
 .tableofcontents {
 padding: 15px;
@@ -1297,6 +1618,97 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
+.mariaanthonykatsaris {
+max-width:850px;
+float:left;
+margin-right:15px;
+}
+.mariakatsaristeen {
+max-width:600px;
+float:right;
+margin-left:15px;
+}
+.johnvictorstoen {
+max-width:600px;
+float:left;
+margin-right:15px;
+}
+.stevenkatsaris {
+max-width: 700px;
+float:left;
+margin-right:15px;
+margin-top:5px;
+margin-bottom:0px;
+border:0px solid #555;
+border-radius:0px;
+display:block;
+}
+.eugenereed {
+max-width: 650px;
+float:left;
+margin-right:15px;
+}
+.eugenereedright {
+max-width: 650px;
+float:right;
+margin-left:15px;
+}
+.sylviaralyareinsch {
+max-width: 655px;
+float:left;
+margin-right:15px;
+}
+.newspaperquote {
+font-family:Montserrat-LightItalic;
+font-size:1.0rem;
+line-height:1.6;
+}
+.pollyklaasreed {
+max-width: 650px;
+float:right;
+margin-left:15px;
+}
+.pollyklaas {
+max-width:800px;
+float:left;
+margin-right:15px;
+}
+.pkxmas {
+float:left;
+max-width:800px;
+margin-right:15px;
+}
+.holocaustreed {
+max-width: 650px;
+float:left;
+margin-right:15px;
+}
+.georgiamoses {
+max-width: 600px;
+float:left;
+margin-right:15px;
+}
+.georgiamosesyounger {
+max-width: 500px;
+float:right;
+margin-left:15px;
+}
+.whatsoevercaption {
+font-family:Montserrat-LightItalic;
+font-size: 1.0rem;
+margin:10px auto 10px;
+line-height:1.8;
+text-align:justify;
+}
+.sources {
+display:flex;
+flex-direction:column;
+font-size: 1.0rem;
+margin:0px auto 26px;
+max-width:600px;
+text-align:center;
+justify-content:space-around;
+}
 .header {
 display:flex;
 margin:0px 0px 0px;
@@ -1320,11 +1732,6 @@ font-family:Montserrat-Light;
 font-size:0.95rem;
 text-align:center;
 margin:2px auto 10px;
-}
-.reichfooterimg {
-display:block;
-max-width:180px;
-margin:35px auto 0px;
 }
 .footertitle {
 font-family:ITCEDSCR;
@@ -1356,36 +1763,13 @@ border:1px solid #555;
 border-width:0px 0px 1px 0px;
 }
 .summary {
-font-size:1.0rem;
+max-width:1000px;
+margin:26px auto 15px;
+text-align:justify;
 line-height:2.0;
-padding:15px 0px 15px;
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
-margin:15px auto 30px;
-}
-.summaryfacade {
-font-size:1.0rem;
-line-height:2.0;
-padding:15px 0px 15px;
-display:inline-block;
-border:1px solid #555;
-border-width:1px 0px 1px 0px;
-margin:0px auto -20px;
-}
-.summaryfacadeborderless {
-font-size:1.08rem;
-line-height:1.6;
-margin:0px auto -20px;
-}
-.serafina {
-max-width: 700px;
-float:right;
-margin-left:15px;
-}
-.serafinafacade {
-max-width:800px;
-margin:0px auto 0px;
 }
 .motherdaughter {
 max-width:700px;
