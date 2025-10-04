@@ -168,9 +168,9 @@ document.addEventListener('keyup', (e) => {
 
 <noscript>
 
-<style type="text/css"> #border { display:none; } </style>
+<div class="borderfacade">
 
-<div class="content" style="text-align:justify;min-height:100vh;max-width:1000px;margin:auto;">
+<div id="content" class="content" style="text-align:justify;">
 
 <div class="bodytypography">
 
@@ -181,21 +181,7 @@ document.addEventListener('keyup', (e) => {
 </div>
 </div>
 
-<figure class="comptabvisible" style="max-width:1000px;margin:15px auto 0px;text-align:center;">
-<div class="photolayout">
-<img style="width:50%;" class="border-radius-top-left" src="images/victorianfamilyportraita.jpg" alt="Victorian Family Portrait"/>
-<img style="width:50%;" class="border-radius-top-right" src="images/victorianfamilyportraitb.jpg" alt="Victorian Family Portrait"/>
-<img style="width:50%;" src="images/victorianfamilyportraitc.jpg" alt="Victorian Family Portrait"/>
-<img style="width:50%;" src="images/victorianfamilyportraitd.jpg" alt="Victorian Family Portrait"/>
-<img style="width:50%;" src="images/victorianfamilyportraite.jpg" alt="Victorian Family Portrait"/>
-<img style="width:50%;" src="images/victorianfamilyportraitf.jpg" alt="Victorian Family Portrait"/>
-<img style="width:50%;" class="border-radius-bottom-left" src="images/victorianfamilyportraitg.jpg" alt="Victorian Family Portrait"/>
-<img style="width:50%;" class="border-radius-bottom-right" src="images/victorianfamilyportraith.jpg" alt="Victorian Family Portrait"/>
-</div>
-<figcaption>Young Samuel Fox sits in his father's lap, circa 1820. Samuel, born 7th June 1815, was the youngest son of William and Mary Fox. The Fox family lived in Bradwell England. (St Ann's Catholic Primary School, Sheffield England / Photography Designed by Reich)</figcaption>
-</figure>
-
-<figure class="phonevisible" style="max-width:600px;margin:10px auto 0px;">
+<figure class="motherdaughterfacade" style="margin:auto auto 20px;">
 <div class="photolayout">
 <img style="width:50%;" class="border-radius-top-left" src="images/belgiumgirls1910a.jpg" alt="Belgium Girls 1910"/>
 <img style="width:50%;" class="border-radius-top-right" src="images/belgiumgirls1910b.jpg" alt="Belgium Girls 1910"/>
@@ -206,10 +192,9 @@ document.addEventListener('keyup', (e) => {
 <img style="width:50%;" class="border-radius-bottom-left" src="images/belgiumgirls1910g.jpg" alt="Belgium Girls 1910"/>
 <img style="width:50%;" class="border-radius-bottom-right" src="images/belgiumgirls1910h.jpg" alt="Belgium Girls 1910"/>
 </div>
-<figcaption>Mother with her four daughters in Belgium circa 1910. (Photography Designed by Reich)</figcaption>
 </figure>
 
-<p>Javascript is disabled in your browser. This page relies on Javascript. Please enable Javascript in your web browser and refresh the page to view it. For instructions on how to enable Javascript in Google Chrome, Apple Safari, Microsoft Edge, Mozilla Firefox, and Opera, visit <a href="https://www.enablejavascript.io/en" target="_blank">https://www.enablejavascript.io/en</a>.</p>
+<p class="photocaptiontop">Javascript is disabled in your browser. This page relies on Javascript. Please enable Javascript in your web browser and refresh the page to view it. For instructions on how to enable Javascript in Google Chrome, Apple Safari, Microsoft Edge, Mozilla Firefox, and Opera, visit <a href="https://www.enablejavascript.io/en" target="_blank">https://www.enablejavascript.io</a>.</p>
 
 </div>
 
@@ -217,10 +202,16 @@ document.addEventListener('keyup', (e) => {
 
 <footer>
 <div class="footertitle"><a href="https://reich.tf">Reich Family</a></div>
-<div class="footertitle">Genealogical Research Project</div>
+<div class="footeremail">Genealogical Research Project</div>
 <div class="footeremail"><a href="mailto:research@reich.tf">research@reich.tf</a></div>
 <div class="footercopyright"><i>Copyright 2025 All Rights Reserved</i></div>
 </footer>
+
+</div>
+
+<style type="text/css">
+#border { display:none; }
+</style>
 
 </noscript>
 
@@ -395,3 +386,4 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 
 </body>
 </html>
+
