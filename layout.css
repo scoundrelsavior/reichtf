@@ -361,13 +361,13 @@ line-height:1.4;
 }
 .photocaptiontop {
 display:inline-block;
-font-family:Montserrat-LightItalic;
+font-family:OpenSans-Regular;
 font-size:0.85rem;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 margin:16px auto 14px;
 padding:6px 0px 6px;
-line-height:1.6;
+line-height:2.0;
 }
 figcaption {
 font-family:Montserrat-LightItalic;
@@ -722,11 +722,11 @@ border-radius:12px;
 min-height: 100vh;
 display:flex;
 flex-direction:column;
-margin:0px 0px 0px;
+margin:15px auto 15px;
 border:1px solid #555;
-border-width:0px 0px 0px 0px;
-border-radius:0px;
-max-width:850px;
+border-width:1px 1px 1px 1px;
+border-radius:12px;
+max-width:600px;
 }
 .articlehr {
 display:none;
@@ -818,13 +818,13 @@ line-height:1.4;
 }
 .photocaptiontop {
 display:inline-block;
-font-family:Montserrat-LightItalic;
+font-family:OpenSans-Regular;
 font-size: 0.95rem;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 margin:15px auto 4px;
 padding:5px 0px 5px;
-line-height:1.6;
+line-height:2.0;
 }
 figcaption {
 font-family:Montserrat-LightItalic;
@@ -1187,7 +1187,7 @@ margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:12px;
-max-width:850px;
+max-width:600px;
 }
 }
 
@@ -1213,7 +1213,7 @@ margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:12px;
-max-width:850px;
+max-width:600px;
 }
 .articlehr {
 display:block;
@@ -1479,7 +1479,7 @@ margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:12px;
-max-width:850px;
+max-width:600px;
 }
 .articlehr {
 display:block;
@@ -1565,13 +1565,13 @@ line-height:1.4;
 }
 .photocaptiontop {
 display:inline-block;
-font-family:Montserrat-LightItalic;
+font-family:OpenSans-Regular;
 font-size: 0.95rem;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 margin:15px auto 4px;
 padding:5px 0px 5px;
-line-height:1.6;
+line-height:2.0;
 }
 figcaption {
 font-family:Montserrat-LightItalic;
@@ -1920,7 +1920,7 @@ margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:12px;
-max-width:850px;
+max-width:600px;
 }
 .content {
 display:block;
