@@ -38,19 +38,6 @@ display:none;
 .mobiledisplay {
 display:block;
 }
-
-/* Responsive flex one column-layout instead of two-column layout */
-.flex-container {
-flex-direction: column;
-display: flex;
-/*Don't change padding below to margin.
-Affects Polly Klaas Lead*/
-padding:8px;
-gap:8px;
-border:1px solid #555;
-border-radius:12px;
-margin:auto;
-}
 .articleheadings {
 font-family:TrajanPro3-Regular;
 font-size:0.85rem;
@@ -141,25 +128,6 @@ footer {
 margin-top:auto;
 margin-bottom:30px;
 }
-.bottomhr {
-margin:auto auto auto;
-border:1px solid #555;
-border-width:0px 0px 1px 0px;
-}
-.summaryfacade {
-font-size:0.92rem;
-line-height:2.0;
-padding:15px 0px 15px;
-display:inline-block;
-border:1px solid #555;
-border-width:1px 0px 1px 0px;
-margin:0px auto -10px;
-}
-.summaryfacadeborderless {
-font-size:0.94rem;
-line-height:1.8;
-margin:0px auto -10px;
-}
 .headings {
 font-family:Cinzel-Regular;
 font-size:22px;
@@ -190,46 +158,6 @@ max-width:160px;
 display:block;
 margin-left:auto;
 margin-right:auto;
-}
-.trajan {
-font-family:TrajanPro3-Regular;
-font-size:20px;
-}
-.cinzel {
-font-family:Cinzel-Regular;
-font-size:15px;
-margin-top:-4px;
-}
-.vivaldi {
-font-family:VIVALDII;
-font-size:19px;
-margin-top:-4px;
-}
-.edwardian {
-font-family:ITCEDSCR;
-font-size:36px;
-}
-.Montserrat-ThinItalic {
-font-family:Montserrat-LightItalic;
-font-size: 16px;
-line-height:1.5;
-}
-.Montserrat-ExtraLightItalic {
-font-family:Montserrat-LightItalic;
-font-size: 17px;
-line-height:1.5;
-}
-.cinzeloutlined {
-font-family:Cinzel-Regular;
-font-size:15px;
-margin:-4px auto 0px;
-padding:8px;
-}
-.vivaldioutlined {
-font-family:VIVALDII;
-font-size:19px;
-margin:-4px auto 0px;
-padding:8px;
 }
 .content {
 display: block;
@@ -322,9 +250,6 @@ text-align:center;
 margin:3px auto 0px;
 line-height:1.0;
 }
-.tableofcontents {
-padding:0px;
-}
 .comptabvisible {
 display:none;
 }
@@ -350,23 +275,6 @@ margin:20px auto 0px;
 font-size:1rem;
 text-align:center;
 margin:auto;
-}
-.minimalistborder {
-border:1px solid #555;
-outline:0px solid #555;
-border-radius:12px;
-margin:40px auto 40px;
-padding:10px 10px 5px;
-}
-.minimalistcaption {
-font-family:Montserrat-LightItalic;
-font-size: 16px;
-margin:12px auto 9px;
-border:1px solid #555;
-background:rgba(0,0,0,0.80);
-padding:10px;
-border-radius:12px;
-line-height:1.4;
 }
 .photocaptiontop {
 display:inline-block;
@@ -485,15 +393,6 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 }
-.serafina {
-display:block;
-margin-left: auto;
-margin-right: auto;
-}
-.serafinafacade {
-margin-left: auto;
-margin-right: auto;
-}
 .motherdaughter {
 margin-left: auto;
 margin-right: auto;
@@ -553,12 +452,6 @@ margin-right: auto;
 .teengirlschool {
 margin-left: auto;
 margin-right: auto;
-}
-.zeroMargin_mobile {
-margin-left: 0;
-}
-.hide_mobile {
-display: none;
 }
 /*Anchors*/
 #religion {
@@ -663,46 +556,6 @@ display:block;
 margin-left:auto;
 margin-right:auto;
 }
-.trajan {
-font-family:TrajanPro3-Regular;
-font-size:23px;
-}
-.cinzel {
-font-family:Cinzel-Regular;
-font-size:23px;
-margin-top:-8px;
-}
-.vivaldi {
-font-family:VIVALDII;
-font-size:30px;
-margin-top:-8px;
-}
-.edwardian {
-font-family:ITCEDSCR;
-font-size:42px;
-}
-.Montserrat-ThinItalic {
-font-family:Montserrat-LightItalic;
-font-size: 17px;
-line-height:1.5;
-}
-.Montserrat-ExtraLightItalic {
-font-family:Montserrat-LightItalic;
-font-size: 20px;
-line-height:1.5;
-}
-.cinzeloutlined {
-font-family:Cinzel-Regular;
-font-size:15px;
-margin:-5px auto 0px;
-padding:10px 10px 0px;
-}
-.vivaldioutlined {
-font-family:VIVALDII;
-font-size:19px;
-margin:-5px auto 0px;
-padding:10px 10px 0px;
-}
 .content {
 display: block;
 padding: 15px;
@@ -791,9 +644,6 @@ text-align:center;
 margin:3px auto 0px;
 line-height:1.0;
 }
-.tableofcontents {
-padding:6px;
-}
 .comptabvisible {
 display:block;
 }
@@ -805,34 +655,11 @@ font-family:Cinzel-Regular;
 font-size:1.1rem;
 text-align:center;
 margin:20px auto 0px;
-}
-.toptitlefacade {
-font-family:Cinzel-Regular;
-font-size:1.1rem;
-text-align:center;
-margin:20px auto 0px;
-text-align:center;
-}  
+} 
 .headline {
 font-size:1.09rem;
 text-align:center;
 margin:-5px auto auto;
-}
-.minimalistborder {
-border:1px solid #555;
-border-radius:12px;
-margin:40px auto 40px;
-padding:12px 12px 12px;
-}
-.minimalistcaption {
-font-family:Montserrat-LightItalic;
-font-size: 16px;
-margin:12px auto 0px;
-border:1px solid #555;
-background:rgba(0,0,0,0.80);
-padding:10px;
-border-radius:12px;
-line-height:1.4;
 }
 .photocaptiontop {
 display:inline-block;
@@ -897,29 +724,6 @@ line-height:2.0;
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
-}
-.slidermobilepage {
-font-weight: bold;
-font-size: 9pt;
-margin: auto;
-text-align: center;
-color: rgba(255,255,255,1.00);
-font-style: italic;
-padding-bottom: 6px;
-padding-top: 6px;
-text-shadow: 1px 1px 2px #000000;
-}
-.slidercomputerpage {
-font-weight: bold;
-font-size: 10pt;
-margin: auto;
-text-align: center;
-color: rgba(255,255,255,1.00);
-display: none;
-font-style: italic;
-padding-top: 6px;
-padding-bottom: 6px;
-text-shadow: 1px 1px 2px #000000;
 }
 .mariaanthonykatsaris {
 max-width:850px;
@@ -1068,11 +872,6 @@ footer {
 margin-top:auto;
 margin-bottom:30px;
 }
-.bottomhr {
-margin:auto auto auto;
-border:1px solid #555;
-border-width:0px 0px 1px 0px;
-}
 .motherdaughter {
 margin-right:auto;
 margin-left:auto;
@@ -1134,17 +933,6 @@ margin-right: auto;
 .teengirlschool {
 margin-left: auto;
 margin-right: auto;
-}
-.mySlides {
-max-width:100%;
-max-height:100%;
-padding-top:0px;
-}
-.hide_tablet {
-display: none;
-}
-.zeroMargin_tablet {
-margin-left: 0;
 }
 /*Anchors*/
 #religion {
@@ -1274,11 +1062,6 @@ display:none;
 .mobiledisplay {
 display:none;
 }
-.serafina {
-max-width: 650px;
-float:right;
-margin-left:15px;
-}
 .motherdaughter {
 max-width:700px;
 float:left;
@@ -1355,12 +1138,6 @@ font-family:Cinzel-Regular;
 font-size:1.1rem;
 text-align:center;
 margin:0px auto 0px;
-}
-.toptitlefacade {
-font-family:Cinzel-Regular;
-font-size:1.1rem;
-text-align:center;
-margin:20px auto 0px;
 }
 .teengirl {
 max-width:700px;
@@ -1451,40 +1228,6 @@ display:block;
 margin-left:auto;
 margin-right:auto;
 }
-.trajan {
-font-family:TrajanPro3-Regular;
-font-size:23px;
-}
-.cinzel {
-font-family:Cinzel-Regular;
-font-size:23px;
-margin-top:-8px;
-}
-.vivaldi {
-font-family:VIVALDII;
-font-size:30px;
-margin-top:-8px;
-}
-.edwardian {
-font-family:ITCEDSCR;
-font-size:42px;
-}
-.Montserrat-ThinItalic {
-font-family:Montserrat-LightItalic;
-font-size: 17px;
-line-height:1.5;
-}
-.Montserrat-ExtraLightItalic {
-font-family:Montserrat-LightItalic;
-font-size: 20px;
-line-height:1.5;
-}
-.cinzeloutlined {
-font-family:Cinzel-Regular;
-font-size:16px;
-margin:-5px auto 0px;
-padding:10px 10px 0px;
-}
 .content {
 display:block;
 padding: 15px;
@@ -1493,12 +1236,6 @@ padding: 15px;
 font-family:OpenSans-Regular;
 font-size:1.09rem;
 line-height:1.6;
-}
-.footeralwaysbottom {
-min-height: 100vh;
-display:flex;
-flex-direction:column;
-margin-bottom:15px;
 }
 .border {
 min-height:100vh;
@@ -1578,38 +1315,11 @@ text-align:center;
 margin:3px auto 0px;
 line-height:1.0;
 }
-.tableofcontents {
-padding: 15px;
-}
 .toptitle {
 font-family:Cinzel-Regular;
 font-size:1.1rem;
 text-align:center;
 margin:0px auto 0px;
-}
-.toptitlefacade {
-font-family:Cinzel-Regular;
-font-size:1.1rem;
-margin:20px auto 0px;
-text-align:center;
-} 
-/*maxwidth changed for
-each photo inline*/
-.minimalistborder {
-border:1px solid #555;
-border-radius:12px;
-margin:40px auto 40px;
-padding:15px 15px 15px;
-}
-.minimalistcaption {
-font-family:Montserrat-LightItalic;
-font-size: 16px;
-margin:15px auto 0px;
-border:1px solid #555;
-background:rgba(0,0,0,0.80);
-padding:10px;
-border-radius:12px;
-line-height:1.4;
 }
 .photocaptiontop {
 display:inline-block;
@@ -1804,12 +1514,6 @@ footer {
 margin-top:auto;
 margin-bottom:30px;
 }
-.bottomhr {
-clear:both;
-margin:30px auto auto;
-border:1px solid #555;
-border-width:0px 0px 1px 0px;
-}
 .summary {
 max-width:1000px;
 margin:26px auto 15px;
@@ -1892,16 +1596,6 @@ margin-right:15px;
 max-width:700px;
 float:left;
 margin-right:15px;
-}
-.mySlides {
-max-width: 100%;
-max-height: 100%;
-}
-.zeroMargin_desktop {
-margin-left: 0;
-}
-.hide_desktop {
-display: none;
 }
 /*Anchors*/
 #religion {
