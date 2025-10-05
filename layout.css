@@ -18,8 +18,9 @@ width: 0px;
 background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 }
 
+/* Background color is a lighter shade of CMYK Peach #FFE4B8 done in Photoshop */
 body {
-background-color:#FFE4B8;
+background-color:#ffedd0;
 color:#000000;
 text-decoration:none;
 }
