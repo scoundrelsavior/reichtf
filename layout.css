@@ -277,6 +277,23 @@ font-size:1rem;
 text-align:center;
 margin:auto;
 }
+.minimalistborder {
+border:1px solid #555;
+outline:0px solid #555;
+border-radius:12px;
+margin:40px auto 40px;
+padding:10px 10px 5px;
+}
+.minimalistcaption {
+font-family:Montserrat-LightItalic;
+font-size: 16px;
+margin:12px auto 9px;
+border:1px solid #555;
+background:rgba(0,0,0,0.80);
+padding:10px;
+border-radius:12px;
+line-height:1.4;
+}
 .photocaptiontop {
 display:inline-block;
 font-family:OpenSans-Regular;
@@ -661,6 +678,22 @@ margin:20px auto 0px;
 font-size:1.09rem;
 text-align:center;
 margin:-5px auto auto;
+}
+.minimalistborder {
+border:1px solid #555;
+border-radius:12px;
+margin:40px auto 40px;
+padding:12px 12px 12px;
+}
+.minimalistcaption {
+font-family:Montserrat-LightItalic;
+font-size: 16px;
+margin:12px auto 0px;
+border:1px solid #555;
+background:rgba(0,0,0,0.80);
+padding:10px;
+border-radius:12px;
+line-height:1.4;
 }
 .photocaptiontop {
 display:inline-block;
@@ -1321,6 +1354,29 @@ font-family:Cinzel-Regular;
 font-size:1.1rem;
 text-align:center;
 margin:0px auto 0px;
+}
+.headline {
+font-size:1.2rem;
+text-align:center;
+margin:-5px auto auto;
+}
+/*maxwidth changed for
+each photo inline*/
+.minimalistborder {
+border:1px solid #555;
+border-radius:12px;
+margin:40px auto 40px;
+padding:15px 15px 15px;
+}
+.minimalistcaption {
+font-family:Montserrat-LightItalic;
+font-size: 16px;
+margin:15px auto 0px;
+border:1px solid #555;
+background:rgba(0,0,0,0.80);
+padding:10px;
+border-radius:12px;
+line-height:1.4;
 }
 .photocaptiontop {
 display:inline-block;
