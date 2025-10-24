@@ -420,6 +420,14 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 }
+.holybible {
+margin-left: auto;
+margin-right: auto;
+}
+.trinityseal {
+margin-left: auto;
+margin-right: auto;
+}
 .motherdaughter {
 margin-left: auto;
 margin-right: auto;
@@ -930,6 +938,16 @@ footer {
 margin-top:auto;
 margin-bottom:30px;
 }
+.holybible {
+max-width:450px;
+float:left;
+margin-right:15px;
+}
+.trinityseal {
+max-width:450px;
+float:right;
+margin-left:15px;
+}
 .motherdaughter {
 margin-right:auto;
 margin-left:auto;
@@ -1136,6 +1154,16 @@ display:none;
 }
 .mobiledisplay {
 display:none;
+}
+.holybible {
+max-width:450px;
+float:left;
+margin-right:15px;
+}
+.trinityseal {
+max-width:450px;
+float:right;
+margin-left:15px;
 }
 .motherdaughter {
 max-width:700px;
@@ -1635,6 +1663,16 @@ line-height:2.0;
 display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
+}
+.holybible {
+max-width:450px;
+float:left;
+margin-right:15px;
+}
+.trinityseal {
+max-width:500px;
+float:right;
+margin-left:15px;
 }
 .motherdaughter {
 max-width:700px;
