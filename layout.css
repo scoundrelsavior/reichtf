@@ -428,6 +428,10 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 }
+.vitruvianman {
+margin-left: auto;
+margin-right: auto;
+}
 .motherdaughter {
 margin-left: auto;
 margin-right: auto;
@@ -948,6 +952,11 @@ max-width:450px;
 float:right;
 margin-left:15px;
 }
+.vitruvianman {
+max-width:450px;
+float:right;
+margin-left:15px;
+}
 .motherdaughter {
 margin-right:auto;
 margin-left:auto;
@@ -1161,6 +1170,11 @@ float:left;
 margin-right:15px;
 }
 .trinityseal {
+max-width:450px;
+float:right;
+margin-left:15px;
+}
+.vitruvianman {
 max-width:450px;
 float:right;
 margin-left:15px;
@@ -1670,7 +1684,12 @@ float:left;
 margin-right:15px;
 }
 .trinityseal {
-max-width:500px;
+max-width:450px;
+float:right;
+margin-left:15px;
+}
+.vitruvianman {
+max-width:450px;
 float:right;
 margin-left:15px;
 }
