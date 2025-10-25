@@ -553,12 +553,14 @@ Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 701px) {
 
 .leftphoto {
-margin-left:auto;
-margin-right:auto;
+max-width:450px;
+float:left;
+margin-right:15px;
 }
 .rightphoto {
-margin-left:auto;
-margin-right:auto;
+max-width:450px;
+float:right;
+margin-left:15px;
 }
 .desktopdisplay {
 display:none;
@@ -654,7 +656,10 @@ border-width:0px 0px 0px 0px;
 border-radius:12px;
 }
 .articlehr {
-display:none;
+display:block;
+margin:0px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
 }
 .articlehralways {
 margin:15px auto 15px;
@@ -953,7 +958,7 @@ float:right;
 margin-left:15px;
 }
 .momdaughtertrinity {
-max-width:550px;
+max-width:450px;
 float:right;
 margin-left:15px;
 }
@@ -1105,12 +1110,12 @@ Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1001px) {
 
 .leftphoto {
-max-width:700px;
+max-width:600px;
 float:left;
 margin-right:15px;
 }
 .rightphoto {
-max-width:700px;
+max-width:600px;
 float:right;
 margin-left:15px;
 }
@@ -1303,12 +1308,12 @@ justify-content:space-around;
 @media only screen and (min-width: 1025px) {
 
 .leftphoto {
-max-width:700px;
+max-width:650px;
 float:left;
 margin-right:15px;
 }
 .rightphoto {
-max-width:700px;
+max-width:650px;
 float:right;
 margin-left:15px;
 }
@@ -1689,7 +1694,7 @@ float:right;
 margin-left:15px;
 }
 .momdaughtertrinity {
-max-width:550px;
+max-width:600px;
 float:right;
 margin-left:15px;
 }
@@ -1827,12 +1832,12 @@ scroll-margin-top:15px;
 @media only screen and (min-width: 1367px) {
 
 .leftphoto {
-max-width:700px;
+max-width:650px;
 float:left;
 margin-right:15px;
 }
 .rightphoto {
-max-width:700px;
+max-width:650px;
 float:right;
 margin-left:15px;
 }
