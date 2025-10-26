@@ -1110,12 +1110,12 @@ Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1001px) {
 
 .leftphoto {
-max-width:600px;
+max-width:650px;
 float:left;
 margin-right:15px;
 }
 .rightphoto {
-max-width:600px;
+max-width:650px;
 float:right;
 margin-left:15px;
 }
@@ -1308,12 +1308,12 @@ justify-content:space-around;
 @media only screen and (min-width: 1025px) {
 
 .leftphoto {
-max-width:650px;
+max-width:700px;
 float:left;
 margin-right:15px;
 }
 .rightphoto {
-max-width:650px;
+max-width:700px;
 float:right;
 margin-left:15px;
 }
@@ -1832,12 +1832,12 @@ scroll-margin-top:15px;
 @media only screen and (min-width: 1367px) {
 
 .leftphoto {
-max-width:650px;
+max-width:700px;
 float:left;
 margin-right:15px;
 }
 .rightphoto {
-max-width:650px;
+max-width:700px;
 float:right;
 margin-left:15px;
 }
