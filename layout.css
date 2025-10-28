@@ -428,6 +428,10 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 }
+.trinitysealpage {
+margin-left: auto;
+margin-right: auto;
+}
 .momdaughtertrinity {
 margin-left: auto;
 margin-right: auto;
@@ -957,6 +961,11 @@ max-width:450px;
 float:right;
 margin-left:15px;
 }
+.trinitysealpage {
+max-width:500px;
+margin-left: auto;
+margin-right: auto;
+}
 .momdaughtertrinity {
 max-width:450px;
 float:right;
@@ -1178,6 +1187,11 @@ margin-right:15px;
 max-width:500px;
 float:right;
 margin-left:15px;
+}
+.trinitysealpage {
+max-width:500px;
+margin-left: auto;
+margin-right: auto;
 }
 .momdaughtertrinity {
 max-width:550px;
@@ -1692,6 +1706,11 @@ margin-right:15px;
 max-width:500px;
 float:right;
 margin-left:15px;
+}
+.trinitysealpage {
+max-width:500px;
+margin-left: auto;
+margin-right: auto;
 }
 .momdaughtertrinity {
 max-width:600px;
