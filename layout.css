@@ -425,7 +425,6 @@ margin-left: auto;
 margin-right: auto;
 }
 .trinityseal {
-max-width:500px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -550,22 +549,20 @@ scroll-margin-top:15px;
 #genealogy {
 scroll-margin-top:15px;
 }
-/* Tablet Layout 801px to 835px - Ipad Pro 11-inch
-down to 600px wide Kindle Fires and Samsung Galaxy Tabs 800 and less
-will be full screen width images. These are 600px
-wide but I take it to 701 to be on the safe side.
+/* Tablet Layout 701px to 835px - Ipad Pro 11-inch
+down to 600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
+wide but I take it to 701 to be on the safe side. Most of my images
+are 700px max so stop here.
 Inherits styles from: Mobile Layout. */
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 701px) {
 
 .leftphoto {
-max-width:500px;
-float:left;
-margin-right:15px;
+margin-left:auto;
+margin-right:auto;
 }
 .rightphoto {
-max-width:500px;
-float:right;
-margin-left:15px;
+margin-left:auto;
+margin-right:auto;
 }
 .desktopdisplay {
 display:none;
@@ -661,7 +658,7 @@ border-width:0px 0px 0px 0px;
 border-radius:12px;
 }
 .articlehr {
-display:block;
+display:none;
 margin:0px auto 15px;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
