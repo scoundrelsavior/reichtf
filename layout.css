@@ -554,7 +554,7 @@ down to 600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
 wide but I take it to 701 to be on the safe side. Most of my images
 are 700px max so stop here.
 Inherits styles from: Mobile Layout. */
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 801px) {
 
 .leftphoto {
 max-width:500px;
