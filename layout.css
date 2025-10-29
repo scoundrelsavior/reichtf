@@ -115,9 +115,14 @@ display:block;
 border:none;
 margin:auto;
 }
+.footerimage {
+max-width:90px;
+display:block;
+margin:auto auto -30px;
+}
 .footertitle {
 font-family:ITCEDSCR;
-font-size:1.95rem;
+font-size:2.1rem;
 text-align:center;
 margin-bottom:-4px;
 }
@@ -135,8 +140,8 @@ text-align:center;
 margin:8px auto auto;
 }
 footer {
-margin-top:auto;
-margin-bottom:30px;
+margin-top:10px;
+margin-bottom:20px;
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -222,6 +227,11 @@ display:none;
 margin:10px auto 0px;
 border:1px solid #555;
 border-width:0px 0px 0px 0px;
+}
+.footerhr {
+margin:0px auto 0px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
 }
 .articlecopyright {
 text-align:center;
@@ -671,6 +681,11 @@ margin:15px auto 15px;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
 }
+.footerhr {
+margin:0px auto 0px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
 .articlecopyright {
 text-align:center;
 font-family:Montserrat-LightItalic;
@@ -929,9 +944,14 @@ font-size:0.95rem;
 text-align:center;
 margin:2px auto 8px;
 }
+.footerimage {
+max-width:100px;
+display:block;
+margin:auto auto -36px;
+}
 .footertitle {
 font-family:ITCEDSCR;
-font-size:2.1rem;
+font-size:2.4rem;
 text-align:center;
 margin-bottom:-4px;
 }
@@ -949,8 +969,8 @@ text-align:center;
 margin:8px auto auto;
 }
 footer {
-margin-top:auto;
-margin-bottom:30px;
+margin-top:10px;
+margin-bottom:20px;
 }
 .holybible {
 max-width:450px;
@@ -1166,6 +1186,11 @@ border-width:0px 0px 1px 0px;
 }
 .articlehralways {
 display:block;
+}
+.footerhr {
+margin:0px auto 0px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
 }
 .desktopdisplay {
 display:none;
@@ -1430,6 +1455,11 @@ margin:0px auto 15px;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
 }
+.footerhr {
+margin:0px auto 0px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
 .articlecopyright {
 text-align:center;
 font-family:Montserrat-LightItalic;
@@ -1666,9 +1696,14 @@ font-size:0.95rem;
 text-align:center;
 margin:2px auto 10px;
 }
+.footerimage {
+max-width:100px;
+display:block;
+margin:auto auto -36px;
+}
 .footertitle {
 font-family:ITCEDSCR;
-font-size:2.1rem;
+font-size:2.4rem;
 text-align:center;
 margin-bottom:-4px;
 }
@@ -1686,8 +1721,8 @@ text-align:center;
 margin:8px auto auto;
 }
 footer {
-margin-top:auto;
-margin-bottom:30px;
+margin-top:10px;
+margin-bottom:20px;
 }
 .summary {
 max-width:1000px;
