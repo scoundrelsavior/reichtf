@@ -130,7 +130,7 @@ margin:auto;
 .footerimage {
 max-width:90px;
 display:block;
-margin:auto auto -30px;
+margin:auto;
 }
 .footertitle {
 font-family:ITCEDSCR;
@@ -152,7 +152,7 @@ text-align:center;
 margin:8px auto auto;
 }
 footer {
-margin-top:0px;
+margin-top:10px;
 margin-bottom:18px;
 }
 .headings {
@@ -971,7 +971,7 @@ margin:2px auto 8px;
 .footerimage {
 max-width:100px;
 display:block;
-margin:auto auto -36px;
+margin:auto;
 }
 .footertitle {
 font-family:ITCEDSCR;
@@ -1736,7 +1736,7 @@ margin:2px auto 10px;
 .footerimage {
 max-width:100px;
 display:block;
-margin:auto auto -36px;
+margin:auto;
 }
 .footertitle {
 font-family:ITCEDSCR;
