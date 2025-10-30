@@ -128,7 +128,7 @@ border:none;
 margin:auto;
 }
 .footerimage {
-max-width:110px;
+max-width:90px;
 display:block;
 margin:auto;
 }
@@ -136,20 +136,20 @@ margin:auto;
 font-family:ITCEDSCR;
 font-size:2.1rem;
 text-align:center;
-margin-bottom:-4px;
+margin:auto;
 }
 .footeremail {
 font-family:Montserrat-LightItalic;
 font-size:0.86rem;
 font-weight:bold;
 text-align:center;
-margin:4px auto auto;
+margin:-4px auto auto;
 }
 .footercopyright {
 font-family:Montserrat-LightItalic;
 font-size:0.80rem;
 text-align:center;
-margin:8px auto auto;
+margin:4px auto auto;
 }
 footer {
 margin-top:10px;
@@ -969,7 +969,7 @@ text-align:center;
 margin:2px auto 8px;
 }
 .footerimage {
-max-width:120px;
+max-width:100px;
 display:block;
 margin:auto;
 }
@@ -977,20 +977,20 @@ margin:auto;
 font-family:ITCEDSCR;
 font-size:2.4rem;
 text-align:center;
-margin-bottom:-4px;
+margin:auto;
 }
 .footeremail {
 font-family:Montserrat-LightItalic;
 font-size:0.95rem;
 font-weight:bold;
 text-align:center;
-margin:4px auto auto;
+margin:-4px auto auto;
 }
 .footercopyright {
 font-family:Montserrat-LightItalic;
 font-size:0.90rem;
 text-align:center;
-margin:8px auto auto;
+margin:4px auto auto;
 }
 footer {
 margin-top:0px;
@@ -1734,7 +1734,7 @@ text-align:center;
 margin:2px auto 10px;
 }
 .footerimage {
-max-width:120px;
+max-width:100px;
 display:block;
 margin:auto;
 }
@@ -1742,20 +1742,20 @@ margin:auto;
 font-family:ITCEDSCR;
 font-size:2.4rem;
 text-align:center;
-margin-bottom:-4px;
+margin:auto;
 }
 .footeremail {
 font-family:Montserrat-LightItalic;
 font-size:0.95rem;
 font-weight:bold;
 text-align:center;
-margin:4px auto auto;
+margin:-4px auto auto;
 }
 .footercopyright {
 font-family:Montserrat-LightItalic;
 font-size:0.90rem;
 text-align:center;
-margin:8px auto auto;
+margin:4px auto auto;
 }
 footer {
 margin-top:0px;
