@@ -27,9 +27,11 @@
 <!--Fonts-->
 <link rel="preload" href="fonts/ITCEDSCR.TTF" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="fonts/OpenSans-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/OpenSans-Light.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="fonts/TrajanPro3-Regular.otf" as="font" type="font/otf" crossorigin>
 <link rel="preload" href="fonts/Montserrat-Light.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="fonts/Montserrat-LightItalic.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/Montserrat-ThinItalic.ttf" as="font" type="font/ttf" crossorigin>
 
 <!--Twitter Preview-->
 <meta name="twitter:card" content="summary_large_image">
@@ -77,6 +79,11 @@
   font-display: block;
 }
 @font-face {
+  font-family:OpenSans-Light;
+  src: url(fonts/OpenSans-light.ttf);
+  font-display: block;
+}
+@font-face {
   font-family:Montserrat-Light;
   src: url(fonts/Montserrat-Light.ttf);
   font-display: block;
@@ -86,7 +93,11 @@
   src: url(fonts/Montserrat-LightItalic.ttf);
   font-display: block;
 }
-
+@font-face {
+  font-family:Montserrat-ThinItalic;
+  src: url(fonts/Montserrat-ThinItalic.ttf);
+  font-display: block;
+}
 .no-right-click {
     pointer-events: none;
 }
@@ -242,7 +253,12 @@ document.addEventListener('keyup', (e) => {
 <figcaption>Anthony Katsaris stands beside his sister, Maria Katsaris in Jonestown on Saturday morning, November 18<sup>th</sup> 1978. Anthony would be badly injured on the Port Kaituma airstrip. Maria would die along with 917 others. (San Francisco Examiner / UPI / Photography Designed and Colorized by Reich Family)</figcaption>
 </figure>
 
-<p style="text-align:center;font-weight:bold;line-height:1;">The Treasurer of Peoples Temple</p>
+<p style="text-align:center;font-weight:bold;">The Life and Death of Maria Katsaris</p>
+<p style="font-size:0.98rem;text-align:center;font-family:OpenSans-Light;margin-top:-20px;">The Treasurer of Peoples Temple</p>
+
+<div style="display:flex;">
+<p class="titlelinesparagraphs" style="font-family:OpenSans-Light;font-style:italic;">The Reich Family would like to thank Fielding McGehee and Rebecca Moore for linking to this article from their <a href="https://jonestown.sdsu.edu/" target="_blank">Alternative Considerations of Jonestown & Peoples Temple</a> website that we consider to be the most comprehensive online resource available.</p>
+</div>
 
 <p>(<a href="https://reich.tf" target="_blank">Reich Family</a>) 09/05/24 - Maria Katsaris was born on June 9th, 1953 in Pittsburgh Pennsylvania to Steven Anthony Katsaris and Sophia M Papadeas Katsaris.</p>
 
@@ -617,4 +633,3 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 	
 </body>
 </html>
-
