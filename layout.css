@@ -262,6 +262,14 @@ border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
 margin:20px auto 20px;
 }
+/*wrap paragraph in div with display:flex*/
+.titlelinesparagraphs {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px 0px;
+margin:auto auto auto;
+}
 .titlelinesheadings {
 display:inline-block;
 border:1px solid #555;
@@ -299,7 +307,7 @@ display:block;
 font-size:25px;
 }
 .toptitle {
-font-family:Cinzel-Regular;
+font-family:TrajanPro3-Regular;
 font-size:1.0rem;
 text-align:center;
 margin:20px auto 0px;
@@ -715,6 +723,14 @@ border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
 margin:20px auto 20px;
 }
+/*wrap paragraph in div with display:flex*/
+.titlelinesparagraphs {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px 0px;
+margin:auto auto auto;
+}
 .titlelinesheadings {
 display:inline-block;
 border:1px solid #555;
@@ -749,7 +765,7 @@ display:block;
 display:none;
 }
 .toptitle {
-font-family:Cinzel-Regular;
+font-family:TrajanPro3-Regular;
 font-size:1.1rem;
 text-align:center;
 margin:20px auto 0px;
@@ -1339,7 +1355,7 @@ display:block;
 display:none;
 }
 .toptitle {
-font-family:Cinzel-Regular;
+font-family:TrajanPro3-Regular;
 font-size:1.1rem;
 text-align:center;
 margin:0px auto 0px;
@@ -1508,6 +1524,14 @@ border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
 margin:20px auto 20px;
 }
+/*wrap paragraph in div with display:flex*/
+.titlelinesparagraphs {
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px 0px;
+margin:auto auto auto;
+}
 .titlelinesheadings {
 display:inline-block;
 border:1px solid #555;
@@ -1536,7 +1560,7 @@ margin:3px auto 0px;
 line-height:1.0;
 }
 .toptitle {
-font-family:Cinzel-Regular;
+font-family:TrajanPro3-Regular;
 font-size:1.1rem;
 text-align:center;
 margin:0px auto 0px;
