@@ -1396,6 +1396,16 @@ max-width:600px;
 text-align:center;
 justify-content:space-around;
 }
+.stevenkatsaris {
+max-width: 700px;
+float:left;
+margin-right:15px;
+margin-top:5px;
+margin-bottom:0px;
+border:0px solid #555;
+border-radius:0px;
+display:block;
+}
 }
 
 /* Desktop Layout: 1025px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -1659,7 +1669,7 @@ float:left;
 margin-right:15px;
 }
 .stevenkatsaris {
-max-width: 700px;
+max-width: 800px;
 float:left;
 margin-right:15px;
 margin-top:5px;
