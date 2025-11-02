@@ -1416,6 +1416,11 @@ border:0px solid #555;
 border-radius:0px;
 display:block;
 }
+.sylviaralyareinsch {
+max-width: 655px;
+float:left;
+margin-right:15px;
+}
 }
 
 /* Desktop Layout: 1025px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
