@@ -25,6 +25,29 @@ color:#000000;
 text-decoration:none;
 }
 
+.video-container {
+  position: relative;
+  display: inline-block;
+}
+
+.video-container video {
+  border-radius: 6px;
+  outline: 1px solid #555;
+  width: 100%;
+  height: auto;
+}
+
+.video-container img {
+  position: absolute;
+  top: 2%;
+  right: 2.5%;
+  width: 15%;
+  height: auto;
+  -webkit-filter: drop-shadow(5px 5px 5px #000);
+  filter: drop-shadow(5px 5px 5px #000);
+  pointer-events: none;
+}
+
 /* Mobile Layout: 609px and below. */
 
 .leftphoto {
@@ -399,18 +422,22 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 .mariaanthonykatsaris {
+position: relative;
 margin-left:auto;
 margin-right:auto;
 }
 .stevenkatsaris {
+position: relative;
 margin-left:auto;
 margin-right:auto;
 }
 .mariakatsaristeen {
+position: relative;
 margin-left:auto;
 margin-right:auto;
 }
 .johnvictorstoen {
+position: relative;
 margin-left:auto;
 margin-right:auto;
 }
@@ -861,21 +888,25 @@ border:1px solid #555;
 border-width:1px 0px 1px 0px;
 }
 .mariaanthonykatsaris {
+position: relative;
 max-width:850px;
 margin-left:auto;
 margin-right:auto;
 }
 .mariakatsaristeen {
+position: relative;
 max-width:500px;
 float:right;
 margin-left:15px;
 }
 .johnvictorstoen {
+position: relative;
 max-width:500px;
 float:left;
 margin-right:15px;
 }
 .stevenkatsaris {
+position: relative;
 max-width: 850px;
 margin-left:auto;
 margin-right:auto;
@@ -1381,6 +1412,7 @@ float:left;
 margin-right:15px;
 }
 .mariaanthonykatsaris {
+position: relative;
 max-width:700px;
 float:left;
 margin-right:15px;
@@ -1680,21 +1712,25 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 .mariaanthonykatsaris {
+position: relative;
 max-width:850px;
 float:left;
 margin-right:15px;
 }
 .mariakatsaristeen {
+position: relative;
 max-width:600px;
 float:right;
 margin-left:15px;
 }
 .johnvictorstoen {
+position: relative;
 max-width:600px;
 float:left;
 margin-right:15px;
 }
 .stevenkatsaris {
+position: relative;
 max-width: 800px;
 float:left;
 margin-right:15px;
