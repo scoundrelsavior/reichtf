@@ -33,7 +33,7 @@ text-decoration:none;
   display: none;
 }
 .read-more-label {
-  color: #0056b3;
+  color: #1918FB;
   cursor: pointer;
 }
 .read-more-toggle:checked ~ .read-more-content {
