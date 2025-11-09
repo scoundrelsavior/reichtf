@@ -894,7 +894,7 @@ transform: translate(-50%, -50%);
 }
 .summary {
 max-width:1000px;
-margin:26px auto 5px;
+margin:15px auto 5px;
 text-align:justify;
 line-height:2.0;
 display:inline-block;
@@ -1885,7 +1885,7 @@ margin-bottom:auto;
 }
 .summary {
 max-width:1000px;
-margin:26px auto 5px;
+margin:15px auto 5px;
 text-align:justify;
 line-height:2.0;
 display:inline-block;
