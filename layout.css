@@ -195,8 +195,8 @@ text-align:center;
 margin:4px auto auto;
 }
 footer {
-margin-top:20px;
-margin-bottom:30px;
+margin-top:10px;
+margin-bottom:auto;
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -238,7 +238,7 @@ line-height:1.9;
 }
 
 <--footer element must be set
-to margin-stop:auto -->
+to margin-top:auto -->
 
 .footeralwaysbottom {
 min-height: 100vh;
@@ -1057,8 +1057,8 @@ text-align:center;
 margin:4px auto auto;
 }
 footer {
-margin-top:10px;
-margin-bottom:30px;
+margin-top:15px;
+margin-bottom:auto;
 }
 .holybible {
 max-width:450px;
@@ -1861,8 +1861,8 @@ text-align:center;
 margin:4px auto auto;
 }
 footer {
-margin-top:20px;
-margin-bottom:30px;
+margin-top:15px;
+margin-bottom:auto;
 }
 .summary {
 max-width:1000px;
