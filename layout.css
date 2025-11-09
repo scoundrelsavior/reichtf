@@ -450,6 +450,7 @@ margin-left:auto;
 margin-right:auto;
 }
 .eugenereed {
+position:relative;
 margin-left: auto;
 margin-right: auto;
 }
@@ -469,6 +470,7 @@ line-height:1.6;
 margin:auto 26px auto;
 }
 .pollyklaasreed {
+position:relative;
 margin-left: auto;
 margin-right: auto;
 }
@@ -925,6 +927,7 @@ border:0px solid #555;
 border-radius:0px;
 }
 .eugenereed {
+position:relative;
 max-width: 450px;
 float:left;
 margin-right:15px;
@@ -947,6 +950,7 @@ line-height:1.6;
 margin:auto 26px auto;
 }
 .pollyklaasreed {
+position:relative;
 max-width: 450px;
 float:right;
 margin-left:15px;
@@ -1744,6 +1748,7 @@ border-radius:0px;
 display:block;
 }
 .eugenereed {
+position:relative;
 max-width: 650px;
 float:left;
 margin-right:15px;
@@ -1766,6 +1771,7 @@ line-height:1.6;
 margin:auto 26px auto;
 }
 .pollyklaasreed {
+position:relative;
 max-width: 650px;
 float:right;
 margin-left:15px;
