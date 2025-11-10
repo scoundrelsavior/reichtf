@@ -396,11 +396,10 @@ Your browser does not support the audio tag.
 <script>
 var player = videojs('my-video');
 player.on('ended', function() {
-  player.pause();
-  player.currentTime(0);
-  // force Video.js to reload the poster from the native attribute
-  player.poster('images/mkaknbcnews.png');
-  player.hasStarted(false);
+  player.pause();                                // stop playback
+  player.currentTime(0);                         // rewind to start
+  player.poster('images/mkaknbcnews.png');       // explicitly tell Video.js what poster to show
+  player.hasStarted(false);                      // reset state so poster overlay is visible
 });
 </script>
 
@@ -618,5 +617,3 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 	
 </body>
 </html>
-
-
