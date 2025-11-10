@@ -101,6 +101,11 @@ over div with the options below .container-->
   display: none;
 }
 
+/* Suppresses duplicate poster on Video.js overlay */
+.video-js .vjs-poster {
+  display: none !important;
+}
+
 .video-container {
   position: relative;
 }
