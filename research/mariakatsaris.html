@@ -396,10 +396,12 @@ Your browser does not support the audio tag.
 <script>
 var player = videojs('my-video');
 player.on('ended', function() {
-  player.pause();                                // stop playback
-  player.currentTime(0);                         // rewind to start
-  player.poster('images/mkaknbcnews.png');       // explicitly tell Video.js what poster to show
-  player.hasStarted(false);                      // reset state so poster overlay is visible
+  player.pause();
+  player.reset();
+  player.poster('images/mkaknbcnews.png');
+
+  // hide the controls until the user interacts again
+  player.controlBar.hide();
 });
 </script>
 
@@ -617,3 +619,4 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 	
 </body>
 </html>
+
