@@ -574,20 +574,19 @@ style="-webkit-filter: drop-shadow(5px 5px 5px #000);filter: drop-shadow(5px 5px
 
 <div class="footerhr"></div>
 
-<!-- VIDEO JS -->
+<!--VIDEO JS-->
 
 <script src="video.min.js"></script>
 
-<!-- Makes video return to poster after video plays -->
+<!--Makes video return to poster after video plays. Must be in body - not in head.-->
 <script>
-  var player = videojs('my-video'); // use the id of your <video> element
-  player.on('ended', function() {
-    player.currentTime(0);       // rewind to start
-    player.posterImage.show();   // show the poster again
-  });
+var video = document.querySelector('video');       
+video.addEventListener('ended', function() {
+  video.load();     
+});
 </script>
 
-<!-- VIDEO JS END -->
+<!--VIDEO JS END-->
 
 </div>
 
@@ -621,3 +620,4 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 	
 </body>
 </html>
+
