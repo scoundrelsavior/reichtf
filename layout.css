@@ -21,7 +21,7 @@ background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 /* Background color is a lighter shade of CMYK Peach #FFE4B8 done in Photoshop */
 body {
 background-color:#ffedd0;
-color:#000000;
+color:black;
 text-decoration:none;
 }
 
@@ -474,6 +474,16 @@ margin-left:auto;
 margin-right:auto;
 }
 .mariakatsaristeen {
+position: relative;
+margin-left:auto;
+margin-right:auto;
+}
+.mariakatsaristeenleft {
+position: relative;
+margin-left:auto;
+margin-right:auto;
+}
+.katsarisbreakfast {
 position: relative;
 margin-left:auto;
 margin-right:auto;
@@ -946,6 +956,18 @@ position: relative;
 max-width:500px;
 float:right;
 margin-left:15px;
+}
+.mariakatsaristeenleft {
+position: relative;
+max-width:500px;
+float:left;
+margin-right:15px;
+}
+.katsarisbreakfast {
+position: relative;
+max-width:850px;
+margin-left:auto;
+margin-right:auto;
 }
 .johnvictorstoen {
 position: relative;
@@ -1500,6 +1522,12 @@ max-width: 655px;
 float:left;
 margin-right:15px;
 }
+.katsarisbreakfast {
+position: relative;
+max-width:700px;
+float:left;
+margin-right:15px;
+}
 }
 
 /* Desktop Layout: 1025px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -1766,6 +1794,18 @@ position: relative;
 max-width:600px;
 float:right;
 margin-left:15px;
+}
+.mariakatsaristeenleft {
+position: relative;
+max-width:600px;
+float:left;
+margin-right:15px;
+}
+.katsarisbreakfast {
+position: relative;
+max-width:850px;
+float:left;
+margin-right:15px;
 }
 .johnvictorstoen {
 position: relative;
