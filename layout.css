@@ -100,6 +100,12 @@ over div with the options below .container-->
 .read-more-content {
   display: none;
 }
+/* Responsive flex one column-layout instead of two-column layout */
+.flex-container {
+flex-direction: column;
+display: flex;
+margin:auto;
+}
 
 /* Mobile Layout: 609px and below. */
 
@@ -327,7 +333,7 @@ display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
-margin:20px auto 20px;
+margin:26px auto 26px;
 }
 /*wrap paragraph in div with display:flex in page html*/
 .titlelinesparagraphs {
@@ -335,7 +341,6 @@ display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px 0px;
-margin:auto auto auto;
 }
 .titlelinesheadings {
 display:inline-block;
@@ -467,6 +472,11 @@ transform: translate(-50%, -50%);
 position: relative;
 margin-left:auto;
 margin-right:auto;
+}
+.mariaanthonykatsarissmall {
+position: relative;
+margin:8px auto 14px auto;
+border-radius:10px;
 }
 .stevenkatsaris {
 position: relative;
@@ -681,6 +691,12 @@ are 700px max so stop here.
 Inherits styles from: Mobile Layout. */
 @media only screen and (min-width: 701px) {
 
+/* Responsive flex two-column layout over 701px */
+.flex-container {
+display: flex;
+flex-direction: row;
+align-items:center;
+}
 .leftphoto {
 position: relative;
 max-width:500px;
@@ -811,7 +827,7 @@ display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
-margin:20px auto 20px;
+margin:26px auto 26px;
 }
 /*wrap paragraph in div with display:flex*/
 .titlelinesparagraphs {
@@ -819,7 +835,6 @@ display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px 0px;
-margin:auto auto auto;
 }
 .titlelinesheadings {
 display:inline-block;
@@ -950,6 +965,13 @@ position: relative;
 max-width:850px;
 margin-left:auto;
 margin-right:auto;
+}
+.mariaanthonykatsarissmall {
+position: relative;
+max-width:250px;
+float:left;
+margin:auto 15px auto auto;
+border-radius:10px;
 }
 .mariakatsaristeen {
 position: relative;
@@ -1287,6 +1309,13 @@ border-width:1px 1px 1px 1px;
 border-radius:12px;
 max-width:1000px;
 }
+.mariaanthonykatsarissmall {
+position: relative;
+max-width:250px;
+float:left;
+margin:auto 15px auto auto;
+border-radius:10px;
+}
 }
 
 /* 12.9 inch Ipad 1024x1366 Custom. This is just for 12-inch Ipad layouts holding
@@ -1482,6 +1511,13 @@ max-width:700px;
 float:left;
 margin-right:15px;
 }
+.mariaanthonykatsarissmall {
+position: relative;
+max-width:250px;
+float:left;
+margin:8px 15px 8px auto;
+border-radius:10px;
+}
 /*maxwidth changed for
 each photo inline*/
 .whatsoeverborder {
@@ -1533,6 +1569,12 @@ margin-right:15px;
 /* Desktop Layout: 1025px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1025px) {
 
+/* Responsive flex two-column layout over 835px */
+.flex-container {
+display: flex;
+flex-direction: row;
+align-items:center;
+}
 .leftphoto {
 position: relative;
 z-index:1;
@@ -1661,7 +1703,7 @@ display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
-margin:20px auto 20px;
+margin:26px auto 26px;
 }
 /*wrap paragraph in div with display:flex*/
 .titlelinesparagraphs {
@@ -1669,7 +1711,6 @@ display:inline-block;
 border:1px solid #555;
 border-width:1px 0px 1px 0px;
 padding:8px 0px 8px 0px;
-margin:auto auto auto;
 }
 .titlelinesheadings {
 display:inline-block;
@@ -1788,6 +1829,13 @@ position: relative;
 max-width:850px;
 float:left;
 margin-right:15px;
+}
+.mariaanthonykatsarissmall {
+position: relative;
+max-width:250px;
+float:left;
+margin:8px 15px 8px auto;
+border-radius:10px;
 }
 .mariakatsaristeen {
 position: relative;
