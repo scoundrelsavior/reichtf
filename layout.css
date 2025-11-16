@@ -685,6 +685,9 @@ scroll-margin-top:15px;
 #genealogy {
 scroll-margin-top:15px;
 }
+#summary {
+scroll-margin-top:15px;
+}
 /* Tablet Layout 701px to 835px - Ipad Pro 11-inch
 down to 600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
 wide but I take it to 701 to be on the safe side. Most of my images
@@ -1285,6 +1288,9 @@ scroll-margin-top:15px;
 scroll-margin-top:15px;
 }
 #genealogy {
+scroll-margin-top:15px;
+}
+#summary {
 scroll-margin-top:15px;
 }
 }
@@ -2164,6 +2170,9 @@ scroll-margin-top:15px;
 scroll-margin-top:15px;
 }
 #genealogy {
+scroll-margin-top:15px;
+}
+#summary {
 scroll-margin-top:15px;
 }
 }
