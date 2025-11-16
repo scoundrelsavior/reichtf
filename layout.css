@@ -616,6 +616,7 @@ margin-left: auto;
 margin-right: auto;
 }
 .lauterbrunnen {
+position: relative;
 margin-left: auto;
 margin-right: auto;
 }
@@ -1216,8 +1217,10 @@ float:right;
 margin-left:15px;
 }
 .lauterbrunnen {
-margin-left: auto;
-margin-right: auto;
+position: relative;
+max-width:500px;
+float:right;
+margin-left:15px;
 }
 .londonhollandpark {
 margin-left: auto;
@@ -1469,9 +1472,10 @@ float:right;
 margin-left:15px;
 }
 .lauterbrunnen {
+position: relative;
 max-width:700px;
-float:left;
-margin-right:15px;
+float:right;
+margin-left:15px;
 }
 .londonhollandpark {
 max-width:700px;
@@ -2088,9 +2092,10 @@ float:right;
 margin-left:15px;
 }
 .lauterbrunnen {
+position: relative;
 max-width:700px;
-float:left;
-margin-right:15px;
+float:right;
+margin-left:15px;
 }
 .londonhollandpark {
 max-width:700px;
